@@ -4,7 +4,7 @@ title: A Better Way
 ---
 
 <div class="row">
-  <section class="span12">
+  <section class="span10">
     <h1>Recent Posts</h2>
     {% for post in site.posts limit:5 %}
       <article>
@@ -21,14 +21,20 @@ title: A Better Way
         </footer>
       </article>
     {% endfor %}
+
+    <a class="btn primary" href="/archive.html">View More</a>
   </section>
 
-  <aside class="span4">
-    <h1>Latest 20 Posts</h1>
-    <ul class="posts">
-      {% for post in site.posts limit:20 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  <aside class="span6 sidebar">
+    <div class="well">
+      <h1>Latest 20 Posts</h1>
+      <ul class="posts">
+        {% for post in site.posts limit:20 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <a class="btn primary" href="/archive.html">Archive</a>
+    </div>
   </aside>
 </div>
