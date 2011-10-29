@@ -1,53 +1,124 @@
----
-layout: default
----
-<div class="post">
-  <article>
-    <header>
-      <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{{ page.title }} | A Better Way - Jack Lawson</title>
+  
+  <meta name="description" content="{{ page.description }}">
+  <meta name="author" content="{{ page.author }}">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container" class="container">
+    <header class="row">
+      <h1 class="span8">A Better Way</h1>
+
+      <nav class="span8">
+        <div class="topbar">
+          <div class="topbar-inner">
+            <div class="container">
+              <h3><a href="#">A Better Way</a></h3>
+              <ul class="nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/archive.html">Archive</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="http://www.twitter.com/ajacksified">Twitter</a></li>
+              </ul>
+            </div>
+          </div><!-- /topbar-inner -->
+        </div>
+      </nav>
     </header>
 
-    <div class="body">
-      {{ content }}
-    </div>
-    
-    <footer class="meta" class="footer">
-      <p>
-        Posted on <a href="{{ page.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date_to_string }}</time></a>
-      </p>
+    <div id="main" role="main">
+      <div class="post">
+        <article>
+          <header>
+            <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+          </header>
 
-      <div>
-        <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_default_style ">
-        <a class="addthis_button_preferred_1"></a>
-        <a class="addthis_button_preferred_2"></a>
-        <a class="addthis_button_preferred_3"></a>
-        <a class="addthis_button_preferred_4"></a>
-        <a class="addthis_button_compact"></a>
-        <a class="addthis_counter addthis_bubble_style"></a>
-        </div>
-        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ea0da2f6f877480"></script>
-        <!-- AddThis Button END -->
+          <div class="body">
+            {{ content }}
+          </div>
+          
+          <footer class="meta" class="footer">
+            <p>
+              Posted on <a href="{{ page.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date_to_string }}</time></a>
+            </p>
+
+            <div>
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style ">
+              <a class="addthis_button_preferred_1"></a>
+              <a class="addthis_button_preferred_2"></a>
+              <a class="addthis_button_preferred_3"></a>
+              <a class="addthis_button_preferred_4"></a>
+              <a class="addthis_button_compact"></a>
+              <a class="addthis_counter addthis_bubble_style"></a>
+              </div>
+              <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ea0da2f6f877480"></script>
+              <!-- AddThis Button END -->
+            </div>
+          </footer>
+        </article>
+
+        <aside class="comments">
+          <div id="disqus_thread"></div>
+
+          <script type="text/javascript">
+            var disqus_shortname = 'thejacklawson';
+
+            (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        </aside>
+      </div>
+    </div>
+
+    <footer class="row footer">
+      <div class="span16">
+        &copy; 2011 Jack Lawson
       </div>
     </footer>
-  </article>
+  </div>
 
-  <aside class="comments">
-    <div id="disqus_thread"></div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.4.min.js"><\/script>')</script>
 
-    <script type="text/javascript">
-      var disqus_shortname = 'thejacklawson';
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
 
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
+  <script>
+    window._gaq = [['_setAccount','UA-7325028-1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
 
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-  </aside>
-</div>
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+</body>
+</html>
 
