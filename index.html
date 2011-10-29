@@ -3,18 +3,32 @@ layout: default
 title: A Better Way
 ---
 
-{% for post in site.posts limit:5 %}
-  <article>
-    <header>
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    </header>
+<div class="row">
+  <section class="span12">
+    <h1>Recent Posts</h2>
+    {% for post in site.posts limit:5 %}
+      <article>
+        <header>
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        </header>
 
-    <div class="body">
-      {{ post.content }}
-    </div>
-    
-    <footer class="meta">
-      Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
-    </footer>
-  </article>
-{% endfor %}
+        <div class="body">
+          {{ post.content }}
+        </div>
+        
+        <footer class="meta">
+          Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
+        </footer>
+      </article>
+    {% endfor %}
+  </section>
+
+  <aside class="span4">
+    <h1>Latest 20 Posts</h1>
+    <ul class="posts">
+      {% for post in site.posts limit:20 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>
