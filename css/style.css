@@ -2,6 +2,14 @@ article {
   margin-bottom: 2em;
 }
 
+section article h1 {
+  margin-bottom: 0;
+}
+
+article .label {
+  float: right;
+}
+
 .footer {
   background-color: #eee;
   min-width: 940px;
