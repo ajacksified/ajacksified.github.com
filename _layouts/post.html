@@ -2,30 +2,36 @@
 layout: default
 ---
 <div class="post">
-  <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+  <article>
+    <header>
+      <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+    </header>
 
-  <div class="body">
+    <div class="body">
       {{ content }}
-  </div>
-  
-  <div class="meta">
-      Posted on <a href="{{ page.url }}">{{ page.date | date_to_string }}</a>
-  </div>
-  
-  <div id="disqus_thread"></div>
+    </div>
+    
+    <footer class="meta">
+      Posted on <a href="{{ page.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date_to_string }}</time></a>
+    </footer>
+  </article>
 
-  <script type="text/javascript">
-    var disqus_shortname = 'thejacklawson';
+  <aside class="comments">
+    <div id="disqus_thread"></div>
 
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
+    <script type="text/javascript">
+      var disqus_shortname = 'thejacklawson';
 
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
 
-  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </aside>
 </div>
 

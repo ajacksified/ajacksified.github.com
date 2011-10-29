@@ -4,7 +4,17 @@ title: A Better Way
 ---
 
 {% for post in site.posts limit:5 %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.content }}
-  <em>Posted on {{ post.date | date_to_long_string }}.</em>
+  <article>
+    <header>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    </header>
+
+    <div class="body">
+      {{ post.content }}
+    </div>
+    
+    <footer class="meta">
+      Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
+    </footer>
+  </article>
 {% endfor %}
