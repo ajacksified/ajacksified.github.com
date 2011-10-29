@@ -1,7 +1,12 @@
 ---
 layout: default
-title: First Jekyll Post
-description: Making my first post with Jekyll!
+title: From Wordpress to Jekyll
+description: Finished converting from Wordpress to Jekyll
 ---
 
-This blog is going to be totally hardcore. You don't even know.
+I'm writing this post in vim, using markdown, and in a minute I'm going to
+publish it by using "git push" in iTerm. How cool is that?
+
+It took a little work converting my old Wordpress blog over to Jekyll- long
+enough that I'll have to save the "how" post and the "why" post until later-
+but ultimately satisfying.
