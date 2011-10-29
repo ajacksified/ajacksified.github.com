@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: A Realization
 description: Finished converting from Wordpress to Jekyll
 permalink: /2011/10/a-realization/index.html
 categories:
