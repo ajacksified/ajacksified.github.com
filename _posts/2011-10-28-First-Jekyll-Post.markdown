@@ -1,7 +1,10 @@
 ---
-layout: default
-title: From Wordpress to Jekyll
+layout: post
+title: 
 description: Finished converting from Wordpress to Jekyll
+permalink: /2011/10/finished-converting-from-wordpress-to-jekyll/index.html
+categories:
+- Meta
 ---
 
 I'm writing this post in vim, using markdown, and in a minute I'm going to
