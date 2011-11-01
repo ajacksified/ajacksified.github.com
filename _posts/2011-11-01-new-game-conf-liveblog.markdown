@@ -422,6 +422,8 @@ window size, and general responsiveness; setting up hosting and caching.
 > It's  weird to see what happens when the game dev and web dev worlds collide,
 > and see what sparks happen.
 
+### Things Learned
+
 Cached requests dramatically reduced CPU Usage.
 
 Wrote a Python script for machine port; a big mess of regexes did a lot of the
@@ -429,3 +431,22 @@ work, which was later cleaned up manually
 
 Used Web Audio APi for SFX, which was released with Chrome 14. HTML5 Audio was
 used for background music. Targetting Chrome specifically made this easy.
+
+Pack data into arrays where it makes sense
+
+Javascript Scope was generally a headache; use a good JSHint to help
+mitigate issues
+
+Fault Tolerance: sometimes http requests fail, resulting in a black screen.
+Attempt to load everything up to 3 times; test on a server that behaves in a
+faulty way; include heavily delayed responses as well (up to 500ms latency)
+
+In many situations, execution is dependent on content being loaded, such as
+menu screens. Wait for / chain onload events.
+
+Decision to launch only on Chrome makes sense in order to deliver a
+high-quality game in a timely manner. Pick two: browser reach, quality, or
+cost. 
+
+### Q &amp; A
+
