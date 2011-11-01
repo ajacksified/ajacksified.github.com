@@ -705,3 +705,32 @@ images like UI, logos, overlays. Doesn't get added to scene graph.
 
 Mirrors much of the html5 canvas api. Procedural circles, lines, points, etc.
 Slow, but can be optimized; make as small as possible, translate in place.
+
+#### GroupLayer
+
+Groups layers.
+
+### I/O Abstractions
+
+* Pointer
+    * General, non-specific input device; most widely available
+* Mouse
+* Touch
+* Keyboard
+
+Cross-playform input: support things like touch-based zoom where available
+
+    if(platformType().equals(Platform.Type.ANDROID){
+        touch().setListener( ... )
+    }
+
+### Asset Management
+
+Resource management through the asset manager:
+
+    Image getImage(String path)
+    Sound getSound(String path)
+    // etc
+
+
+
