@@ -373,3 +373,11 @@ PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
 ### Target Platforms
 
 * Chrome / Chrome Web Store
+
+### Plan of Attack
+
+* Milestone 1
+    * Tech Design Doc
+    * Workflow (check-in flow)
+    * Production risk assessment
+
