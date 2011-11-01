@@ -687,11 +687,21 @@ PlayN provides a way to access the local device for its resolution:
       graphics().screenHeight()
     )
 
-Layers for compositing:
+### Compositing Layers
 
 * Layer
-    * ImageLayer
     * SurfaceLayer
+    * ImageLayer
+    * CanvasLayer
     * GroupLayer
         * 1-n child layers
 
+#### ImageLayer
+
+High performance, render images and forget. Good for static
+images like UI, logos, overlays. Doesn't get added to scene graph.
+
+#### CanvasLayer
+
+Mirrors much of the html5 canvas api. Procedural circles, lines, points, etc.
+Slow, but can be optimized; make as small as possible, translate in place.
