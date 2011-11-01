@@ -841,6 +841,14 @@ For performance:
 * Keep uncompressed data in memory (not feasible for large games)
 
 iOS games store game progess in internal memory; html5 apps can use
-localstorage
+localstorage. Another option is to use XHR to store progress remotely.
 
+### C++ / ObjC translation
 
+Can generate JS larger than 10mb; AppEngine can only handle 1mb. Load
+compressed JS via XHR.
+
+### Engine Info
+
+Mandreel supports OpenGL ES 1.1, PVR textures; does not have fixed pipeline 
+support. PNGs are best for textures.
