@@ -10,12 +10,14 @@ categories:
 This is a live blog for the first official day of 
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
 the presentations, and clean up grammar / confusing structures during breaks.
-Also, Q &amp; A is paraphrased; quotes will be signified as such. Please leave
+The Q &amp; A sections are paraphrased. Any quotes will be signified as such. 
+Please leave
 corrections and requests for clarification in the comments here.
 
 Also check out #ngc11 and #bbg on irc.freenode.net
 
-Also also check out [New Game Conf Quotes](http://newgameconf.qotr.net/Quotes/List/)
+Also also check out [New Game Conf 
+Quotes](http://newgameconf.qotr.net/Quotes/List/)
 
 ##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
@@ -26,7 +28,8 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 
 * Called the current web a Playstation 2 grade platform
 * html5 needs platform predictibility, killer game to be successful
-* Estimates that 75% of EA platform games (e.g. Playstation 2 games) could be converted relatively easily to web 
+* Estimates that 75% of EA platform games (e.g. Playstation 2 games) could be 
+converted relatively easily to web 
 
 ![Opening Keynote](http://s1-05.twitpicproxy.com/photos/large/439077657.jpg "Opening Keynote")
 
@@ -35,9 +38,22 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 ##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
-> WebGL support in browsers opens the door to immersive 3D content, especially games, which is delivered with no end user installation, runs on multiple platforms and requires no porting effort.
-Debugging and tuning WebGL applications for highest performance can be challenging, in particular due to the low-level nature of the WebGL and OpenGL APIs. This session will introduce the WebGL Inspector and explore several complex real-world applications to show how they achieved their results and how the tool can be used to learn more about an application through a way most never see.
-Techniques that will be covered include batching of geometry, using texture atlases, pipelining data, reducing the amount of data transferred to the GPU, offloading computation to the GPU, and using web workers to parallelize applications. Workarounds and gotchas will be described for the differences between WebGL and other common implementations (such as OpenGL ES on iOS) and limitations imposed for security reasons.
+> WebGL support in browsers opens the door to immersive 3D content, especially 
+games, which is delivered with no end user installation, runs on multiple 
+platforms and requires no porting effort.
+Debugging and tuning WebGL applications for highest performance can be 
+challenging, in particular due to the low-level nature of the WebGL and OpenGL 
+APIs. This session will introduce the WebGL Inspector and explore several 
+complex real-world applications to show how they achieved their results and how 
+the tool can be used to learn more about an application through a way most 
+never see.
+> 
+> Techniques that will be covered include batching of geometry, using texture 
+atlases, pipelining data, reducing the amount of data transferred to the GPU, 
+offloading computation to the GPU, and using web workers to parallelize 
+applications. Workarounds and gotchas will be described for the differences 
+between WebGL and other common implementations (such as OpenGL ES on iOS) and 
+limitations imposed for security reasons.
 
 [WebGL Examples](http://webglsamples.googlecode.com/hg/newgame/2011/)
 
@@ -74,8 +90,10 @@ Handling Context Loss:
 ###[WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) by Ben Vanik
 
 Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps
-through draw calls to see scene reconstructed in order. Highlights redundant calls
-that don't actually change meaningful state. Isolates draw calls, and you can see
+through draw calls to see scene reconstructed in order. Highlights redundant 
+calls
+that don't actually change meaningful state. Isolates draw calls, and you can 
+see
 what was affected directly and get information about the call, such as sample
 state, vertex attributes, texture urls, etc.
 
@@ -84,17 +102,21 @@ state, vertex attributes, texture urls, etc.
 * Retest often; automated tests where possible
 * Reduce the number of draw calls per frame; could block GPU. Watch for
   highlights in WebGL Inspector
-* Use RequestAnimationFrame for a more robust framerate; fallback with setTimeout if you have to
+* Use RequestAnimationFrame for a more robust framerate; fallback with 
+setTimeout if you have to
 * Disable unused WebGL features, such as blending, alpha texturing, etc
-* Link infrequently; shader verification / translation can take a long time, esp. on Windows
-* Change Framebuffers, not Renderbuffers, which require a lot of validation (this
+* Link infrequently; shader verification / translation can take a long time, 
+esp. on Windows
+* Change Framebuffers, not Renderbuffers, which require a lot of validation 
+(this
   is counter to iOS guidelines)
 * [Graphics Pipeline Performance](http://http.developer.nvidia.com/GPUGems/gpugems_ch28.html)
 
 ###Optimizing Drawing (Scenes)
 
 * Canvas is drawn, sorting by z-index
-* Sorting by z-index is terrible for WebGL, which should be sorted by state, then depth, by using
+* Sorting by z-index is terrible for WebGL, which should be sorted by state, 
+then depth, by using
   the depth buffer
 
 Depth buffers can sort fragments per pixel; is relatively cheap for the PGU.
@@ -103,10 +125,12 @@ Depth testing can increase performance dramatically, even in 2d apps.
 * Draw objects ordered by most expensive first; blending/clipping first
 * Sort scene ahead of time and maintain as sorted list of possible
 * Generate content that can be easily batched by merging buffers / textures
-* Draw opaque objects front-to-back, then layer on translucent objects back-to-front
-* Make sure to use index buffers, which enable additional GPU performance features 
-    like caching
-* Dynamically changing index buffers requires re-validation in WebGL. This is bad.
+* Draw opaque objects front-to-back, then layer on translucent objects 
+  back-to-front
+* Make sure to use index buffers, which enable additional GPU performance 
+features like caching
+* Dynamically changing index buffers requires re-validation in WebGL. This is 
+  bad.
 * Always ask yourself: can this be a constant? Make it so.
 * Compute early, one matrix multiply on CPU is better than thousands on GPU
 * Estimate numbers; lower precision, prefer "close enough" to "perfect"
@@ -116,7 +140,8 @@ Depth testing can increase performance dramatically, even in 2d apps.
 * Scale canvas to smaller and css to set width/height larger if you have a set
   size
 * GPU hardware is massively parallel; use if possible
-* Pushing frames from GPU can cause stalls; try to spread updates across multiple frames.
+* Pushing frames from GPU can cause stalls; try to spread updates across 
+  multiple frames.
   Number of uploads don't matter, size of frames does.
 * Double / triple buffer if possible; makes frame upload consistent
 * Decouple GPU and CPU; re-send GPU older data if CPU hasn't caught up yet
@@ -137,7 +162,8 @@ debug continuously.
 
 When will be a good time to start using WebGL for clients?
 
-*You can begin to be it on it now. Consider progressive ehancement with canvas fallbacks.*
+*You can begin to be it on it now. Consider progressive ehancement with canvas 
+fallbacks.*
 
 WebGL on Mobile, and battery life?
 
@@ -153,8 +179,8 @@ Does WebGL give you a way to use a secondary display?
 *Nov 1, 11:15 - 12:00*
 
 > Moblyng has been developing HTML5 games for the past 3 years. 
-This talk is an overview of the lessons learned from that experience 
-covering multiple code frameworks, business partners, and revenue models.
+  This talk is an overview of the lessons learned from that experience 
+  covering multiple code frameworks, business partners, and revenue models.
 
 Justin Quimbly: COO of Moblyng
 
@@ -180,7 +206,8 @@ Products run on all devices, because of html5. Doesn't matter who "wins" the
 mobile OS war.
 
 
-> "How many of you building HTML5 games are targeting mobile?" Everyone raises their hand. #ngc11 Mobile HTML5 games = huge opportunity
+> "How many of you building HTML5 games are targeting mobile?" Everyone raises 
+  their hand. #ngc11 Mobile HTML5 games = huge opportunity
 
 [source: @joemccann](http://j.mp/sfvH8q)
 
@@ -203,9 +230,10 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Make devices readily available for rapid testing
 * Android fragmentation is an issue; have to target 2.1+ for mass penetration
 * Some phones may not implement spec properly; one older Motorola was totally
-  broken. Was fixed, but you have to be ready to respond to hardware manufacturers.
-* Consumers won't ever do what you expect them to do. Being behind on updates is 
-  a problem.
+  broken. Was fixed, but you have to be ready to respond to hardware 
+  manufacturers.
+* Consumers won't ever do what you expect them to do. Being behind on updates 
+  is a problem.
 * Can't count on the same screen resolution; have desktop / tablet / phone
   versions
 
@@ -236,7 +264,8 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Better off rolling your own
 * Work on great relationships with hardware manufacturers to test your app
   before new hardware/software releases to reduce surprise problems
-* General dev practices; source control, make dev / build / deployment systems are the same
+* General dev practices; source control, make dev / build / deployment systems 
+  are the same
 * Automate build / deployment (css / js minification, for example)
 * Set up IE8 / 9 stations
 * Cross-training; designers / developers
@@ -246,8 +275,8 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * jQuery, WebGL, Canvas slow or non-functional on a lot of devices
 * Android shipments have passed iOS shipments. For maximum availability,
   support Android, not just iOS.
-* Minimize technical risk. Use stable bits of html5. Consider that technologies may
-  be alienating consumers.
+* Minimize technical risk. Use stable bits of html5. Consider that technologies 
+  may be alienating consumers.
 
 ## Q &amp; A
 
@@ -311,3 +340,14 @@ then spend time automating tests.*
 
 
 ## Lunch Break
+
+##Fieldrunners HTML5: Bringing a Hit iOS Game to the Web by Darius Kazemi
+*Nov 1, 1:15 - 2:00*
+
+> Just this past summer, Bocoup and Gradient Studios worked with Subatomic 
+  Studios to port their smash-hit iOS tower defense game Fieldrunners to HTML5. 
+  This post mortem will cover porting OpenGL ES to WebGL, using the Web Audio API 
+  for game audio, integrating microtransactions and DLC, and a detailed look at 
+  graphics performance.
+
+
