@@ -16,8 +16,10 @@ corrections and requests for clarification in the comments here.
 
 Also check out #ngc11 and #bbg on irc.freenode.net
 
-Also also check out [New Game Conf 
-Quotes](http://newgameconf.qotr.net/Quotes/List/)
+Also also check out [New Game Conf Quotes](http://newgameconf.qotr.net/Quotes/List/)
+
+I've used images that people post to Twitter; *none of them are mine*. I've used
+small versions of the images and linked to the original posting.
 
 ##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
@@ -38,6 +40,8 @@ converted relatively easily to web
 ##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
+[Slides and Samples](http://webglsamples.googlecode.com/hg/newgame/2011/)
+
 > WebGL support in browsers opens the door to immersive 3D content, especially 
 > games, which is delivered with no end user installation, runs on multiple 
 > platforms and requires no porting effort.  Debugging and tuning WebGL 
@@ -53,8 +57,6 @@ converted relatively easily to web
 > applications. Workarounds and gotchas will be described for the differences 
 > between WebGL and other common implementations (such as OpenGL ES on iOS) and 
 > limitations imposed for security reasons.
-
-[WebGL Examples](http://webglsamples.googlecode.com/hg/newgame/2011/)
 
 I herpderped the markdown on these lists. Will fix after the talk.
 
@@ -336,6 +338,10 @@ then spend time automating tests.*
 
 
 ## Lunch Break
+
+![The weather in San Francisco is amazing!](http://s1-04.twitpicproxy.com/photos/large/439186499.jpg)
+
+[Source: @robhawkes](http://j.mp/tUJBw9 ) 
 
 ##Fieldrunners HTML5: Bringing a Hit iOS Game to the Web by Darius Kazemi
 *Nov 1, 1:15 - 2:00*
