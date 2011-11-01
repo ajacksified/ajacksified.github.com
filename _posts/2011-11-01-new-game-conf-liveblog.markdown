@@ -64,6 +64,11 @@ state, vertex attributes, texture urls, etc.
 ###GPU Optimization
 
 * Retest often; automated tests where possible
-* Reduce the number of draw calls per frame
+* Reduce the number of draw calls per frame; could block GPU. Watch for
+  highlights in WebGL Inspector
 * Use RequestAnimationFrame for a more robust framerate; fallback with setTimeout if you have to
-
+* Disable unused WebGL features, such as blending, alpha texturing, etc
+* Link infrequently; shader verification / translation can take a long time, esp. on Windows
+* Change Framebuffers, not Renderbuffers, which require a lot of validation (this
+  is counter to iOS guidelines)
+* [Graphics Pipeline Performance](http://http.developer.nvidia.com/GPUGems/gpugems/ch_28.html)
