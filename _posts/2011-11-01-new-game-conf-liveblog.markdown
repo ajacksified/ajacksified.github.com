@@ -663,6 +663,17 @@ Angry Birds was written with PlayN; announced with "Kick Ass Game Programming
 With GWT" talk
 
 Tries to solve the problem of picking a platform to port to; does the porting
-for you.
+for you. Solves problems with html5 non-compliance.
+
+GWT is a framework that focuses on removing unused code, doing compile-time
+checking of syntax, inlines, optimizaes, obfuscates output, and adjusts
+the code for browser quirks.
+
+Uses whatever's best available: WebGL, Canvas2D, CSS 3; also abstracts audio.
+
+"Service Provider Interface" structure - core platform, with platform-specific
+implementation modules. PlayN is not a game engine - it is a platform
+abstraction. You add game enginy things on top, such as Box2D. Components
+include the game loop, I/O system, and Asset Management.
 
 
