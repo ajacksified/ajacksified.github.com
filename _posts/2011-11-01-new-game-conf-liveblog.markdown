@@ -25,7 +25,7 @@ Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 -------------------------------------------------------------------------
 *Nov 1, 10:15 - 11:00*
 
-I herpderped the markdown on these lists.
+I herpderped the markdown on these lists. Will fix after the talk.
 
 * WebGL is coming out of "Experiemntal"
 * Pros and cons of Webgl
@@ -50,4 +50,12 @@ Try a library like:
 * Firefox web console
 * Open web console
 
+Handling Context Loss:
+* Power loss on device, GPU reset, webgl-debug can help
 
+[WebGL Inspector](http://) by Ken Russel
+Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps
+through draw calls to see scene reconstructed in order. Highlights redundant calls
+that don't actually change meaningful state. Isolates draw calls, and you can see
+what was affected directly and get information about the call, such as sample
+state, vertex attributes, texture urls, etc.
