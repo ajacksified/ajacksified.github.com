@@ -555,19 +555,8 @@ accellerated. SONAR was 2D, wanted to move to 3D
     * Hidden things in 3rd party libs
 * Pre-allocate objects
 * Use Chrome debugger to watch memory 
-* "private globals" as such:
- 
-
-`    var math_library = (function(){
-      // private "global" variable for math library
-      var tmp = vec3.create();
-
-      return {
-        stuff: function(){ ... }
-        property: 7
-      }
-    });`
-
+* "private globals" by using a consturctor that returns an object which is a
+  subset of the parent
 
 ### Art pipeline
 
