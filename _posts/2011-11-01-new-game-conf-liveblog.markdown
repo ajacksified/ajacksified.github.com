@@ -687,6 +687,11 @@ PlayN provides a way to access the local device for its resolution:
       graphics().screenHeight()
     )
 
+Layers for compositing:
 
-
+* Layer
+    * ImageLayer
+    * SurfaceLayer
+    * GroupLayer
+        * 1-n child layers
 
