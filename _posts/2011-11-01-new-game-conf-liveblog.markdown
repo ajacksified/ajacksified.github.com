@@ -221,4 +221,9 @@ Huge numbers of mobile, internet-connected devices being shipped.
 
 ### Things to Do
 
-* Hands-on Demo
+* Hands-on Demo. Show users that the app works and is fun.
+* Speed matters, especially on mobile devices.
+* Launches should take &lt; 10 seconds.
+* Touch response speed. Is the interface responsive?
+* Scroll speed; no stuttering, no delay.
+
