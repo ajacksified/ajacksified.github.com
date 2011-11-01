@@ -484,4 +484,8 @@ Was the caching issue with game assets, or something else?
 *Yes, that was about using the appropriate server headers so that I only have
 to download if I have to.*
 
+Is audio your biggest issue?
+
+*It is. We want awesome, synchronous audio in all browsers.*
+
 
