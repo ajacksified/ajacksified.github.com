@@ -27,6 +27,8 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 ##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
+[WebGL Examples](http://webglsamples.googlecode.com/hg/newgame/2011/)
+
 I herpderped the markdown on these lists. Will fix after the talk.
 
 * WebGL is coming out of "Experiemntal"
@@ -114,6 +116,7 @@ debug continuously.
 >  10:54 ajacksified_ I heard you like spinning cubes
 >  10:55 segdeha So I put a cube in your cube
 >  10:55 ajacksified_ so you can spin your cube while you spin your cube
+(Relevant)[http://webglsamples.googlecode.com/hg/newgame/2011/05-pipelining.html]
 
 ### Q&amp;A
 
