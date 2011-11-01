@@ -242,3 +242,7 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Work on relationships with other devs who you interface with
 * NO ABSOLUTE POSITIONING. You're fired.
 * jQuery, WebGL, Canvas slow or non-functional on a lot of devices
+* Android shipments have passed iOS shipments. For maximum availability,
+  support Android, not just iOS.
+* Minimize technical risk. Use stable bits of html5. Consider that technologies may
+  be alienating consumers.
