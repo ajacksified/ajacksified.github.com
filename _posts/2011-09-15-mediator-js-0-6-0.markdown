@@ -14,7 +14,7 @@ Yeah, so, I skipped a version number again. Version 0.5.0 is a pretty hefty
 update, followed by 0.5.1 and 0.6.0 (which are quite a bit smaller.) Here's 
 what's new:
 
-0.5.0
+0\.5.0
 -----
 * Subscribers are now a real object instead of an anonymous collection of data
 * Contain a guid for an id for access later
@@ -26,7 +26,7 @@ as an option on Subscribe or later using Mediator.SetPriority(id/fn,
 &lt;channelname&gt;). Channelname makes this run significantly faster, but is not 
 required.
 
-0.6.0
+0\.6.0
 -----
 * Channel is returned at the end of the data arguments for callbacks. Within a 
 callback function, you can run channel.StopPropagation() to stop further 

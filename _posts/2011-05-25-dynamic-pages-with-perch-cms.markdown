@@ -56,6 +56,7 @@ Here's how I solved my problem:
 
 2. Create page.php base template and define good / bad urls
 
+<code>
     <?php
       $route = strtolower($_GET['_route_']);
       //we'll make a list of valid pages
@@ -92,6 +93,7 @@ Here's how I solved my problem:
       <?php perch_content('Adbar content'); ?>
     </aside>
     ...
+</code>
 
 Saw that `PerchSystem::set_page($route);` ? Well, that lets us force the perch 
 "page" so that we can fake it. Even though everything's loading from page.php, 
