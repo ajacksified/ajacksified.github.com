@@ -740,3 +740,18 @@ gwt-voices; falls back to flash.
 Android local store, html5 local storage, whatever's available. Simple API that
 uses calls like `setItem(key, value)`, `removeItem(key)`, `getItem(key)`.
 Includes JSON abstraction for storing / retrieving data.
+
+### Compiling to platforms
+
+To compile, extend the class you're porting to, and use the platform-specific
+core objects. Centeral codebase lives seperately from platform-specific code,
+which passes in objects like HtmlStorage or FlashAudio as interfaces to the
+game loop.
+
+`public class MyGameHtml extends HtmlGame`
+
+### PlayN for the Future
+
+Framework allows easy extension to new platforms. Takes any Java-based library
+and can compile it down to all platforms
+
