@@ -7,8 +7,7 @@ categories:
 - html5
 ---
 
-Keynote by Richard Hilleman
----------------------------
+##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
 
 Richard Helleman is VP CCD at Electronic Arts.
@@ -21,8 +20,7 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 
 ![Opening Keynote](http://s1-05.twitpicproxy.com/photos/large/439077657.jpg "Opening Keynote")
 
-Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
--------------------------------------------------------------------------
+##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
 I herpderped the markdown on these lists. Will fix after the talk.
@@ -37,7 +35,7 @@ I herpderped the markdown on these lists. Will fix after the talk.
 * Much lower level than DOM
 * Harder to learn, debug, optimize
 
-Talking about debugging tips:
+###Debugging Tips
 
 Check for OpenGL errors; restart with a good known base; start adding code 
 back in until it breaks.
@@ -46,16 +44,24 @@ To debug shaders, remove functionality, output constant color (like red) in
 the regions of the shader where you're trying to identify what's going on.
 
 Try a library like:
+
 * [webgl-debug.js](http://www.khronos.org/webgl/wiki/Debugging)
 * Firefox web console
 * Open web console
 
 Handling Context Loss:
+
 * Power loss on device, GPU reset, webgl-debug can help
 
-[WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) by Ben Vanik.
+###[WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) by Ben Vanik
+
 Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps
 through draw calls to see scene reconstructed in order. Highlights redundant calls
 that don't actually change meaningful state. Isolates draw calls, and you can see
 what was affected directly and get information about the call, such as sample
 state, vertex attributes, texture urls, etc.
+
+###GPU Optimization
+
+* Retest often; automated tests where possible
+* Reduce the number of draw calls per frame
