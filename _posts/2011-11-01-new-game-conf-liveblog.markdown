@@ -53,7 +53,7 @@ Try a library like:
 Handling Context Loss:
 * Power loss on device, GPU reset, webgl-debug can help
 
-[WebGL Inspector](http://) by Ken Russel
+[WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) by Ben Vanik.
 Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps
 through draw calls to see scene reconstructed in order. Highlights redundant calls
 that don't actually change meaningful state. Isolates draw calls, and you can see
