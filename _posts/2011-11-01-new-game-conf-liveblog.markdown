@@ -36,3 +36,18 @@ I herpderped the markdown on these lists.
 * Cons
 * Much lower level than DOM
 * Harder to learn, debug, optimize
+
+Talking about debugging tips:
+
+Check for OpenGL errors; restart with a good known base; start adding code 
+back in until it breaks.
+
+To debug shaders, remove functionality, output constant color (like red) in
+the regions of the shader where you're trying to identify what's going on.
+
+Try a library like:
+* [webgl-debug.js](http://www.khronos.org/webgl/wiki/Debugging)
+* Firefox web console
+* Open web console
+
+
