@@ -492,6 +492,8 @@ Is audio your biggest issue?
 
 *November 1, 2:15 - 3:00*
 
+[Slides](https://docs.google.com/presentation/d/110MxOqut_y7KOW1pNwIdcccisIA3ooJwVR-xm-ecuc4/view)
+
 > SONAR is one of the first complete HTML5 games implemented with WebGL, 
 > targeting the Chrome platform via the Chrome Web Store. The first part of this 
 > talk covers the technical details of our development environment, including our 
