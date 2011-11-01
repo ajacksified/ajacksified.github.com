@@ -19,7 +19,7 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 * html5 needs platform predictibility, killer game to be successful
 * Estimates that 75% of EA platform games (e.g. Playstation 2 games) could be converted relatively easily to web 
 
-![Opening Keynote](http://twitpic.com/79eyhl "Opening Keynote")
+![Opening Keynote](http://s1-05.twitpicproxy.com/photos/large/439077657.jpg "Opening Keynote")
 
 Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 -------------------------------------------------------------------------
