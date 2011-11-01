@@ -556,6 +556,7 @@ accellerated. SONAR was 2D, wanted to move to 3D
 * Pre-allocate objects
 * Use Chrome debugger to watch memory 
 * "private globals" as such:
+ 
 
     var math_library = (function(){
       // private "global" variable for math library
@@ -653,4 +654,9 @@ and our designers really liked the idea.*
 Have you actually cut out any papercraft models?
 
 *We considered it, but we haven't had the chance.*
+
+## Cross Platform Game Programming with PlayN
+
+*November 1, 3:15 - 4:00*
+
 
