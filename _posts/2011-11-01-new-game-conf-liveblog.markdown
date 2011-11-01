@@ -348,4 +348,28 @@ then spend time automating tests.*
 > for game audio, integrating microtransactions and DLC, and a detailed look at 
 > graphics performance.
 
+Game developer at Bocoup in Bosten; did FB games at Blue Fang, foudned / ran
+game analytics middleware Orbus Gameworks, data analyst at Turbine on
+MMORPGs.
 
+Fieldrunners released oct 2008, one of the first hit iOS games. Much more
+polished, higher fidelity than other games. Was ported to Nintendo DSi, PSP,
+PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
+
+* Took 12 weeks to port
+* 3 weeks prepro and testing
+* 1 programmer, 3 QA, 2 producers
+
+### Technologies Used
+
+* WebGL
+* Web Audio API
+* Html5 Audio
+* Google In-App Purchaes
+* JS
+* Python
+* Go
+
+### Target Platforms
+
+* Chrome / Chrome Web Store
