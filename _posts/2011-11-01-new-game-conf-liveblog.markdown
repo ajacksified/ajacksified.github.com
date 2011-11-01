@@ -399,5 +399,15 @@ to WebGL; build sprite demo.
 Basic functionality came next; porting tower functionality, entities, particle
 system.
 
+Awesome particle effects made for rare units, like flame towers; mitigate
+performance issues by limiting number of special, GPU-heavy units.
+
+Took demo, packaged it up, hid private data, and posted it on blog to watch
+people's framerates in order to test on different configurations. Used
+Google Analytics event API to send framerate data for tracking through Google
+Analytics every 8th frame. Allowed comparision between browsers, operating
+systems, and other user breakdowns for average user framerate.
+
+Target framerate was 30fps.
 
 
