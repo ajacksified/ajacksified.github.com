@@ -839,3 +839,8 @@ For performance:
 * Use XHR async loading
 * Store uncompressed data in FileSystem API
 * Keep uncompressed data in memory (not feasible for large games)
+
+iOS games store game progess in internal memory; html5 apps can use
+localstorage
+
+
