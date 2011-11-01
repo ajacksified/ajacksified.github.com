@@ -852,3 +852,9 @@ compressed JS via XHR.
 
 Mandreel supports OpenGL ES 1.1, PVR textures; does not have fixed pipeline 
 support. PNGs are best for textures.
+
+In-app payments can be done through google IAP API
+
+iOS uses OpenAL for sound. Started trying to load sounds with the html5 audio
+tag, but it doesn't work well with many simultaneous sounds. Web Audio API
+gives needed support. Flash is a fallback.
