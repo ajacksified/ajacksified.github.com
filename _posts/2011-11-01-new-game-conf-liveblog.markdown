@@ -542,3 +542,42 @@ accellerated. SONAR was 2D, wanted to move to 3D
     * Garbage collector is a killer
     * Dynamic VBO updates are inefficient
     * Offload as much as possible to the GPU
+
+#### Garbage Collector
+
+* Avoid GC at all costs
+* No allocation means no collection
+* Causes of allocation / GC:
+    * "new" is easy to spot and avoid. Don't use it if possible
+    * Object and Array literals are harder to avoid
+    * Creating new closures creates a new object; bad in loops
+    * DOM element manipulation
+    * Hidden things in 3rd party libs
+* Pre-allocate objects
+* Use Chrome debugger to watch memory 
+* "private globals" as such:
+
+    var math_library = (function(){
+      // private "global" variable for math library
+      var tmp = vec3.create();
+
+      return {
+        stuff: function(){ ... }
+        property: 7
+      }
+    });
+
+
+### Art pipeline
+
+Make blender -> game as easy as possible
+
+* Blender
+    * Pros
+        * Free
+        * Nice animation features
+        * Extensive Python API
+    * Cons
+        * Revision change lead to lack of documentation
+        * Few pro artists are trained in Blender
+
