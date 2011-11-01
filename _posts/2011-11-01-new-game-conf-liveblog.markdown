@@ -27,10 +27,11 @@ Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 
 * WebGL is coming out of "Experiemntal"
 * Pros and cons of Webgl
-  * Pros
-    * Directly exposes GPU
-    * Very high performance
-    * Not a plugin
-  * Cons
-    * Much lower level than DOM
-    * Harder to learn, debug, optimize
+    * Pros
+        * Directly exposes GPU
+        * Very high performance
+        * Not a plugin
+    * Cons
+        * Much lower level than DOM
+        * Harder to learn, debug, optimize
+
