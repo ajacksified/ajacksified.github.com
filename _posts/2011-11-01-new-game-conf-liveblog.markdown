@@ -644,8 +644,11 @@ Have you actually cut out any papercraft models?
 
 *We considered it, but we haven't had the chance.*
 
-## Cross Platform Game Programming with PlayN
+## Cross Platform Game Programming with PlayN by Lilli Thompson
 
 *November 1, 3:15 - 4:00*
+
+Began as console developer, now a software engineer with chrome and PlayN
+advocate
 
 
