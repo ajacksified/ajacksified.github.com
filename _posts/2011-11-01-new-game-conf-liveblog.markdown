@@ -558,7 +558,7 @@ accellerated. SONAR was 2D, wanted to move to 3D
 * "private globals" as such:
  
 
-    var math_library = (function(){
+`    var math_library = (function(){
       // private "global" variable for math library
       var tmp = vec3.create();
 
@@ -566,7 +566,7 @@ accellerated. SONAR was 2D, wanted to move to 3D
         stuff: function(){ ... }
         property: 7
       }
-    });
+    });`
 
 
 ### Art pipeline
