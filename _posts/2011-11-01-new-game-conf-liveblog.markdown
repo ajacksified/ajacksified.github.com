@@ -278,3 +278,36 @@ advertising schemes?
 
 *Part of the reason we target high distrubition is because it's hard to
 estimate; it depends on the product.*
+
+Can you talk a bit about how the platforms you choose to support influences your
+development process? Do you focus on one and expand to other platforms?
+
+*The evolution was focusing on phone; and now, it's foucsing on three platforms,
+phone, tablet, and desktop. Part of our initial product plan is to mock up UIs
+for each platform; user flows are somewhat different between platforms. We look
+at everything from day one.*
+
+Can you speak to experiences in doing work in-house vs. using contractors?
+
+*A good rule of thumb is: anything you can throw away 90% of, and still be ok,
+is a good thing to outsource. Artwork is a good idea. If you say "we need 100
+swords", you may get 10 that are good. Development should happen in-house.
+Face-to-face communication is important.*
+
+What would you say to people who want to focus on a specific technology,
+instead of taking on more platforms?
+
+*There is a huge market; if you want to focus on a specific technology,
+and do it well, then that's a good strategy too. For us, in our history
+we've always focused on distribution. Either is a viable business
+strategy.*
+
+Can you talk about how beta testing has influenced development?
+
+*Automated client-side testing is difficult, because resource use for the game
+leaves little room. We do automated testing on desktops. Automated testing is
+less important than having a good game. Make sure you can make money on a game,
+then spend time automating tests.*
+
+
+## Lunch Break
