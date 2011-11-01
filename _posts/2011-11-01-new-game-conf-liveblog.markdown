@@ -27,6 +27,10 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 ##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
+> WebGL support in browsers opens the door to immersive 3D content, especially games, which is delivered with no end user installation, runs on multiple platforms and requires no porting effort.
+Debugging and tuning WebGL applications for highest performance can be challenging, in particular due to the low-level nature of the WebGL and OpenGL APIs. This session will introduce the WebGL Inspector and explore several complex real-world applications to show how they achieved their results and how the tool can be used to learn more about an application through a way most never see.
+Techniques that will be covered include batching of geometry, using texture atlases, pipelining data, reducing the amount of data transferred to the GPU, offloading computation to the GPU, and using web workers to parallelize applications. Workarounds and gotchas will be described for the differences between WebGL and other common implementations (such as OpenGL ES on iOS) and limitations imposed for security reasons.
+
 [WebGL Examples](http://webglsamples.googlecode.com/hg/newgame/2011/)
 
 I herpderped the markdown on these lists. Will fix after the talk.
@@ -136,4 +140,11 @@ requestAnimationFrame helps.*
 Does WebGL give you a way to use a secondary display?
 
 *That is up to browser implementation. WebGL renders into the canvas directly.*
+
+## Hard Won Lessons from the Trenches by Justin Quimby
+*Nov 1, 11:15 - 12:00*
+
+> Moblyng has been developing HTML5 games for the past 3 years. 
+This talk is an overview of the lessons learned from that experience 
+covering multiple code frameworks, business partners, and revenue models.
 
