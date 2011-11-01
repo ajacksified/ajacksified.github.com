@@ -26,6 +26,8 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 
 ![Opening Keynote](http://s1-05.twitpicproxy.com/photos/large/439077657.jpg "Opening Keynote")
 
+[photo source: @newgameconf](http://j.mp/s9pkUG)
+
 ##Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 *Nov 1, 10:15 - 11:00*
 
