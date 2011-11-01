@@ -648,7 +648,21 @@ Have you actually cut out any papercraft models?
 
 *November 1, 3:15 - 4:00*
 
+[PlayN](http://code.google.com/p/playn/)
+
 Began as console developer, now a software engineer with chrome and PlayN
 advocate
+
+PlayN allows you to compile out versions of your single-codebase game onto
+multiple platforms: write in GWT / Java, export to html5, flash, and Android.
+Used to be called "ForPlay". 
+
+*--ed: You can guess why that got changed.*
+
+Angry Birds was written with PlayN; announced with "Kick Ass Game Programming
+With GWT" talk
+
+Tries to solve the problem of picking a platform to port to; does the porting
+for you.
 
 
