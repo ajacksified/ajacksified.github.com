@@ -246,3 +246,15 @@ Huge numbers of mobile, internet-connected devices being shipped.
   support Android, not just iOS.
 * Minimize technical risk. Use stable bits of html5. Consider that technologies may
   be alienating consumers.
+
+## Q &amp; A
+
+Can you put perspective on company size of Moblyng, and how that impacts your
+decisions? Where would you prioritize with a smaller headcount?
+
+*Moblyng has around 35 employees. The key to all of this is the game itself.
+At the end of the day, if your game sucks, noone's gonna care. Your team is
+initially going to probably be split 2-1; two for the game, one for system
+integration. Closer to the ship date, that ratio should split as you
+integrate with social systems. After shipment, it will reverse again as you
+respond to metrics and game mechancis updates.*
