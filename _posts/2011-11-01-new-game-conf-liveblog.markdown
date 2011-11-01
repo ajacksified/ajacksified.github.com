@@ -376,7 +376,7 @@ PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
 
 ### Plan of Attack
 
-2-week milestones
+2-week milestones; built demos at end of milestones.
 
 * Milestone 1
     * Tech Design Doc
@@ -395,5 +395,9 @@ PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
 
 First steps: get stuff to render; parse animation files, load images, render
 to WebGL; build sprite demo.
+
+Basic functionality came next; porting tower functionality, entities, particle
+system.
+
 
 
