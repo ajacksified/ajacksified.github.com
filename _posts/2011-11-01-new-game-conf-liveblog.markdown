@@ -342,6 +342,8 @@ then spend time automating tests.*
 ##Fieldrunners HTML5: Bringing a Hit iOS Game to the Web by Darius Kazemi
 *Nov 1, 1:15 - 2:00*
 
+[FieldRunners](http://fieldrunnershtml5.appspot.com)
+
 > Just this past summer, Bocoup and Gradient Studios worked with Subatomic 
 > Studios to port their smash-hit iOS tower defense game Fieldrunners to HTML5. 
 > This post mortem will cover porting OpenGL ES to WebGL, using the Web Audio API 
@@ -417,4 +419,13 @@ majority of the work for this milestone.
 Next was making it feel "webby"; SD / HD modes, detecting WebGL, Web Audio,
 window size, and general responsiveness; setting up hosting and caching.
 
+> It's  weird to see what happens when the game dev and web dev worlds collide,
+> and see what sparks happen.
 
+Cached requests dramatically reduced CPU Usage.
+
+Wrote a Python script for machine port; a big mess of regexes did a lot of the
+work, which was later cleaned up manually
+
+Used Web Audio APi for SFX, which was released with Chrome 14. HTML5 Audio was
+used for background music. Targetting Chrome specifically made this easy.
