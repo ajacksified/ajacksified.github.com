@@ -2,7 +2,7 @@
 layout: post
 title: New Game Conf Liveblog
 description: I'm at New Game Conf; here's what's going on
-permalink: /2011/10/new-game-conf-liveblog/index.html
+permalink: /2011/11/new-game-conf-liveblog/index.html
 categories:
 - html5
 ---
@@ -61,14 +61,14 @@ converted relatively easily to web
 I herpderped the markdown on these lists. Will fix after the talk.
 
 * WebGL is coming out of "Experimental"
-* Pros and cons of Webgl
-* Pros
-* Directly exposes GPU
-* Very high performance
-* Not a plugin
-* Cons
-* Much lower level than DOM
-* Harder to learn, debug, optimize
+    * Pros and cons of Webgl
+    * Pros
+        * Directly exposes GPU
+        * Very high performance
+        * Not a plugin
+    * Cons
+        * Much lower level than DOM
+        * Harder to learn, debug, optimize
 
 ###Debugging Tips
 

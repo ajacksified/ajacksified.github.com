@@ -22,8 +22,8 @@ hacking an existing solution.
 A brief overview of how it works:
 
 * Drop the perch directory into your site root (if your site root is 
-/var/www/herpinderpin.com, your perch directory will be 
-/var/www/herpinderpin.com/perch)
+  /var/www/herpinderpin.com, your perch directory will be 
+  /var/www/herpinderpin.com/perch)
 * Run the perch install
 * On your site pages, include a reference to perch/runtime.php
 * On your site pages, use `perchcontent("this is a content block")`
@@ -38,7 +38,7 @@ having to learn a complicated templating system.
 
 But, enough about that. Here's the real meat of this subject: how to create 
 dynamic pages in Perch. It ended up being a lot simpler than I first thought it 
-would be. You see, Perch doesn't create pages*; it simply allows you to edit 
+would be. You see, Perch doesn't create pages; it simply allows you to edit 
 content on existing pages. So, if you have a 50-page site, and you want to move 
 things around, it gets difficult. Note: this works because all of my pages have 
 the same template. You can get fancier with your .htaccess or page file and 
