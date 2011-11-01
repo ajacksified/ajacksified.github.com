@@ -193,4 +193,6 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Right now, if you need super blazing-fast peformance, you're going to have to
   write native code. Intense apps and light apps are different products for
   different platforms.
-
+* Invest in a ton of varying mobile devices, so you dont have to wait and can
+  experience the hardware personally
+* Devices are expensive: paying premium prices for brand-new devices
