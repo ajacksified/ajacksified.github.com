@@ -13,6 +13,8 @@ the presentations, and clean up grammar / confusing structures during breaks.
 
 Also check out #ngc11 and #bbg on irc.freenode.net
 
+Also also check out [New Game Conf Quotes](http://newgameconf.qotr.net/Quotes/List/)
+
 ##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
 
@@ -196,3 +198,27 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Invest in a ton of varying mobile devices, so you dont have to wait and can
   experience the hardware personally
 * Devices are expensive: paying premium prices for brand-new devices
+* Make devices readily available for rapid testing
+* Android fragmentation is an issue; have to target 2.1+ for mass penetration
+* Some phones may not implement spec properly; one older Motorola was totally
+  broken. Was fixed, but you have to be ready to respond to hardware manufacturers.
+* Consumers won't ever do what you expect them to do. Being behind on updates is 
+  a problem.
+* Can't count on the same screen resolution; have desktop / tablet / phone
+  versions
+
+#### Discovery and Distrubtion
+
+* If nobody can find it, your product won't be successful
+* Android market getting a lot better
+
+### Things to Avoid
+
+* Startup sounds - players are probably playign somewhere where they don't
+  want to be disturbed. Meetings, bathrooms, et.
+* Device orientation matters - portrait / landscape. Portrait's the way to go
+  to play games during the work day.
+
+### Things to Do
+
+* Hands-on Demo
