@@ -10,6 +10,8 @@ categories:
 This is a live blog for the first official day of 
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
 the presentations, and clean up grammar / confusing structures during breaks.
+Also, Q &amp; A is paraphrased; quotes will be signified as such. Please leave
+corrections and requests for clarification in the comments here.
 
 Also check out #ngc11 and #bbg on irc.freenode.net
 
@@ -258,3 +260,21 @@ initially going to probably be split 2-1; two for the game, one for system
 integration. Closer to the ship date, that ratio should split as you
 integrate with social systems. After shipment, it will reverse again as you
 respond to metrics and game mechancis updates.*
+
+
+What do you know about iOS vs Android users paying more?
+
+*It depends on the game type.*
+
+Do you still target devices outside of Android and iOS?
+
+*We target devices outside of Android and iOS; the lion's share are in iOS
+and Android. Because we're venture-backed, we want to go big, and build games
+that work on various devices. The html5-running refrigerator validates our 
+strategy; will our game work there?*
+
+Focusing on user acquisition, can you speak to the difference in different
+advertising schemes?
+
+*Part of the reason we target high distrubition is because it's hard to
+estimate; it depends on the product.*
