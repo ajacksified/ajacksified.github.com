@@ -732,5 +732,11 @@ Resource management through the asset manager:
     Sound getSound(String path)
     // etc
 
+Sound abstraction: html5 version uses web audio api where avilable via
+gwt-voices; falls back to flash.
 
+### Data Storage
 
+Android local store, html5 local storage, whatever's available. Simple API that
+uses calls like `setItem(key, value)`, `removeItem(key)`, `getItem(key)`.
+Includes JSON abstraction for storing / retrieving data.
