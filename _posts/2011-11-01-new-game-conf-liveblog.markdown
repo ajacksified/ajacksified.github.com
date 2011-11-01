@@ -792,4 +792,22 @@ is an option during Android compilation.*
 > cloud, implementing IAP and Facebook Connect, differences between Firefox and 
 > Chrome, dealing with huge JavaScript files, and application caching.
 
+Co-founder of Onan Games; small company (5 people, all engineers, no designers)
+
+Began porting iOS games to html5 using a framework called andreel, which 
+converts C++ / Objective C to html5 and flash. Targets all browsers, and the
+conversion process takes only a few days.
+
+Published games (available in chrome web store) 
+
+* [Monter Dash](https://chrome.google.com/webstore/detail/cknghehebaconkajgiobncfleofebcog)
+* [Great Little War Game](https://chrome.google.com/webstore/detail/dogopgiahgigenndhchnnahmibmjghbn)
+* [Gun Bros](https://chrome.google.com/webstore/detail/ciamkmigckbgfajcieiflmkedohjjohh)
+* [Big Time Gangsta](https://chrome.google.com/webstore/detail/ajplbhgiljhgjomddcnchfoimakkbmkc)
+* [Contract Killer](https://chrome.google.com/webstore/detail/meklndaflopgghbomkdpofehonfclipi)
+* [Mad Skills Motocross](https://chrome.google.com/webstore/detail/lgoenphchcpbgebeednhcdmepodabeig)
+* [Bug Village](https://chrome.google.com/webstore/detail/pabppflkalbniedjechdomdnofnogcfh)
+* [A Space Shooter for free](https://chrome.google.com/webstore/detail/epbeobdmeddlnkokfiaijkfabecpmifa)
+* [Kroll](https://chrome.google.com/webstore/detail/efjdaaaepgacfpadimoljoefkmnnkpkm)
+
 
