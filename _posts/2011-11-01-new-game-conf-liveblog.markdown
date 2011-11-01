@@ -826,4 +826,16 @@ This reloads all the files.
 
 App engine limits max file size to 32MB, so large files must be split.
 
+### FileSystem API
 
+Only works in chrome; allows filesystem access within a sandbox. Request amount
+of storage, which the user can deny / allow, and allows you to create files
+and load resources asynchronously.
+
+For performance:
+
+* Pack files into one large file for faster downloads
+* Compress with LZMA
+* Use XHR async loading
+* Store uncompressed data in FileSystem API
+* Keep uncompressed data in memory (not feasible for large games)
