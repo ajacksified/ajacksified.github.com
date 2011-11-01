@@ -58,8 +58,6 @@ converted relatively easily to web
 > between WebGL and other common implementations (such as OpenGL ES on iOS) and 
 > limitations imposed for security reasons.
 
-I herpderped the markdown on these lists. Will fix after the talk.
-
 * WebGL is coming out of "Experimental"
     * Pros and cons of Webgl
     * Pros
@@ -114,8 +112,7 @@ sample state, vertex attributes, texture urls, etc.
 
 * Canvas is drawn, sorting by z-index
 * Sorting by z-index is terrible for WebGL, which should be sorted by state, 
-then depth, by using
-  the depth buffer
+  then depth, by using the depth buffer
 
 Depth buffers can sort fragments per pixel; is relatively cheap for the PGU.
 Depth testing can increase performance dramatically, even in 2d apps.
@@ -126,7 +123,7 @@ Depth testing can increase performance dramatically, even in 2d apps.
 * Draw opaque objects front-to-back, then layer on translucent objects 
   back-to-front
 * Make sure to use index buffers, which enable additional GPU performance 
-features like caching
+  features like caching
 * Dynamically changing index buffers requires re-validation in WebGL. This is 
   bad.
 * Always ask yourself: can this be a constant? Make it so.
@@ -287,7 +284,6 @@ initially going to probably be split 2-1; two for the game, one for system
 integration. Closer to the ship date, that ratio should split as you
 integrate with social systems. After shipment, it will reverse again as you
 respond to metrics and game mechancis updates.*
-
 
 What do you know about iOS vs Android users paying more?
 
