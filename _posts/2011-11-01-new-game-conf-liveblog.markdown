@@ -72,3 +72,17 @@ state, vertex attributes, texture urls, etc.
 * Change Framebuffers, not Renderbuffers, which require a lot of validation (this
   is counter to iOS guidelines)
 * [Graphics Pipeline Performance](http://http.developer.nvidia.com/GPUGems/gpugems_ch28.html)
+
+###Optimizing Drawing (Scenes)
+
+* Canvas is drawn, sorting by z-index
+* Sorting by z-index is terrible for WebGL, which should be sorted by state, then depth, by using
+  the depth buffer
+
+Depth buffers can sort fragments per pixel; is relatively cheap for the PGU.
+Depth testing can increase performance dramatically, even in 2d apps.
+
+* Draw objects ordered by most expensive first; blending/clipping first
+* Sort scene ahead of time and maintain as sorted list of possible
+* Generate content that can be easily batched by merging buffers / textures
+
