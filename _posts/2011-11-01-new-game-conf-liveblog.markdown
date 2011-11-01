@@ -145,10 +145,24 @@ Does WebGL give you a way to use a secondary display?
 
 *That is up to browser implementation. WebGL renders into the canvas directly.*
 
-## Hard Won Lessons from the Trenches by Justin Quimby
+## Lessons from the (Mobile) Trenches by Justin Quimby
 *Nov 1, 11:15 - 12:00*
 
 > Moblyng has been developing HTML5 games for the past 3 years. 
 This talk is an overview of the lessons learned from that experience 
 covering multiple code frameworks, business partners, and revenue models.
+
+Justin Quimbly: COO of Moblyng
+
+### Moblyng
+
+* 13 html5 games
+* Startup in Redwood City
+* Started with porker games, word games, war-style rpgs
+* Playdom: Social City, Sorority Life, Mobsters
+* WeeWorld: WeeMee Life
+* Facebook: Social Poker Life
+
+### Strategy of Mobile Development
+
 
