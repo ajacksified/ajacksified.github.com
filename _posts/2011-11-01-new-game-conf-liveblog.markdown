@@ -65,3 +65,5 @@ state, vertex attributes, texture urls, etc.
 
 * Retest often; automated tests where possible
 * Reduce the number of draw calls per frame
+* Use RequestAnimationFrame for a more robust framerate; fallback with setTimeout if you have to
+
