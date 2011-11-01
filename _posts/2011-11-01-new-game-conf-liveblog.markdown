@@ -581,3 +581,33 @@ Make blender -> game as easy as possible
         * Revision change lead to lack of documentation
         * Few pro artists are trained in Blender
 
+Tried using both JSON and binary formats for files; binary was hard to work with in
+Javascript, and thus was not worth it. JSON was good enough and far easier to work
+with. Don't bother with binary until you're sending to the GPU.
+
+Meshes were loaded into vertex buffer objects
+
+Used animation JSON files for describing animation frames
+
+Javascript was not integration-friendly; difficult to work with binary files,
+poor support for loading files from disk, difficult to get models into engine
+for preview
+
+Should have used an intermediary format (FPX) for 3D models like, so that artists
+were not locked down to using Blender
+
+### html5, CSS, Canvas for 2D games
+
+Assets need to be built for menus, debugging, editors, etc. CSS3 can be used
+for advanced animations for interfaces.
+
+Rendering text in webgl is tricky; html overlays make it easy. Composite WebGL,
+html, and canvas.
+
+Note: be wary of alpha on your webgl canvas. Also, moving 2D elements on top
+of WebGL can cause framerates to drop. There are simple fixes.
+
+### Editor / Content Creation Pipeline
+
+
+
