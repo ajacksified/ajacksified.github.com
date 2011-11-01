@@ -39,21 +39,20 @@ converted relatively easily to web
 *Nov 1, 10:15 - 11:00*
 
 > WebGL support in browsers opens the door to immersive 3D content, especially 
-games, which is delivered with no end user installation, runs on multiple 
-platforms and requires no porting effort.
-Debugging and tuning WebGL applications for highest performance can be 
-challenging, in particular due to the low-level nature of the WebGL and OpenGL 
-APIs. This session will introduce the WebGL Inspector and explore several 
-complex real-world applications to show how they achieved their results and how 
-the tool can be used to learn more about an application through a way most 
-never see.
+> games, which is delivered with no end user installation, runs on multiple 
+> platforms and requires no porting effort.  Debugging and tuning WebGL 
+> applications for highest performance can be challenging, in particular due to 
+> the low-level nature of the WebGL and OpenGL APIs. This session will introduce 
+> the WebGL Inspector and explore several complex real-world applications to show 
+> how they achieved their results and how the tool can be used to learn more 
+> about an application through a way most never see.
 > 
 > Techniques that will be covered include batching of geometry, using texture 
-atlases, pipelining data, reducing the amount of data transferred to the GPU, 
-offloading computation to the GPU, and using web workers to parallelize 
-applications. Workarounds and gotchas will be described for the differences 
-between WebGL and other common implementations (such as OpenGL ES on iOS) and 
-limitations imposed for security reasons.
+> atlases, pipelining data, reducing the amount of data transferred to the GPU, 
+> offloading computation to the GPU, and using web workers to parallelize 
+> applications. Workarounds and gotchas will be described for the differences 
+> between WebGL and other common implementations (such as OpenGL ES on iOS) and 
+> limitations imposed for security reasons.
 
 [WebGL Examples](http://webglsamples.googlecode.com/hg/newgame/2011/)
 
@@ -89,13 +88,11 @@ Handling Context Loss:
 
 ###[WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) by Ben Vanik
 
-Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps
+Showing off webgl inspector with aquarium demo. Logs and shows all calls, steps 
 through draw calls to see scene reconstructed in order. Highlights redundant 
-calls
-that don't actually change meaningful state. Isolates draw calls, and you can 
-see
-what was affected directly and get information about the call, such as sample
-state, vertex attributes, texture urls, etc.
+calls that don't actually change meaningful state. Isolates draw calls, and you 
+can see what was affected directly and get information about the call, such as 
+sample state, vertex attributes, texture urls, etc.
 
 ###GPU Optimization
 
@@ -103,13 +100,12 @@ state, vertex attributes, texture urls, etc.
 * Reduce the number of draw calls per frame; could block GPU. Watch for
   highlights in WebGL Inspector
 * Use RequestAnimationFrame for a more robust framerate; fallback with 
-setTimeout if you have to
+  setTimeout if you have to
 * Disable unused WebGL features, such as blending, alpha texturing, etc
 * Link infrequently; shader verification / translation can take a long time, 
-esp. on Windows
+  esp. on Windows
 * Change Framebuffers, not Renderbuffers, which require a lot of validation 
-(this
-  is counter to iOS guidelines)
+  (this is counter to iOS guidelines)
 * [Graphics Pipeline Performance](http://http.developer.nvidia.com/GPUGems/gpugems_ch28.html)
 
 ###Optimizing Drawing (Scenes)
@@ -179,8 +175,8 @@ Does WebGL give you a way to use a secondary display?
 *Nov 1, 11:15 - 12:00*
 
 > Moblyng has been developing HTML5 games for the past 3 years. 
-  This talk is an overview of the lessons learned from that experience 
-  covering multiple code frameworks, business partners, and revenue models.
+> This talk is an overview of the lessons learned from that experience 
+> covering multiple code frameworks, business partners, and revenue models.
 
 Justin Quimbly: COO of Moblyng
 
@@ -207,7 +203,7 @@ mobile OS war.
 
 
 > "How many of you building HTML5 games are targeting mobile?" Everyone raises 
-  their hand. #ngc11 Mobile HTML5 games = huge opportunity
+> their hand. #ngc11 Mobile HTML5 games = huge opportunity
 
 [source: @joemccann](http://j.mp/sfvH8q)
 
@@ -345,9 +341,9 @@ then spend time automating tests.*
 *Nov 1, 1:15 - 2:00*
 
 > Just this past summer, Bocoup and Gradient Studios worked with Subatomic 
-  Studios to port their smash-hit iOS tower defense game Fieldrunners to HTML5. 
-  This post mortem will cover porting OpenGL ES to WebGL, using the Web Audio API 
-  for game audio, integrating microtransactions and DLC, and a detailed look at 
-  graphics performance.
+> Studios to port their smash-hit iOS tower defense game Fieldrunners to HTML5. 
+> This post mortem will cover porting OpenGL ES to WebGL, using the Web Audio API 
+> for game audio, integrating microtransactions and DLC, and a detailed look at 
+> graphics performance.
 
 
