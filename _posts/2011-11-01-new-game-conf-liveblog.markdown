@@ -123,3 +123,16 @@ debug continuously.
 
 ### Q&amp;A
 
+When will be a good time to start using WebGL for clients?
+*You can begin to be it on it now. Consider progressive ehancement with canvas fallbacks.*
+
+WebGL on Mobile, and battery life?
+*WebGL is fairly similar to native code. It uses the GPU, and it will drain the
+battery more than straight CPU, but that's the tradeoff for more power.
+requestAnimationFrame helps.*
+
+Does WebGL give you a way to use a secondary display?
+*That is up to browser implementation. WebGL renders into the canvas directly.*
+
+
+
