@@ -340,17 +340,6 @@ article .label {
   float: right;
 }
 
-.footer {
-  background-color: #eee;
-  min-width: 940px;
-  padding: 30px 0;
-  text-shadow: 0 1px 0 #fff;
-  border-top: 1px solid #e5e5e5;
-  -webkit-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
-     -moz-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
-          box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
   font-weight:normal;
