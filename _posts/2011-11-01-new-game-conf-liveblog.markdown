@@ -676,4 +676,17 @@ implementation modules. PlayN is not a game engine - it is a platform
 abstraction. You add game enginy things on top, such as Box2D. Components
 include the game loop, I/O system, and Asset Management.
 
+Build game engine by extending PlayN-provided interface, which gives you
+access to the game loop / i/o system / asset management structures.
+
+PlayN provides a way to access the local device for its resolution:
+
+    graphics().setSize(
+      graphics().screenWidth()
+
+      graphics().screenHeight()
+    )
+
+
+
 
