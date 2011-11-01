@@ -17,7 +17,7 @@ Started a little late to liveblog this, so here's a synopsis and high points:
 
 * Called the current web a Playstation 2 grade platform
 * html5 needs platform predictibility, killer game to be successful
-* Estimates that 75% of EA platform games could be converted relatively easily to web 
+* Estimates that 75% of EA platform games (e.g. Playstation 2 games) could be converted relatively easily to web 
 
 Debugging and Optimizing WebGL Applications by Ben Vanik &amp; Ken Russel
 -------------------------------------------------------------------------
