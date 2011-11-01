@@ -47,39 +47,38 @@ a simple case.
 
 Here's how I solved my problem:
 
-1. Create an .htaccess file that points all non-existing files to page.php
+Create an .htaccess file that points all non-existing files to page.php
+
 
     RewriteEngine on
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ page.php?_route_=$1 [L,QSA]
 
-2. Create page.php base template and define good / bad urls
+Create page.php base template and define good / bad urls
 
-<code>
-    <?php
-      $route = strtolower($_GET['_route_']);
-      //we'll make a list of valid pages
-      $validRoutes = array(
-        "derp",
-        "derp/herp",
-        "derp/mcburp"
 
-        "page-not-found"
-      );
+    $route = strtolower($_GET['_route_']);
+    //we'll make a list of valid pages
+    $validRoutes = array(
+      "derp",
+      "derp/herp",
+      "derp/mcburp"
 
-      if(!in_array($route, $validRoutes)){
-        //if not a valid route, redirect to our custom 404 page
-        header('Location: /page-not-found');
-        exit;
-      }
+      "page-not-found"
+    );
 
-      include('./perch/runtime.php');
+    if(!in_array($route, $validRoutes)){
+      //if not a valid route, redirect to our custom 404 page
+      header('Location: /page-not-found');
+      exit;
+    }
 
-      if($route != ''){
-        PerchSystem::set_page($route); // <- MAGIC HERE
-      }
-    ?>
+    include('./perch/runtime.php');
+
+    if($route != ''){
+      PerchSystem::set_page($route); // <- MAGIC HERE
+    }
 
     ...
 
@@ -93,7 +92,6 @@ Here's how I solved my problem:
       <?php perch_content('Adbar content'); ?>
     </aside>
     ...
-</code>
 
 Saw that `PerchSystem::set_page($route);` ? Well, that lets us force the perch 
 "page" so that we can fake it. Even though everything's loading from page.php, 
