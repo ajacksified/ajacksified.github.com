@@ -28,12 +28,12 @@ As I was reading Addy Osmani's excellent post "<a title="Patterns for Large-Scal
 	<li>Passes arguments you pass into publish onto subscriber callbacks, rather than a data object</li>
 <ul>
 	<li>Example:
-[sourcecode language="javascript"]
-var m = new Mediator();
-m.Subscribe("test", function(arg1, arg2){ console.log([arg1, arg2]); }
-m.Publish("test", "arg1", "arg2");
-// output > ["arg1", "arg2"]
-[/sourcecode]</li>
+
+    var m = new Mediator();
+    m.Subscribe("test", function(arg1, arg2){ console.log([arg1, arg2]); }
+    m.Publish("test", "arg1", "arg2");
+    // output > ["arg1", "arg2"]
+
 </ul>
 	<li>Meta changes</li>
 <ul>

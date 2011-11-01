@@ -17,9 +17,7 @@ Nope.
 
 After running for a few minutes, it failed and suggested looking at the log, which, after several thousand status messages, let me know that one of the packages failed to extract properly. After a quick Googling, I found that many other people had the same problem, and suggested re-downloading it; so, I did. This time a different package failed. The fourth and fifth installs failed, too. I tried copypasting it in other directories, tried opening the package and running the xcode package directly, and nothing worked. I hunted down and ran the uninstall script for the old version of XCode that was still hanging round. At last, I finally saw someone who <a title="Apple Forums - fix for installing XCode on OSX Lion" href="https://discussions.apple.com/message/15931741#15931741" target="_blank">brilliantly suggested</a>:
 
-[sourcecode language="bash"]
-sudo mv /Applications/Install\ Xcode.app/ /Applications/Install_Xcode.app
-sudo open /Applications/Install_XCode.app
-[/sourcecode]
+    sudo mv /Applications/Install\ Xcode.app/ /Applications/Install_Xcode.app
+    sudo open /Applications/Install_XCode.app
 
 And suddenly, XCode worked!
