@@ -119,7 +119,7 @@ debug continuously.
 >  
 >  10:55 ajacksified_ so you can spin your cube while you spin your cube
 
-(Relevant)[http://webglsamples.googlecode.com/hg/newgame/2011/05-pipelining.html]
+[Relevant](http://webglsamples.googlecode.com/hg/newgame/2011/05-pipelining.html)
 
 ### Q&amp;A
 
