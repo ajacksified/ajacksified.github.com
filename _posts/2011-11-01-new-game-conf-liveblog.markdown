@@ -810,4 +810,20 @@ Published games (available in chrome web store)
 * [A Space Shooter for free](https://chrome.google.com/webstore/detail/epbeobdmeddlnkokfiaijkfabecpmifa)
 * [Kroll](https://chrome.google.com/webstore/detail/efjdaaaepgacfpadimoljoefkmnnkpkm)
 
+Chrome web store options: packaged application, website
+
+Chrome default max size: 5MB; installed apps have unlimitied storage
+
+Can do synchronous loading with XHR
+
+### Application Manifest Cache
+
+The manifest cache file lists resources for the app to load. Progress event is
+available to update user to download status for larger downloads.
+
+To update new files, modify the mainfest cache file; update verion number.
+This reloads all the files.
+
+App engine limits max file size to 32MB, so large files must be split.
+
 
