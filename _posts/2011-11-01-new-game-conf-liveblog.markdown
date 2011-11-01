@@ -227,3 +227,18 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Touch response speed. Is the interface responsive?
 * Scroll speed; no stuttering, no delay.
 
+### Other Notes
+
+* Mobile metricks suck; cache clears on iOS power cycle, Android inconsistencies
+* Hard to verify
+* Better off rolling your own
+* Work on great relationships with hardware manufacturers to test your app
+  before new hardware/software releases to reduce surprise problems
+* General dev practices; source control, make dev / build / deployment systems are the same
+* Automate build / deployment (css / js minification, for example)
+* Set up IE8 / 9 stations
+* Cross-training; designers / developers
+* Swap devices between people (android, winmo, ios, etc.)
+* Work on relationships with other devs who you interface with
+* NO ABSOLUTE POSITIONING. You're fired.
+* jQuery, WebGL, Canvas slow or non-functional on a lot of devices
