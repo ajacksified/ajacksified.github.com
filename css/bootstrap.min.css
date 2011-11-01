@@ -330,6 +330,7 @@ button.btn::-moz-focus-inner,input[type=submit].btn::-moz-focus-inner{padding:0;
 
 body {
   padding-top: 10px;
+  font-family: "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
 }
 
 article {
