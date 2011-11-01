@@ -609,5 +609,48 @@ of WebGL can cause framerates to drop. There are simple fixes.
 
 ### Editor / Content Creation Pipeline
 
+* Tile-based editor
+* Line-based doors, glass
+* Triggger zones
+* Entitiy placement
 
+Seperate editor from game made testing slow; editor should have been built-in
+to the game
+
+#### Technology
+
+* Canvas for tiles
+* jQuery for UI controls
+* Seperate app from the game
+* Custom scripting
+    * Allowing javascript in game opens security (XSS) issues; better to hack
+      together something
+
+### Web APIs for games
+
+APIs that are on their way that are helpful:
+
+* Web Audio
+    * Chorus effects, 3d positioning, no flash
+    * [w3 audio spec](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
+* FileSystem
+    * Store files locally, no cookies or lost data
+    * [Filesystem spec](http://ww.html5rocks.com/en/tutorials/file/filesystem/)
+* MouseLock
+    * Mandatory for FPS and useful for action games
+    * [Mouselock api](http://chromestory.com/2011/10/developer-news-mouse-lock-api/)
+* Joystick
+    * Gamepad support
+    * [Chromium Joystick api](http://www.chromium.org/developers/joystick-api)
+
+### Q &amp; A
+
+What gave you the inspiration to make it a papercraft visually-styled game
+
+*It actually started as a graphics bug, where our charaters were flatfaced,
+and our designers really liked the idea.*
+
+Have you actually cut out any papercraft models?
+
+*We considered it, but we haven't had the chance.*
 
