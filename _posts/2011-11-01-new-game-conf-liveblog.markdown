@@ -406,8 +406,15 @@ Took demo, packaged it up, hid private data, and posted it on blog to watch
 people's framerates in order to test on different configurations. Used
 Google Analytics event API to send framerate data for tracking through Google
 Analytics every 8th frame. Allowed comparision between browsers, operating
-systems, and other user breakdowns for average user framerate.
+systems, and other user breakdowns for average user framerate. Allowed
+framerate data *and* generated buzz about the game.
 
 Target framerate was 30fps.
+
+The next step was porting maps, enemies, and menus. Menus accounted for a
+majority of the work for this milestone. 
+
+Next was making it feel "webby"; SD / HD modes, detecting WebGL, Web Audio,
+window size, and general responsiveness; setting up hosting and caching.
 
 
