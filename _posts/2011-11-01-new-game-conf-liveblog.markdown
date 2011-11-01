@@ -165,4 +165,32 @@ Justin Quimbly: COO of Moblyng
 
 ### Strategy of Mobile Development
 
+Point of html5: accessibility to all devices
+
+Social games are a great fit for light, engaging games. Big market opportunity
+and distribution opportunities in the mobile space, especially for people
+already on Facebook. These can be augmented with native apps, wrappers around
+the html5 games.
+
+Products run on all devices, because of html5. Doesn't matter who "wins" the
+mobile OS war.
+
+
+> "How many of you building HTML5 games are targeting mobile?" Everyone raises their hand. #ngc11 Mobile HTML5 games = huge opportunity
+
+[source: @joemccann](http://j.mp/sfvH8q)
+
+#### Technology Framework
+
+Huge numbers of mobile, internet-connected devices being shipped.
+
+> There is a huge market for playing games on your refrigerator.
+
+* No canvas - too slow / unreliable. Uses javascript / css
+* Moblyng shell handles native hooks
+* Benefits of wrapper: native app in app stores for distribution and consumer
+  access
+* Right now, if you need super blazing-fast peformance, you're going to have to
+  write native code. Intense apps and light apps are different products for
+  different platforms.
 
