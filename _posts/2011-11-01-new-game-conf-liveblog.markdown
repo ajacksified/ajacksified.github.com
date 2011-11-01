@@ -450,3 +450,38 @@ cost.
 
 ### Q &amp; A
 
+Is using WebGL Overkill?
+
+*We used WebGL because it was an easy port, our existing ames was built with
+OpenGL.*
+
+During the development, did you feel like WebGL was the best choice?
+
+*Because we were porting the already aggressively-optimized OpenGL game
+built for iOS, the performance was already excellent.*
+
+If you didn't have the original code in WebGL, would you still use WebGL?
+
+*It's all about the context of your project; if the original game wasn't in
+OpenGL, we would have probably spent time testing canvas, and looking closely
+at the markets and seeing what browsers could run WebGL. It would have been a
+more difficult decision.*
+
+What three things did you take away, that you wish you knew before you started
+the project? Also, what can do we do to not have to compromise so much on the
+reach-quality-cost triange?
+
+*We need more compliance between browsers. Things like audio have to conform
+to the lowest-common-denominoator between the platforms you're targetting.
+It would be great if everyone had the same standards, and that was a huge
+stumbling block to getting it on more browsers. Having browsers that auto-
+update would be useful as well, so you know where users are at. As far as
+some takeaways- I wish I knew server management was as time-consuming
+as it was for us.*
+
+Was the caching issue with game assets, or something else?
+
+*Yes, that was about using the appropriate server headers so that I only have
+to download if I have to.*
+
+
