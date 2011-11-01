@@ -376,8 +376,24 @@ PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
 
 ### Plan of Attack
 
+2-week milestones
+
 * Milestone 1
     * Tech Design Doc
     * Workflow (check-in flow)
     * Production risk assessment
+* Milestone 2
+    * C++ to JS conversion
+    * Particle system prototypes
+         * high risk - no clue if would destroy framerates until it was built
+* Milestone 3 - beta
+    * Finish game
+        * Optimizations
+        * Gameplay
+* Milestone 4 - beta
+    * Monetization
+
+First steps: get stuff to render; parse animation files, load images, render
+to WebGL; build sprite demo.
+
 
