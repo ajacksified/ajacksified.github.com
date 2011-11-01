@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Finished converting from Wordpress to Jekyll
 description: Finished converting from Wordpress to Jekyll
 permalink: /2011/10/finished-converting-from-wordpress-to-jekyll/index.html
 categories:
