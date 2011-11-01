@@ -104,3 +104,16 @@ Depth testing can increase performance dramatically, even in 2d apps.
 * GPU hardware is massively parallel; use if possible
 * Pushing frames from GPU can cause stalls; try to spread updates across multiple frames.
   Number of uploads don't matter, size of frames does.
+* Double / triple buffer if possible; makes frame upload consistent
+* Decouple GPU and CPU; re-send GPU older data if CPU hasn't caught up yet
+
+###Conclusion
+Use tricks wisely; not all are useful everywhere. Start simple, test and
+debug continuously.
+
+>  10:54 ajacksified_ I heard you like spinning cubes
+>  10:55 segdeha So I put a cube in your cube
+>  10:55 ajacksified_ so you can spin your cube while you spin your cube
+
+### Q&amp;A
+
