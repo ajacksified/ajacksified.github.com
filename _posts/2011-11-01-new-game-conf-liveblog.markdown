@@ -843,12 +843,8 @@ For performance:
 iOS games store game progess in internal memory; html5 apps can use
 localstorage. Another option is to use XHR to store progress remotely.
 
-### C++ / ObjC translation
-
 Can generate JS larger than 10mb; AppEngine can only handle 1mb. Load
 compressed JS via XHR.
-
-### Engine Info
 
 Mandreel supports OpenGL ES 1.1, PVR textures; does not have fixed pipeline 
 support. PNGs are best for textures.
@@ -858,3 +854,10 @@ In-app payments can be done through google IAP API
 iOS uses OpenAL for sound. Started trying to load sounds with the html5 audio
 tag, but it doesn't work well with many simultaneous sounds. Web Audio API
 gives needed support. Flash is a fallback.
+
+App engine issues:
+
+* Static files can't add custom headers
+* Max application file size is 150MB (use blobs)
+    * Check for "206" response code when pulling blobs
+    * Audio tags won't work properly
