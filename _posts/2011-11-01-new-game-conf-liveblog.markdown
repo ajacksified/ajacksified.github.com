@@ -11,6 +11,8 @@ This is a live blog for the first official day of
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
 the presentations, and clean up grammar / confusing structures during breaks.
 
+Also check out #ngc11 and #bbg on irc.freenode.net
+
 ##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
 
