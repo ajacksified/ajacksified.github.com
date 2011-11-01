@@ -756,5 +756,38 @@ Framework allows easy extension to new platforms. Takes any Java-based library
 and can compile it down to all platforms.
 
 More native input abstractions, better asset managmeent and audio featutes,
-integration with other products
+integration with other products- in-app payments, other software ecosystems
+
+### Q &amp; A
+
+What happens when you don't support a particular piece of functionality?
+
+*It's open source, so if it isn't working for you, consider adding the
+functionality; that's available to you. Another option is to compile
+another project that imports the extra code."*
+
+What's compelling about this is that Java's a nice language. How do you do the
+compilation to, say, Flash?
+
+*It's different or each platform; it translates to legible actionscript, then
+compiles a swf. It compiles into obfuscated Javascript, so it doesn't work
+that way always.*
+
+What if your phone doesn't have a GPU?
+
+*We don't have set requirements; our default path is to compile to Android
+OpenGL. Android Canvas is available, but not as fast; I'm not sure if that
+is an option during Android compilation.*
+
+
+## From Apple Store to CWS by Miguel Angel Pastor
+
+*Nov 1, 4:15 - 5:00*
+
+> This talk covers our experience porting more than 7 iOS games to the Chrome 
+> Web Store. Topics discussed include: using Mandreel to convert C++ into 
+> JavaScript, using Google App Engine to host applications, saving data in the 
+> cloud, implementing IAP and Facebook Connect, differences between Firefox and 
+> Chrome, dealing with huge JavaScript files, and application caching.
+
 
