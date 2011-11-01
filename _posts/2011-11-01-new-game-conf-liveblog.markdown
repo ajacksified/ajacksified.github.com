@@ -183,7 +183,7 @@ Justin Quimbly: COO of Moblyng
 
 * 13 html5 games
 * Startup in Redwood City
-* Started with porker games, word games, war-style rpgs
+* Started with poker games, word games, war-style rpgs
 * Playdom: Social City, Sorority Life, Mobsters
 * WeeWorld: WeeMee Life
 * Facebook: Social Poker Life
@@ -753,5 +753,8 @@ game loop.
 ### PlayN for the Future
 
 Framework allows easy extension to new platforms. Takes any Java-based library
-and can compile it down to all platforms
+and can compile it down to all platforms.
+
+More native input abstractions, better asset managmeent and audio featutes,
+integration with other products
 
