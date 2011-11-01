@@ -498,3 +498,47 @@ Is audio your biggest issue?
 > engine architecture and asset pipeline, as well as the problems we ran into 
 > with the HTML5/WebGL platform and the workarounds we deployed. The second part 
 > is a classical post-mortem.
+
+### Engine Composition
+
+Behavior composition - built so that there were few dependencies between behaviors, and behaviors
+could be stacked
+
+Pass-by-referene - be careful of unintended references, where you may
+accidentally modify a value
+
+Use Chrome Profiler to help find places for optimization, but test 
+"optimizations" carefully
+
+Avoid creating temporary variables to reduce garbage collection pressure
+
+Keep in mind object typing; when using the "+" operator, for instance. 
+"1" + 1 = 11
+
+### WebGL
+
+WebGL doesn't use plugins, mostly cross browser (not IE), hardware 
+accellerated. SONAR was 2D, wanted to move to 3D
+
+#### Pros
+
+* Easy to use
+* [LearningWebGL.com](http://learningwebgl.com)
+* [WebGL Inspector](http://benvanik.github.com/WebGL-Inspector/) is awesome
+
+#### Cons
+
+* No DirectX 10+ or OpenGL 3+ features
+    * Geometry shaders, etc
+* Debugging is difficult
+    * Bad error reporting
+
+### Javascript's Design
+
+* Not originally designed for real-time applications
+* Needs fast SIMD Math for graphics, physics, and game logic
+* Real-time applications
+    * Hard; only have 16ms per frame for calculations
+    * Garbage collector is a killer
+    * Dynamic VBO updates are inefficient
+    * Offload as much as possible to the GPU
