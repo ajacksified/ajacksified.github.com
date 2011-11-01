@@ -861,3 +861,20 @@ App engine issues:
 * Max application file size is 150MB (use blobs)
     * Check for "206" response code when pulling blobs
     * Audio tags won't work properly
+
+### Q &amp; A
+
+With the issues you've had, if you went back in time, woudl you do it again?
+
+*Absolutely.*
+
+## Extreme Mobile HTML5 Graphics Performance by Sam Abadir
+
+*November 1, 5:05 - 5:25*
+
+> This short-form talk will discuss how to use hardware accelerated 
+> DirectCanvas to take games from 2 frames per second to 30. This will show you 
+> how to use DirectCanvas while running on mobile and deploy the same code to 
+> desktop browsers using the standard HTML5 Canvas.
+
+
