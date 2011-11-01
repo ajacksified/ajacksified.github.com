@@ -488,4 +488,13 @@ Is audio your biggest issue?
 
 *It is. We want awesome, synchronous audio in all browsers.*
 
+## SONAR - WebGL, JavaScript, and Gaming by Sean Middleditch and Jason Meisel 
 
+*November 1, 2:15 - 3:00*
+
+> SONAR is one of the first complete HTML5 games implemented with WebGL, 
+> targeting the Chrome platform via the Chrome Web Store. The first part of this 
+> talk covers the technical details of our development environment, including our 
+> engine architecture and asset pipeline, as well as the problems we ran into 
+> with the HTML5/WebGL platform and the workarounds we deployed. The second part 
+> is a classical post-mortem.
