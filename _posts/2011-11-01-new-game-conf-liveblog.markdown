@@ -89,4 +89,18 @@ Depth testing can increase performance dramatically, even in 2d apps.
 * Draw objects ordered by most expensive first; blending/clipping first
 * Sort scene ahead of time and maintain as sorted list of possible
 * Generate content that can be easily batched by merging buffers / textures
-
+* Draw opaque objects front-to-back, then layer on translucent objects back-to-front
+* Make sure to use index buffers, which enable additional GPU performance features 
+    like caching
+* Dynamically changing index buffers requires re-validation in WebGL. This is bad.
+* Always ask yourself: can this be a constant? Make it so.
+* Compute early, one matrix multiply on CPU is better than thousands on GPU
+* Estimate numbers; lower precision, prefer "close enough" to "perfect"
+* Lower level of detail (for example, for objects in the distance
+* Use mipmapping
+* Schedule math between sampling so that the GPU is not idle
+* Scale canvas to smaller and css to set width/height larger if you have a set
+  size
+* GPU hardware is massively parallel; use if possible
+* Pushing frames from GPU can cause stalls; try to spread updates across multiple frames.
+  Number of uploads don't matter, size of frames does.
