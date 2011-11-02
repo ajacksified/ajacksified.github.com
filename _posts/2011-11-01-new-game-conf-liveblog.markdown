@@ -879,6 +879,9 @@ With the issues you've had, if you went back in time, woudl you do it again?
 
 Sponsored by [AppMobi](http://appmobi.com)
 
+AppMobi is an alternate mobile browser that provides better canvas, sound, and
+other gamey things.
+
 * html5 was built for desktop, but mobile is more important
 * DirectCanvas is an html5 stop-gap
 * The DOM is your enemy; gets in the way of game rendering
@@ -895,4 +898,9 @@ Seperate:
 
 Communicate between contexts AppMobi.canvas.execute() or AppMobi.view.execute()
 
+DirectCanvas renders under the dom context, so dom shouldn't have background
+images, colors, etc.
 
+### Sound
+
+Supports multi-channel sound
