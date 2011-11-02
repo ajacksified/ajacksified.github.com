@@ -21,4 +21,6 @@ I've used images that people post to Twitter; *none of them are mine*. I've used
 small versions of the images and linked to the original posting.
 
 ##Keynote by Paul Bakaus
-*Nov 1, 9:00 - 10:00*
+*Nov 1, 9:00 - 9:45*
+
+
