@@ -102,5 +102,8 @@ Solves obvious-sounding but difficult problems with handling resolution /
 orientation. Handles dpi as well. Available for iOS and Android.
 
 #### [Scroller](https://github.com/zynga/scroller)
-Handles panning (not scrolling) for html / canvas.
+Handles panning (not scrolling) for html and canvas. 100% event-driven; only
+logic, does not apply any translations. Supports DOM, Canvas, SVG, and WebGL.
+Scrolling, zooming, snapping, and more.
+
 
