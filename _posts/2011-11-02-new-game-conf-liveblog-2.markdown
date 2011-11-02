@@ -42,6 +42,25 @@ Problem: game developers are way faster than browser developers.
   differently across browsers (some don't have multichannel, some restrict
   what can start sounds to user actions)
 * Device apis still missing: camera, file system, etc. Google is working
-  towards access with latest version of Android
+  towards access with latest version of Android. 20 device APIs available for
+  mobile safari, 1500 for native apps.
 * Debugging is difficult on mobile; good tools exist on desktop, especially
   webkit's debugger
+
+Canvas, right now, is really only being used for charts and graphs. It isn't
+applied to much more content; many games in production don't use canvas.
+
+WebGL demos look like old games; partially because hard computation must be
+done on CPU, in javascript. Another problem is that WebGL is a totally new
+language to be picked up; there's only really one big WebGL library,
+[three.js](https://github.com/mrdoob/three.js/).
+
+Games that are too realistic (3d) have trouble appealing to the wide audience
+that 2d games do.
+
+New good things:
+
+* WebSockets in iOS
+* Hardware-accelerated canvas
+* `webkit-overflow-scrolling: touch`
+
