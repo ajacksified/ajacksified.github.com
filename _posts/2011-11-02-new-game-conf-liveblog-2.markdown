@@ -204,3 +204,15 @@ Canvas performance:
   the main game canvas
 * Reduce total pixel count
 * Shadows are evil
+
+![Canvas Buffer Demo](http://desmond.yfrog.com/Himg876/scaled.php?tn=0&server=876&filename=5w7v.jpg&xsize=640&ysize=640 Canvas Buffer Demo)
+
+[source: @ajacksified](http://j.mp/tFT3IS )
+
+Desktop: Safari and IE9 have the best canvas performance; Chrome 14+ has 
+hardware rendering, FireFox catching up
+
+Mobile: iOS5 / iPad 2 is, by a huge margin, the best. iOS 4, Galaxy Tab 10.1,
+Playbook is far slower.
+
+
