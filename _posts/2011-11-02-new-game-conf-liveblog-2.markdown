@@ -64,3 +64,14 @@ New good things:
 * Hardware-accelerated canvas
 * `webkit-overflow-scrolling: touch`
 
+Theory 1: "good devs" don't want to learn html5
+Theory 2: Companes are scared to ditch IE < 9 from their supported platforms
+
+It isn't good to give people what they want on older browsers: they have no
+incentive to upgrade, and thus we are stuck with old, dead tech.
+
+> Try to come up with great new stuff that only works in modern browsers
+
+> Traditional game makers make people buy new hardware
+
+
