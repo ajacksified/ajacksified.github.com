@@ -588,9 +588,31 @@ Closure is a production-ready collection of tools:
 Collection of tools to help make consistent code, and gives the user the
 absolute minimum needed to run an app. 
 
+#### Optimizations
 The compiler helps concatenate dependencies and minimize unused paths to send
 to the client. Closure compiler reads the code to find its intent, to optimize
 execution paths and remove dead code.
 
+#### Typing
 Closure also figures out intent of code to provide type-switching for strings /
 integers (to avoid 1 + "1" = 11 type issues)
+
+#### Templates
+Template files are written seperately, and Closure reads these files and can
+quickly parse and return formatted text. Helps seperate language from templates
+for internationalization. Give template sections the `desc` attribute, and the
+closure compiler outputs XML files that can be localized.
+
+    {namespace template.typerunner}
+
+    {template .instructions}
+      <h1>{msg desc="TypeRunner}</h1>
+    {/template}
+
+#### Compiler Tips
+
+* JSDoc your code often; add comments to classes / methods
+* Look at [Closure Library](http://code.google.com/closure/library/) for examples for everything
+* Follow the [Google javascript guidelines](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+* gjslint early and often
+* Test in advanced mode often
