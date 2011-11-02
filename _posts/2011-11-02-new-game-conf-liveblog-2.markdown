@@ -88,4 +88,10 @@ full-blown titles with html5.
 
 Zynga's mission: connecting th eworld through games
 
+Driving:
+
+* W3C Participation
+* Dialog with browsers
+* Open-sourcing things ([github](https://github.com/zynga))
+
 
