@@ -629,4 +629,34 @@ code.
 
 ### Q &amp; A
 
+I found myself using uglifyjs because I wasn't willing to buy into some of the
+exports paradigms.
 
+*There are some minification and truncation things you can do at the local
+scope; but there aren't a ton of advantages of closure over other systems if
+you're just compiling your code with simple compliation. You'll want to use
+the other Closure offerings to really get the most out of optimizations.*
+
+How would one use Closure with unit testing systems?
+
+*Within the Closure compiler, there is a unit testing framework; if you're
+looking to using all Google libraries, you can use the framework within
+Closure.*
+
+I come from using RequireJS; the workflow is build code, optimize, then minify;
+can you run the Closure code without compiling anything?
+
+*You can run the code, if you run using a harness that includes the Closure
+libraries, but it's meant to be run as compiled. We do this to try to make
+browser testing easy, as you'll only need to include a single file. Compliation
+is very quick. The Compilation is good practice.*
+
+I've got a large project in javascript already with a bunch of jsdoc
+annotations; running it through Closure, I get a ton of warnings. What would
+you recommend to how I could produce my old documentation extensions to use
+with Closure compiler?
+
+*People have gone into the Closure code and done their own modifications to the
+compilation process; I'd recommend using the Google Closure linter and go step-
+by-step over your code to see if everything follows Google standards. I
+personally haven't done much modification there, but there are people who have.*
