@@ -699,3 +699,12 @@ forward
 
 Paladin aims to "weaponize" the web platform for 3D gaming by collaborating on
 tools, libraries, and open standards.
+
+### Gladius
+
+Game engine writen in js / html5. Relies on libraries for graphics and physics;
+graphics provided by [CubicVR.js](http://www.cubicvr.org/), and physics provided 
+by [ammo.js](https://github.com/kripken/ammo.js/). Built to encompass modern
+game engine design; modularity allows replacing chunks of functionality through
+interfaces. Also provides an entity component system, allowing developers to
+compose packages of components and extend the engine for specific games.
