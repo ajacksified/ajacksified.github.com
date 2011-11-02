@@ -123,3 +123,29 @@ Goal: hot swapping webgl / canvas / html
 ## Diving Deep into Canvas by Grant Skinner
 *November 2, 10:00 - 10:45*
 
+Dev shop was originally considered a flash development shop; was approached
+by Microsoft to see if they could build a fully html5 game for the IE9 launch.
+Built Priates Love Daisies, and had to build a lot of their own tools using 
+canvas.
+
+Talk will be about Canvs, and specifically 2D Context, and challenges and
+solutions; also, open-sourced lib [EaselJS](http://easeljs.com/).
+
+Canvas: html5 element specifically for dynamic drawing with multiple contexts.
+
+3D context: WebGL
+2D Context: vector, bitmap, and pixel graphics
+
+Canvas is broadly available (~80%), including mobile; consistently implemented,
+even between browsers. Easy to learn; increasingly performant with hardware
+acceleration.
+
+![Grant Skinner](http://desmond.yfrog.com/Himg863/scaled.php?tn=0&server=863&filename=2v8ts.jpg&xsize=480&ysize=480 "Grant Skinner")
+
+Canvas Libraries:
+* Processing.js
+* Three.js
+* Crafty.js
+* EaselJS
+
+
