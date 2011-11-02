@@ -478,3 +478,8 @@ Cheat where possible: all that matters is the end user experience. Estimate
 physics using spheres for all the things. (Assume a spherical cow...)
 
 Texture atlasses == CSS Sprites
+
+### New Demo: 'Odin'
+
+* WebGL game with lightmaps, normal maps, animations, skinning, shadow maps,
+  and shader preprocessors
