@@ -906,3 +906,4 @@ Resources:
 * Orientation lock - lock phone screen position
 * Hardware Feature Detect
 * High-performance timers
+* In-app bug reports ([crbug.com/83642](http://crbug.com/83642))
