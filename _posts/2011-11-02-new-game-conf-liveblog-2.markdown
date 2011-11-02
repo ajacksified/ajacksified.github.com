@@ -27,8 +27,11 @@ vouchers to order Chromebooks, which will be shipped to your house.
 ##Keynote by Paul Bakaus
 *Nov 1, 9:00 - 9:45*
 
-CEO of Zynga Germany, creator of jQuery UI, creator of Avis Engine; heads
+CEO of Zynga Germany, creator of jQuery UI, creator of Aves Engine; heads
 html5 initiatives in Zynga.
 
 Zynga is the world's leading social develop; 232M monthly active users. Played
 in over 166 countries in 17 languages.
+
+Paul started because there were no html5 game engines; nothing suited his
+needs, so he went out to create an engine. 
