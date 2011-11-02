@@ -483,3 +483,13 @@ Texture atlasses == CSS Sprites
 
 * WebGL game with lightmaps, normal maps, animations, skinning, shadow maps,
   and shader preprocessors
+* Works with COLLADA source assets
+* Open source on [Github](http://github.com/operasoftware/Odin)  
+
+*-- ed: the pictures don't do it justice; very smooth-looking 3D asset loading
+and editing.*
+
+!["Odin"](http://desmond.yfrog.com/Himg615/scaled.php?tn=0&server=615&filename=y7evky.jpg&xsize=640&ysize=640 "Odin")
+!["Odin"](http://desmond.yfrog.com/Himg532/scaled.php?tn=0&server=532&filename=hper.jpg&xsize=640&ysize=640 "Odin")
+
+
