@@ -874,4 +874,5 @@ Why so long?
 * Time to first draft: June 2011
 * W3C spec &amp; discussions
 * Coordination between WebKit teams
-* Security implications
+* Security implications, defining user experience
+* Permissions UI
