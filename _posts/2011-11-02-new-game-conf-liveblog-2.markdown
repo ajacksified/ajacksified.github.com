@@ -686,4 +686,16 @@ the New Game Conf coding contest.
 > running by the time of this talk, where I'll review our goals, progress, and 
 > opportunities to get involved.
 
+![Alan Kligman](http://desmond.yfrog.com/Himg740/scaled.php?tn=0&server=740&filename=atqog.jpg&xsize=640&ysize=640 "Alan Kligman")
 
+Started as the demo [Flight of the Navigator](http://mzl.la/fotn-ff) to push
+forward
+
+* FF Audio Data API
+* WebGL
+* Emscripten
+* JS Enahancements
+* Processing.js, Popcorn.js
+
+Paladin aims to "weaponize" the web platform for 3D gaming by collaborating on
+tools, libraries, and open standards.
