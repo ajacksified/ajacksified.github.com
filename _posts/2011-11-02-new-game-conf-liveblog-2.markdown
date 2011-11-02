@@ -261,4 +261,26 @@ performant, but we've seen the opposite.*
 
 [source: @ajacksified](http://j.mp/traja9 )
 
+Traditional game stores, iOS market, Android market limits distribution. html5
+provides distribution opportunities. Users don't care what technology something
+is built in; they just want to play.
+
+Company overview for [spilgames](http://www.spilgames.com/): spilgames is a 
+large-scale distribution platform with a focus on age-based audience;
+teens, girls, and family. 140M uniqe visitors a month, 19 different languages.
+Targets localization as part of the core game experience.
+
+* 85M of the 140M users are female
+* 2.5B page views / month
+* In companies:
+    * #1 in Brazil, Mexico, Indonesia, Argentina, Poland, Italy, Columbia,
+      and Sweden
+    * #1 in US for female game players
+* Split fairly evenly across continents
+* First company with html5 mobile game portal
+* Not a social network - socially available. Share high scores, achievements,
+  etc across social networks
+
+### Asia
+
 
