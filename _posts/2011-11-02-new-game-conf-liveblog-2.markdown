@@ -492,10 +492,12 @@ and editing.*
 !["Odin"](http://desmond.yfrog.com/Himg615/scaled.php?tn=0&server=615&filename=y7evky.jpg&xsize=640&ysize=640 "Odin")
 !["Odin"](http://desmond.yfrog.com/Himg532/scaled.php?tn=0&server=532&filename=hper.jpg&xsize=640&ysize=640 "Odin")
 
+<iframe width="853" height="480" src="http://www.youtube.com/embed/wlu9-3zMctM" frameborder="0" allowfullscreen></iframe>
+
 Took a video; not the best quality, and not very long, but you can see how
 smooth the animation is.
 
-<!--<iframe width="640" height="480" src="http://www.youtube.com/embed/IMNSnwNxRiQ" frameborder="0" allowfullscreen></iframe>-->
+
 
 WebGL allows you to specify vertex indeces; but Windows has performance issues.
 
