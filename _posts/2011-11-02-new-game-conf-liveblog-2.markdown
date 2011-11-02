@@ -125,6 +125,8 @@ Goal: hot swapping webgl / canvas / html
 ## Diving Deep into Canvas by Grant Skinner
 *November 2, 10:00 - 10:45*
 
+[slides](http://gskinner.com/talks)
+
 Dev shop was originally considered a flash development shop; was approached
 by Microsoft to see if they could build a fully html5 game for the IE9 launch.
 Built Priates Love Daisies, and had to build a lot of their own tools using 
@@ -237,4 +239,22 @@ Many display options:
 
 
 Future vision: non-display-dependent. Single API for WebGL, Canvas, DOM.
+
+### Q &amp; A
+
+How are you driving all of the animation?
+
+*You have three options; setinterval, settimeout, and requestanimationframe.
+We use settimeout or requestanimationframe; RAF is usually said to be more
+performant, but we've seen the opposite.*
+
+## The State of HTML5 Games in Asia by Robert Van Os &amp; Chen Qi
+*November 2, 11:00 - 11:45*
+
+> This talk will discuss markets in China, Japan, and South Korea. Spil Games 
+> is the first company to launch HTML5 mobile games in China and Japan, and we 
+> have extensive experience with daily operations and customer feedback. We'll 
+> discuss how HTML5 games make money in Asia -- and yes, they do make money! We 
+> focus on mobile, and we'll cover lessons learned from HTML5 mobile games.
+
 
