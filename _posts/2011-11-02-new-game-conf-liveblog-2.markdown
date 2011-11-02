@@ -324,6 +324,20 @@ have a local presence.
 
 ### Best Practices
 
+
+#### App Discovery
+
 > Don't just bet on an app store; be everywhere!
+
+* Only have one substantial Android market (the Google market; alternatives
+  such as the Amazon market exists, but splintering is an issue)
+* Huge Android market fragmentation
+* Apple has substantial userbase
+* Restricted open web; business licensing, government restrictions; many users
+  use start pages to begin with. Advertising can be done on these start pages,
+  but cost ramps up heavily over time. This is why owning your own portal is
+  key to success.
+
+*--ed: like old AOL's start page?*
 
 
