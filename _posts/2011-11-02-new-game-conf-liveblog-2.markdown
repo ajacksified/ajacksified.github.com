@@ -863,11 +863,12 @@ Desired features, built into the Audio API
 
 ### Upcoming Features
 
-* Mouse Lock
-    * [Web Events WG](http://www.w3.org/2010/webevents/)
-    * [Draft W3C Spec](http://dvcs.w3.org/hg/webevents/raw-file/default/mouse-lock.html)
-    * [crbug.com/72754](http://crbug.com/72754)
-    * [Pepper API sample: ppapi/examples/mouse\_lock](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/examples/mouse_lock/)
+#### Mouse Lock
+
+* [Web Events WG](http://www.w3.org/2010/webevents/)
+* [Draft W3C Spec](http://dvcs.w3.org/hg/webevents/raw-file/default/mouse-lock.html)
+* [crbug.com/72754](http://crbug.com/72754)
+* [Pepper API sample: ppapi/examples/mouse\_lock](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/examples/mouse_lock/)
 
 Why so long?
 
@@ -876,3 +877,32 @@ Why so long?
 * Coordination between WebKit teams
 * Security implications, defining user experience
 * Permissions UI
+
+#### Joystick API
+
+* W3C Draft Spec
+* crbug.com/79100
+
+#### WebRTC
+
+Plugin-free high quality real-time voice / video communication in the browser;
+BSD licensed
+
+Features:
+
+* Echo cancellation
+* Voice Engine
+* Video Engine
+* Peer-to-peer connection stack
+
+Resources:
+
+* [webrtc.org](http://webrtc.org)
+* [W3C Draft Spec](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
+
+
+#### Other Stuff
+
+* Orientation lock - lock phone screen position
+* Hardware Feature Detect
+* High-performance timers
