@@ -215,4 +215,10 @@ hardware rendering, FireFox catching up
 Mobile: iOS5 / iPad 2 is, by a huge margin, the best. iOS 4, Galaxy Tab 10.1,
 Playbook is far slower.
 
+Oft-requested features for EaselJS:
 
+* Draw boundaries
+* Fast shaders for canvas(see [css3 shaders](http://www.adobe.com/devnet/html5/articles/css-shaders.html))
+* quads / perspective / 2.5D (some kind of perspective distortion)
+* Drawing DOM elements
+* State introspection
