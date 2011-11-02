@@ -616,3 +616,17 @@ closure compiler outputs XML files that can be localized.
 * Follow the [Google javascript guidelines](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * gjslint early and often
 * Test in advanced mode often
+
+### Using closure
+
+Expose compiled code publicly using exports 
+`goog.exportSymbol('typerunner.TypeRunner')` allows you to define externally-
+usable things (to the window). Also, "externals" define what symbols should not
+be renamed during compilation.
+
+The gdream: turning good habits and quality code to well-optimized, obfuscated
+code.
+
+### Q &amp; A
+
+
