@@ -273,9 +273,9 @@ Targets localization as part of the core game experience.
 * 85M of the 140M users are female
 * 2.5B page views / month
 * In companies:
-    * #1 in Brazil, Mexico, Indonesia, Argentina, Poland, Italy, Columbia,
+    * # 1 in Brazil, Mexico, Indonesia, Argentina, Poland, Italy, Columbia,
       and Sweden
-    * #1 in US for female game players
+    * # 1 in US for female game players
 * Split fairly evenly across continents
 * First company with html5 mobile game portal
 * Not a social network - socially available. Share high scores, achievements,
