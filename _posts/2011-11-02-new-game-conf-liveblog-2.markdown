@@ -146,8 +146,6 @@ acceleration.
 
 Canvas Libraries:
 
-*screwed up lists again. will fix later.*
-
 * Processing.js
 * Three.js
 * Crafty.js
@@ -156,7 +154,8 @@ Canvas Libraries:
 EaselJS:
 
 * DisplayObject
-    * Shape &amp; Graphic
+    * Shape
+    * Graphic
     * Bitmap
     * Bitmapsequence
     * Text
@@ -184,3 +183,9 @@ Example:
     }
 
 
+Text in canvas is difficult; but, it can be overlaid with DOM elements which
+are good at handling text. The UI can be built in the DOM, the game engine
+in Canvas.
+
+CSS transforms allow the same math to transform the DOM that transforms the
+Canvas.
