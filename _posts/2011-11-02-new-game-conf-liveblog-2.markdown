@@ -708,3 +708,16 @@ by [ammo.js](https://github.com/kripken/ammo.js/). Built to encompass modern
 game engine design; modularity allows replacing chunks of functionality through
 interfaces. Also provides an entity component system, allowing developers to
 compose packages of components and extend the engine for specific games.
+
+#### CubicVR.js
+
+Written along-side three.js; has grown into its own 3D engine, seperate from
+but used in Gladius.
+
+Asset pipeline: use Blender for modeling / animation, with COLLADA export 
+with scene data in XML / json.
+
+### RescueFox
+
+First game prototype; quick and dirty demo, uses CubicVR.js and ammo.js. Helped
+to figure out how to interface with APIs.
