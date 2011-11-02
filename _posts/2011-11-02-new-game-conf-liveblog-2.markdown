@@ -449,4 +449,12 @@ Opera, Android browser, and Safari. It's open source on Github.
 
 ![Emberwind Demo](http://desmond.yfrog.com/Himg741/scaled.php?tn=0&server=741&filename=h97iqu.jpg&xsize=640&ysize=640 "Emberwind Demo")
 
+Emberwind has an in-game switch between canvas and WebGL, allowing testing
+either easily. Canvas renders in an off-screen buffer to emulate some WebGL
+features, so performance suffers somewhat.
+
+Emberwind has 8 audio channels. To make this flash free, sound sprites were
+used with multiple audio tags. Worked for Emberwind, which was fairly simple;
+looking forward to Audio API.
+
 
