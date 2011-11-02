@@ -770,4 +770,39 @@ WebSockets allow low-latency, full-duplex UTF8 communication to servers for
 realtime apps / games. Chrome 15 now supports binary, and UDP is being
 discussed for WebSockets.
 
+The asset pipeline is being improved with WebStorage, indexedDB, File API, and
+Application Cache APIs.
+
+File System API gives you a local, sandboxed filesystem to cache files such as
+binary blobs; is Chrome-only, but hopefully will be adopted by other browsers.
+It caches the entire app locally; is beneficial so that assets don't have to be
+loaded during gameplay.
+
+Add Cache Manifest file to specify files for caching; also allows fallback
+files in case user is disconnected. Chrome allows debugging cache through
+about:appCacheInternal. The Javascript console can also show what has been
+cached. [html5rocks](http://www.html5rocks.com/en/tutorials/appcache/beginner/)
+is a good resource.
+
+### New Things
+
+* Page Visibility API: detects if a user has the page in focus, to allow things
+  like pausing
+* Fullscreen API; allow fullscreen, chromeless apps; Chrome 16
+* Connection checking API; ability to detect if online or not.
+* requestAnimationFrame; allows better synchronization with CSS / SVG
+  animation, browser doesn't render if page is not in focus
+* Web Audio API; low-level audio API
+
+### Web Audio API
+
+Previously had `<bgsound "something.mid" >` and `<embed src="stuff.wav">`
+
+Now have audio, but:
+
+* Codec support varies across browsers
+* Latency issues
+* Glitches
+* No effects, filters, or other low-level manipulation
+
 
