@@ -495,7 +495,7 @@ and editing.*
 Took a video; not the best quality, and not very long, but you can see how
 smooth the animation is.
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/IMNSnwNxRiQ" frameborder="0" allowfullscreen></iframe>
+<!--<iframe width="640" height="480" src="http://www.youtube.com/embed/IMNSnwNxRiQ" frameborder="0" allowfullscreen></iframe>-->
 
 WebGL allows you to specify vertex indeces; but Windows has performance issues.
 
