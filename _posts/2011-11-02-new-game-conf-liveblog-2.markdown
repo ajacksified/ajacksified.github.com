@@ -145,12 +145,14 @@ acceleration.
 [source: @ajacksified](http://j.mp/uHmQ6i)
 
 Canvas Libraries:
+
 * Processing.js
 * Three.js
 * Crafty.js
 * EaselJS
 
 EaselJS:
+
 * DisplayObject
     * Shape &amp; Graphic
     * Bitmap
