@@ -94,4 +94,13 @@ Driving:
 * Dialog with browsers
 * Open-sourcing things ([github](https://github.com/zynga))
 
+### Open Source
+
+#### [Viewporter](https://github.com/zynga/viewporter)
+Triggers native resolution whenever it can, and watches device orientation.
+Solves obvious-sounding but difficult problems with handling resolution / 
+orientation. Handles dpi as well. Available for iOS and Android.
+
+#### [Scroller](https://github.com/zynga/scroller)
+Handles panning (not scrolling) for html / canvas.
 
