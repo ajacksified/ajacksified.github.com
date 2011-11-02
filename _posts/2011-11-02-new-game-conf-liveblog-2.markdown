@@ -420,6 +420,15 @@ Links:
 * [Emberwind home](http://www.timetrap.se/emberwind/index.php)
 * [Erik's blog](http://my.opera.com/emoller/blog/)
 
+![Erik Moller](http://desmond.yfrog.com/Himg739/scaled.php?tn=0&server=739&filename=vuomd.jpg&xsize=640&ysize=640 "Erik Moller")
 
+Twitter poll, checking who here is:
 
+* Traditional Console Developers (a few)
+* Traditional PC Game Developers (a few more)
+* Traditional Web Developers (most)
 
+> I used to work at this company where we had this one web developer, and we 
+> used to laugh at him.
+
+Web developement was a totally different set of skills from game development.
