@@ -283,4 +283,31 @@ Targets localization as part of the core game experience.
 
 ### Asia
 
+Focuses heavily on html5 on mobile. Two parts: game portal, and distribution
+network. Partners with local social networks like Baidu, Tencent. This allows
+for a much larger distribution. Was the first html5 mobile game portal in China
+and the first html5 game application in Mixi, the largest social network in
+Japan.
+
+Co-founded html5 dev community in China; 40k developers
+
+Huge number of mobile users in China;: US has 295M mobile users; China has 900M
+
+China has much smaller 3G penetration; Japan and South Korea has good penetration
+(Japan about the same as the US)
+
+Smartphones rapidly increasing in South Korea (40% of phones), Japan (10%)
+and China (4%). In 2015, 200M of phones will be smartphones. Japan will have
+over 76M. This means a *huge* potential market.
+
+Interacting with local social networks is crucial for html5 games; Facebook is
+very unpopular in Asian countries (blocked in China); small userbase in Japan,
+South Korea, etc. The top local social networks support html5 apps.
+
+From 2005 to 2009, microtransactions grew heavily as compared to purchasing
+software up-front. The market for virtual items is huge; USD$1.3B in sales
+on the DeNA network, $1-2B on Facebook, $0.6-1B on Zynga.
+
+> In Japan, there are more mobile users than PC users.
+
 
