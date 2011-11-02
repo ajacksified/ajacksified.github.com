@@ -665,7 +665,7 @@ personally haven't done much modification there, but there are people who have.*
 People got free O'Reilly books, Windows phones, and announced the winners of
 the New Game Conf coding contest.
 
-## An Initiative and Framework for 3D Gaming with HTML5 by Alan Kligman
+## An Initiative and Framework for 3D Gaming with HTML5 by Alan Kligman and Bobby Richter
 *Nov 2, 3:00 - 3:45*
 
 [Mozilla Paladin](https://wiki.mozilla.org/Paladin)
@@ -686,7 +686,7 @@ the New Game Conf coding contest.
 > running by the time of this talk, where I'll review our goals, progress, and 
 > opportunities to get involved.
 
-![Alan Kligman](http://desmond.yfrog.com/Himg740/scaled.php?tn=0&server=740&filename=atqog.jpg&xsize=640&ysize=640 "Alan Kligman")
+![Alan Kligman and Bobby Richter](http://desmond.yfrog.com/Himg740/scaled.php?tn=0&server=740&filename=atqog.jpg&xsize=640&ysize=640 "Alan Kligman and Bobby Richter")
 
 Started as the demo [Flight of the Navigator](http://mzl.la/fotn-ff) to push
 forward
@@ -721,3 +721,30 @@ with scene data in XML / json.
 
 First game prototype; quick and dirty demo, uses CubicVR.js and ammo.js. Helped
 to figure out how to interface with APIs.
+
+### Supporting APIs / Frameworks
+
+* [html5 api spec for gamepad support](http://moz.la/mozgamepad)
+* [BrowserID](https://browserid.org/)
+* Mouse-lock API 
+* Upcoming: Node editor for animations / composting
+
+Getting involved:
+* [Paladin Wiki](http://wiki.mozilla.org.Paladin)
+* #paladin on irc.mozilla.org
+* paladin-dev on Google Groups
+
+[@alankligman (Alan Kligman)](http://www.twitter.com/alankligman)
+[@secretrobotron (Bobby Richter)](http://www.twitter.com/secretrobotron)
+
+### Q &amp; A
+
+What are the biggest gaps you see in the WebGL API that prevent you from
+getting games ready?
+
+*We've been making do with what we have available today. There has been some
+noise about compressed textures, but all of CubicVR runs really well. We
+haven't seen any big gaps; things like compressed textures are nice to have,
+but WebGL is great for its 1.0 and I'm looking forward to the next revision.*
+
+
