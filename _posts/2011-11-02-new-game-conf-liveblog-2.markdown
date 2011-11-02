@@ -826,3 +826,18 @@ Desired features, built into the Audio API
 * AudioPannerNode gives 3d positioning of sounds
 * ConvolverNode, provides room ambience and other special effects
 * Node Graph - doppler effect
+
+### Behind the Scenes
+
+* 2008: early prototype built based on OpenAL
+* 2009: 
+    * June: API design, find limitations of OpenAL, look for good design for the 
+      web
+    * September: Webkit &amp; js bindings, demoed together with Box2D
+    * December: continued design work, presentation with Apple WebKit team
+ 2010:
+    * January: initial web audio integration; decisionon was made that web audio
+      work should be done on seperate branch
+    * May: Audio incubator with Mozilla Audio Data 
+    * September: redesign &amp; refactor, merge approval with WebKit
+    * Late 2010: merge with main webkit branch
