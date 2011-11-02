@@ -413,4 +413,11 @@ networks like Mixi?
 > of how Erik Möller took its 100,000 line C++ code-base and turned it into an 
 > HTML5 game running on desktop, mobile and even TVs!
 
+[Emberwind html5 (Github Pages)](http://operasoftware.github.com/Emberwind/)
+[Emberwind (Github source)](https://github.com/operasoftware/Emberwind)
+[Emberwind home](http://www.timetrap.se/emberwind/index.php)
+[Erik's blog](http://my.opera.com/emoller/blog/)
+
+
+
 
