@@ -142,10 +142,27 @@ acceleration.
 
 ![Grant Skinner](http://desmond.yfrog.com/Himg863/scaled.php?tn=0&server=863&filename=2v8ts.jpg&xsize=480&ysize=480 "Grant Skinner")
 
+[source: @ajacksified](http://j.mp/uHmQ6i)
+
 Canvas Libraries:
 * Processing.js
 * Three.js
 * Crafty.js
 * EaselJS
 
+EaselJS:
+* DisplayObject
+    * Shape &amp; Graphic
+    * Bitmap
+    * Bitmapsequence
+    * Text
+    * Container
+    * Stage
+* DOMElement
+* Ticker
+* ..more
 
+EaselJS isn't a game engine as much as a graphics library. Built to have good
+docs, as a generic visual-work-library, modular architecture for extended
+functionality, performant with minimal overhead, and open-sourced on Github
+with an MIT license
