@@ -114,11 +114,11 @@ sample state, vertex attributes, texture urls, etc.
 * Sorting by z-index is terrible for WebGL, which should be sorted by state, 
   then depth, by using the depth buffer
 
-Depth buffers can sort fragments per pixel; is relatively cheap for the PGU.
+Depth buffers can sort fragments per pixel; is relatively cheap for the GPU.
 Depth testing can increase performance dramatically, even in 2d apps.
 
 * Draw objects ordered by most expensive first; blending/clipping first
-* Sort scene ahead of time and maintain as sorted list of possible
+* Sort scene ahead of time and maintain as sorted list in app memory if possible
 * Generate content that can be easily batched by merging buffers / textures
 * Draw opaque objects front-to-back, then layer on translucent objects 
   back-to-front
@@ -139,10 +139,12 @@ Depth testing can increase performance dramatically, even in 2d apps.
   multiple frames.
   Number of uploads don't matter, size of frames does.
 * Double / triple buffer if possible; makes frame upload consistent
-* Decouple GPU and CPU; re-send GPU older data if CPU hasn't caught up yet
+* Decouple GPU and CPU; re-send GPU older data if CPU hasn't caught up yet. If
+  you perform the same translation sequence twice, re-send the old GPU data and
+  fake it.
 
 ###Conclusion
-Use tricks wisely; not all are useful everywhere. Start simple, test and
+Use there tricks wisely; not all are useful everywhere. Start simple, test and
 debug continuously.
 
 >  10:54 ajacksified_ I heard you like spinning cubes
@@ -153,18 +155,18 @@ debug continuously.
 
 [Relevant](http://webglsamples.googlecode.com/hg/newgame/2011/05-pipelining.html)
 
-### Q&amp;A
+### Q &amp; A
 
 When will be a good time to start using WebGL for clients?
 
 *You can begin to be it on it now. Consider progressive ehancement with canvas 
 fallbacks.*
 
-WebGL on Mobile, and battery life?
+How does WebGL affect mobile battery life?
 
 *WebGL is fairly similar to native code. It uses the GPU, and it will drain the
-battery more than straight CPU, but that's the tradeoff for more power.
-requestAnimationFrame helps.*
+battery more than jut using the CPU, but that's the tradeoff for more power.
+requestAnimationFrame helps because it throttles requests.*
 
 Does WebGL give you a way to use a secondary display?
 
@@ -181,7 +183,7 @@ Justin Quimbly: COO of Moblyng
 
 ### Moblyng
 
-* 13 html5 games
+* Developed 13 production html5 games
 * Startup in Redwood City
 * Started with poker games, word games, war-style rpgs
 * Playdom: Social City, Sorority Life, Mobsters
@@ -192,14 +194,13 @@ Justin Quimbly: COO of Moblyng
 
 Point of html5: accessibility to all devices
 
-Social games are a great fit for light, engaging games. Big market opportunity
+Social games are a great fit for light, engaging games. There is a big market opportunity
 and distribution opportunities in the mobile space, especially for people
-already on Facebook. These can be augmented with native apps, wrappers around
-the html5 games.
+already on Facebook. These can be augmented with native apps, which can be no more than
+wrappers around the html5 games.
 
 Products run on all devices, because of html5. Doesn't matter who "wins" the
 mobile OS war.
-
 
 > "How many of you building HTML5 games are targeting mobile?" Everyone raises 
 > their hand. #ngc11 Mobile HTML5 games = huge opportunity
@@ -212,7 +213,7 @@ Huge numbers of mobile, internet-connected devices being shipped.
 
 > There is a huge market for playing games on your refrigerator.
 
-* No canvas - too slow / unreliable. Uses javascript / css
+* No html5 `canvas` - too slow / unreliable. Moblyng uses javascript / css
 * Moblyng shell handles native hooks
 * Benefits of wrapper: native app in app stores for distribution and consumer
   access
@@ -232,6 +233,11 @@ Huge numbers of mobile, internet-connected devices being shipped.
 * Can't count on the same screen resolution; have desktop / tablet / phone
   versions
 
+> If you need super blazing-fast peformance, you're going to have to
+> write native code. Intense apps and light apps are different products for
+> different platforms.
+
+
 #### Discovery and Distrubtion
 
 * If nobody can find it, your product won't be successful
@@ -239,10 +245,10 @@ Huge numbers of mobile, internet-connected devices being shipped.
 
 ### Things to Avoid
 
-* Startup sounds - players are probably playign somewhere where they don't
-  want to be disturbed. Meetings, bathrooms, et.
+* App startup sounds - players are probably playign somewhere where they don't
+  want to be disturbed. Meetings, bathrooms, bed, etc.
 * Device orientation matters - portrait / landscape. Portrait's the way to go
-  to play games during the work day.
+  to play games during the work day. Discreetness!
 
 ### Things to Do
 
@@ -254,9 +260,9 @@ Huge numbers of mobile, internet-connected devices being shipped.
 
 ### Other Notes
 
-* Mobile metricks suck; cache clears on iOS power cycle, Android inconsistencies
-* Hard to verify
-* Better off rolling your own
+* Mobile metrics suck; cache clears on iOS power cycle, Android 
+  inconsistencies, hard to verify
+* Better off rolling your own metric solution
 * Work on great relationships with hardware manufacturers to test your app
   before new hardware/software releases to reduce surprise problems
 * General dev practices; source control, make dev / build / deployment systems 
@@ -287,7 +293,7 @@ respond to metrics and game mechancis updates.*
 
 What do you know about iOS vs Android users paying more?
 
-*It depends on the game type.*
+*It depends on the game type more than the platform.*
 
 Do you still target devices outside of Android and iOS?
 
@@ -350,13 +356,14 @@ then spend time automating tests.*
 > for game audio, integrating microtransactions and DLC, and a detailed look at 
 > graphics performance.
 
-Game developer at Bocoup in Bosten; did FB games at Blue Fang, foudned / ran
-game analytics middleware Orbus Gameworks, data analyst at Turbine on
+Darius Kazemi is a game developer at Bocoup in Bosten; did FB games at Blue Fang, 
+foudned / ran game analytics middleware Orbus Gameworks, data analyst at Turbine on
 MMORPGs.
 
-Fieldrunners released oct 2008, one of the first hit iOS games. Much more
+Fieldrunners was released oct 2008, one of the first hit iOS games. Much more
 polished, higher fidelity than other games. Was ported to Nintendo DSi, PSP,
-PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
+PS3, etc. Bocoup was contacted to convert it to html5 / Chrome Web Store, which
+began July 2011.
 
 * Took 12 weeks to port
 * 3 weeks prepro and testing
@@ -378,7 +385,7 @@ PS3, etc. Was contacted to bring to html5 / Chrome Web Store, began July 2011.
 
 ### Plan of Attack
 
-2-week milestones; built demos at end of milestones.
+2-week milestones; built demos at end of each milestone.
 
 * Milestone 1
     * Tech Design Doc
@@ -401,17 +408,17 @@ to WebGL; build sprite demo.
 Basic functionality came next; porting tower functionality, entities, particle
 system.
 
-Awesome particle effects made for rare units, like flame towers; mitigate
-performance issues by limiting number of special, GPU-heavy units.
+Awesome particle effects made for rare units, like flame towers; was able to
+mitigate performance issues by limiting number of special, GPU-heavy units.
 
-Took demo, packaged it up, hid private data, and posted it on blog to watch
+Took demo, packaged it up, cleaned off any private data, and posted it on blog to watch
 people's framerates in order to test on different configurations. Used
 Google Analytics event API to send framerate data for tracking through Google
 Analytics every 8th frame. Allowed comparision between browsers, operating
-systems, and other user breakdowns for average user framerate. Allowed
-framerate data *and* generated buzz about the game.
+systems, and other user breakdowns for average user framerate. Ended up gathering 
+framerate data *and* the demo generated buzz about the game.
 
-Target framerate was 30fps.
+The target framerate was 30fps.
 
 The next step was porting maps, enemies, and menus. Menus accounted for a
 majority of the work for this milestone. 
@@ -424,35 +431,28 @@ window size, and general responsiveness; setting up hosting and caching.
 
 ### Things Learned
 
-Cached requests dramatically reduced CPU Usage.
-
-Wrote a Python script for machine port; a big mess of regexes did a lot of the
-work, which was later cleaned up manually
-
-Used Web Audio APi for SFX, which was released with Chrome 14. HTML5 Audio was
-used for background music. Targetting Chrome specifically made this easy.
-
-Pack data into arrays where it makes sense
-
-Javascript Scope was generally a headache; use a good JSHint to help
-mitigate issues
-
-Fault Tolerance: sometimes http requests fail, resulting in a black screen.
-Attempt to load everything up to 3 times; test on a server that behaves in a
-faulty way; include heavily delayed responses as well (up to 500ms latency)
-
-In many situations, execution is dependent on content being loaded, such as
-menu screens. Wait for / chain onload events.
-
-Decision to launch only on Chrome makes sense in order to deliver a
-high-quality game in a timely manner. Pick two: browser reach, quality, or
-cost. 
+* Cached requests dramatically reduced CPU Usage.
+* Wrote a Python script for a machine port; a big mess of regexes did a lot of the
+  work, which was later cleaned up manually.
+* Used Web Audio APi for SFX, which was released with Chrome 14. HTML5 Audio was
+  used for background music. Targetting Chrome specifically made this easy.
+* Pack data into arrays where it makes sense.
+* Javascript scope was generally a headache; use a good JSHint to help
+  mitigate issues.
+* Fault Tolerance: sometimes http requests fail, resulting in a black screen.
+  Attempt to load everything up to 3 times; test on a server that behaves in a
+  faulty way; include heavily delayed responses as well (up to 500ms latency)
+* In many situations, execution is dependent on content being loaded, such as
+  menu screens. Wait for / chain onload events.
+* Decision to launch only on Chrome makes sense in order to deliver a
+  high-quality game in a timely manner. Pick two: browser reach, quality, or
+  cost. 
 
 ### Q &amp; A
 
 Is using WebGL Overkill?
 
-*We used WebGL because it was an easy port, our existing ames was built with
+*We used WebGL because it was an easy port; our existing game was built with
 OpenGL.*
 
 During the development, did you feel like WebGL was the best choice?
@@ -471,9 +471,9 @@ What three things did you take away, that you wish you knew before you started
 the project? Also, what can do we do to not have to compromise so much on the
 reach-quality-cost triange?
 
-*We need more compliance between browsers. Things like audio have to conform
+*We need more compliance between browsers. Features like audio have to conform
 to the lowest-common-denominoator between the platforms you're targetting.
-It would be great if everyone had the same standards, and that was a huge
+It would be great if everyone had the same standards; that was a huge
 stumbling block to getting it on more browsers. Having browsers that auto-
 update would be useful as well, so you know where users are at. As far as
 some takeaways- I wish I knew server management was as time-consuming
@@ -514,13 +514,13 @@ Use Chrome Profiler to help find places for optimization, but test
 
 Avoid creating temporary variables to reduce garbage collection pressure
 
-Keep in mind object typing; when using the "+" operator, for instance. 
+Keep in mind object typing in Javascript; when using the "+" operator, for instance. 
 "1" + 1 = 11
 
 ### WebGL
 
 WebGL doesn't use plugins, mostly cross browser (not IE), hardware 
-accellerated. SONAR was 2D, wanted to move to 3D
+accellerated. SONAR was 2D, wanted to move to 3D, so went with WebGL
 
 #### Pros
 
@@ -562,7 +562,7 @@ accellerated. SONAR was 2D, wanted to move to 3D
 
 ### Art pipeline
 
-Make blender -> game as easy as possible
+Make transition from blender -> game as easy as possible
 
 * Blender
     * Pros
@@ -594,7 +594,7 @@ Assets need to be built for menus, debugging, editors, etc. CSS3 can be used
 for advanced animations for interfaces.
 
 Rendering text in webgl is tricky; html overlays make it easy. Composite WebGL,
-html, and canvas.
+html, and canvas together in layers.
 
 Note: be wary of alpha on your webgl canvas. Also, moving 2D elements on top
 of WebGL can cause framerates to drop. There are simple fixes.
@@ -606,8 +606,8 @@ of WebGL can cause framerates to drop. There are simple fixes.
 * Triggger zones
 * Entitiy placement
 
-Seperate editor from game made testing slow; editor should have been built-in
-to the game
+Having a seperate editor from the game made testing slow; an editor should have 
+been built into the game.
 
 #### Technology
 
@@ -637,7 +637,7 @@ APIs that are on their way that are helpful:
 
 ### Q &amp; A
 
-What gave you the inspiration to make it a papercraft visually-styled game
+What gave you the inspiration to make it a papercraft visually-styled game?
 
 *It actually started as a graphics bug, where our charaters were flatfaced,
 and our designers really liked the idea.*
@@ -771,7 +771,7 @@ another project that imports the extra code."*
 What's compelling about this is that Java's a nice language. How do you do the
 compilation to, say, Flash?
 
-*It's different or each platform; it translates to legible actionscript, then
+*It's different on each platform; it translates to legible actionscript, then
 compiles a swf. It compiles into obfuscated Javascript, so it doesn't work
 that way always.*
 
@@ -905,3 +905,7 @@ images, colors, etc.
 ### Sound
 
 Supports multi-channel sound
+
+## The End
+
+Conference is over; time to head next door for Microsoft-sponsored open bar.
