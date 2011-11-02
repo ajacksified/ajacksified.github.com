@@ -324,7 +324,6 @@ have a local presence.
 
 ### Best Practices
 
-
 #### App Discovery
 
 > Don't just bet on an app store; be everywhere!
@@ -340,4 +339,19 @@ have a local presence.
 
 *--ed: like old AOL's start page?*
 
+#### Payments
 
+* Western: local payment methods, mobile payment methods like SMS, Offer-based
+  to target groups
+* Eastern: Credit cards unpopular (but rising); SMS payments popular
+
+#### Audience
+
+Localizing is more than just language; but also cultural differences.
+
+> In China, users may want to harvest rice; in Ireland, users may harvest 
+> potatoes
+
+Keep time zones in mind; peak hours for users is different. 4pm in China, where
+users play at the end of the work day; 7pm in Japan, where users play once they
+get home.
