@@ -536,5 +536,13 @@ When will Opera Mini (Mobile) have WebGL supprt?
 *All of the technology is made in core, and trickles down to the platform team;
 it will be in Opera 12 for the desktop, and will make its way down.*
 
+## Using Google Closure for Lean and Mean Javascript Projects by Richard Anaya
+*November 2, 2:00 - 2:45* 
+
+> Creating high quality optimized code in javascript has many challenges. Why 
+> not have a powerful tool by your side? This session will teach you about Google 
+> Closure: a powerful set of tools from Google to help make large javascript 
+> projects ( like game engines! ) easy to manage and optimize. We'll be talking 
+> about code optimization, localization, templates, and documentation.
 
 
