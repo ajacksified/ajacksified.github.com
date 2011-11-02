@@ -402,3 +402,7 @@ networks like Mixi?
 
 ## Lunch!
 *Nov 2, 11:45 - 1:00*
+
+![Lunch](http://yfrog.com/nwjmngj "Lunch")
+
+[source: @ajacksified](http://j.mp/vvCaSV)
