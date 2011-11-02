@@ -227,4 +227,4 @@ Tools for canvas:
 
 * Sprite sheets: Zoe, Flash Pro "Reuben", SWFSheet
 * Profiling: browser dev tools, system gauges
-* EaselJS Export panel
+* EaselJS Export panel (export from Flash to EaselJS / Canvas)
