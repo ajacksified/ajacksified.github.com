@@ -666,6 +666,8 @@ personally haven't done much modification there, but there are people who have.*
 
 [Mozilla Paladin](https://wiki.mozilla.org/Paladin)
 
+[Presentation](https://github.com/benrito/paladin_presentations/blob/master/Paladin_NewGame.pdf)
+
 > Paladin is an initiative by the Mozilla community at the intersection of 3D 
 > gaming, JavaScript framework and library development, and the browser. We're 
 > tied into the bits of the web that are up-and-coming, and intend to weaponize 
