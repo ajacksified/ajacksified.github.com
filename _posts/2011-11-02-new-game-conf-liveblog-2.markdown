@@ -74,4 +74,18 @@ incentive to upgrade, and thus we are stuck with old, dead tech.
 
 > Traditional game makers make people buy new hardware
 
+Reminder: html5 was created as a markup language to create documents.
+Not games. The W3C and WHATWG historically had no members from gaming
+companies.
+
+> Web devs are seldom good game devs, and vice versa
+
+html5 gaming is very painful but very fun.
+
+What we need most is creativity; we have capabilities and need to stop being
+lazy. We need AAA game devs as well to not just port games, but invent new 
+full-blown titles with html5.
+
+Zynga's mission: connecting th eworld through games
+
 
