@@ -35,3 +35,13 @@ in over 166 countries in 17 languages.
 
 Paul started because there were no html5 game engines; nothing suited his
 needs, so he went out to create an engine. 
+
+Problem: game developers are way faster than browser developers.
+
+* html5 audio: no common codecs across browsers, audio playback is restricted
+  differently across browsers (some don't have multichannel, some restrict
+  what can start sounds to user actions)
+* Device apis still missing: camera, file system, etc. Google is working
+  towards access with latest version of Android
+* Debugging is difficult on mobile; good tools exist on desktop, especially
+  webkit's debugger
