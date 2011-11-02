@@ -860,3 +860,18 @@ Desired features, built into the Audio API
 * Write your own code
 * File bugs ([crbugs.com](http://crbugs.com))
 * Talk to Developer Relations
+
+### Upcoming Features
+
+* Mouse Lock
+    * [Web Events WG](http://www.w3.org/2010/webevents/)
+    * [Draft W3C Spec](http://dvcs.w3.org/hg/webevents/raw-file/default/mouse-lock.html)
+    * [crbug.com/72754](http://crbug.com/72754)
+    * [Pepper API sample: ppapi/examples/mouse\_lock](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/examples/mouse_lock/)
+
+Why so long?
+
+* Time to first draft: June 2011
+* W3C spec &amp; discussions
+* Coordination between WebKit teams
+* Security implications
