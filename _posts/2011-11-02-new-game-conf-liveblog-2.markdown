@@ -492,4 +492,49 @@ and editing.*
 !["Odin"](http://desmond.yfrog.com/Himg615/scaled.php?tn=0&server=615&filename=y7evky.jpg&xsize=640&ysize=640 "Odin")
 !["Odin"](http://desmond.yfrog.com/Himg532/scaled.php?tn=0&server=532&filename=hper.jpg&xsize=640&ysize=640 "Odin")
 
+WebGL allows you to specify vertex indeces; but Windows has performance issues.
+
+### A &amp; Q
+
+Have you looked into shader preprocessing?
+
+*Not yet; I thought ours was a simple approach, bt I'm sure that there are
+better alternatives to what we used. If anyone has any suggestions, feel free
+to file bugs or fork the Github project.*
+
+How easy or difficult was it to use your art asset pipeline?
+
+*I had a couple of issues with COLLADA initially; the support is somewhat
+spotty, unless you're using a plugin. But, exporting to COLLADA and running
+a python script to output assets was pretty easy. It'll be easier once we get
+runtime conversion in.*
+
+The Odin demo, are you doing the animation in Javascript?
+
+*Yes, that's done in Javascript; some of the devices like set-top boxes can't
+handle too much work in the shaders.*
+
+You had 36k triangls in the Odin demo; what's a reasonable scene size?
+
+*There is a lot of difference in performance between the set-top boxes, mobile
+phones, and desktop boxes; it depends on the platform you are developing for.
+Javascript doesn't make much of a difference in performance; the layer is thin
+between the javascript and the driver.*
+
+Can you discuss the specs of the set-top box your Odin demo was for?
+
+*I'm not sure.*
+
+What was the process like converting from the 100k lines+ of C++ code? Was it
+automated?
+
+*It was all manual; we had the C++ source on one screen, and Javascript on
+another. It took three unexperienced interns two months to port everything.*
+
+When will Opera Mini (Mobile) have WebGL supprt?
+
+*All of the technology is made in core, and trickles down to the platform team;
+it will be in Opera 12 for the desktop, and will make its way down.*
+
+
 
