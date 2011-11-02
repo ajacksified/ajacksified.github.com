@@ -171,4 +171,16 @@ docs, as a generic visual-work-library, modular architecture for extended
 functionality, performant with minimal overhead, and open-sourced on Github
 with an MIT license
 
+Canvas does not have anything for motion tracking. Some libs ignore mouse
+movement, use tiles, or overlay DOM elements. EaselJS tracks specific pixels 
+for accurate movement. This is done by transforming everything to a flat system
+and manipulating pixel matrices.
+
+Example:
+
+    daisy.onPress = function(evt) {
+      evt.target.alpha = 0.5;
+      evt.onMouseMove = function(evt){ ... }
+    }
+
 
