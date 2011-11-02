@@ -805,4 +805,24 @@ Now have audio, but:
 * Glitches
 * No effects, filters, or other low-level manipulation
 
+When developing a low-level audio API, had many constraints:
 
+* Don't want to use javascript, which is busy doing other things (app logic)
+* Audio processing is more suited to CPU than GPU; many CPUs have audio
+  processing functions built-in. Also, not all devices have a GPU.
+
+Desired features, built into the Audio API
+
+* Long sounds can be streamed through an audio source
+* Javascript source nodes; you can generate wave forms in javascript
+* Sample-accurate scheduling
+* Gain control; allows cross-fading between channels
+* Filter effects; low-pass, high-pass, band-pass, low shelf, high shelf,
+  peaking / EQ
+* notch
+* allpass
+* DelayNode for chorus effects
+* DynamicCompressorNode for control / sweetening of the mix
+* AudioPannerNode gives 3d positioning of sounds
+* ConvolverNode, provides room ambience and other special effects
+* Node Graph - doppler effect
