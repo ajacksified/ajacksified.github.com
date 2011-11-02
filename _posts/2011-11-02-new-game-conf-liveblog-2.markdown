@@ -711,6 +711,8 @@ compose packages of components and extend the engine for specific games.
 
 #### CubicVR.js
 
+[Demos](https://github.com/cjcliffe/CubicVR.js/wiki/Examples-and-Demos)
+
 Written along-side three.js; has grown into its own 3D engine, seperate from
 but used in Gladius.
 
