@@ -273,9 +273,9 @@ Targets localization as part of the core game experience.
 * 85M of the 140M users are female
 * 2.5B page views / month
 * In companies:
-    * # 1 in Brazil, Mexico, Indonesia, Argentina, Poland, Italy, Columbia,
+    * \#1 in Brazil, Mexico, Indonesia, Argentina, Poland, Italy, Columbia,
       and Sweden
-    * # 1 in US for female game players
+    * \#1 in US for female game players
 * Split fairly evenly across continents
 * First company with html5 mobile game portal
 * Not a social network - socially available. Share high scores, achievements,
@@ -310,4 +310,7 @@ on the DeNA network, $1-2B on Facebook, $0.6-1B on Zynga.
 
 > In Japan, there are more mobile users than PC users.
 
-
+Regulation can be an issue - China has the "Great Firewall", which can make
+using cloud services difficult (or impossible.) You have to host your game from
+within China, with regulated licensing. Most sites are blocked by default in
+China; you have to have a license number on your website.
