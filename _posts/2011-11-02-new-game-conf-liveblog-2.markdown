@@ -314,3 +314,16 @@ Regulation can be an issue - China has the "Great Firewall", which can make
 using cloud services difficult (or impossible.) You have to host your game from
 within China, with regulated licensing. Most sites are blocked by default in
 China; you have to have a license number on your website.
+
+In order to deal with Korea, you also have to conform to Japanese regulations
+and deal with strict content regulations.
+
+You can use a communication service, but it can cause communication issues;
+speed of development and communication can become an issue. It's easier to
+have a local presence.
+
+### Best Practices
+
+> Don't just bet on an app store; be everywhere!
+
+
