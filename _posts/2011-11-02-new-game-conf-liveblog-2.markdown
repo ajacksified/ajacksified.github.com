@@ -114,3 +114,14 @@ and multi-channel constraints; can pause / resume background audio if there
 is a cosntraint around number of channels. Used in Zynga's production code
 
 
+You have to be agile about development; techniques that helped performance
+years ago no longer do. For example, direct DOM manip is now faster than
+innerHTML, and inline styles don't cuser performance penalties.
+
+Goal: hot swapping webgl / canvas / html
+
+> Let's work together to make 2012 the year of html5 gaming.
+
+## Diving Deep into Canvas by Grant Skinner
+*November 2, 10:00 - 10:45*
+
