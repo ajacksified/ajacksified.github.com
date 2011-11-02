@@ -786,6 +786,8 @@ is an option during Android compilation.*
 
 *Nov 1, 4:15 - 5:00*
 
+[Slides](http://www.mandreel.com/downloads/From_Apple_Store_to_Chrome_Web_Store.pdf)
+
 > This talk covers our experience porting more than 7 iOS games to the Chrome 
 > Web Store. Topics discussed include: using Mandreel to convert C++ into 
 > JavaScript, using Google App Engine to host applications, saving data in the 
