@@ -457,4 +457,24 @@ Emberwind has 8 audio channels. To make this flash free, sound sprites were
 used with multiple audio tags. Worked for Emberwind, which was fairly simple;
 looking forward to Audio API.
 
+Built-in debugger that shows canvas layers being built one-at-a-time. WebGL was
+far more efficient than Canvas, and can draw most of the screen in a single
+draw call; this was made easier by using texture atlases.
 
+### Lessons Learned
+
+Porting javascript was easy.
+
+*--ed: probably because Javacript rocks.*
+
+Time invested in tools for the rest of the team was a good investment. The
+designer was able to go away for a couple weeks, and return with a mostly-
+completed game. But do this pragmatically - particle effects were easier to
+hardcode.
+
+Reduce draw cals and state changes as much as possible.
+
+Cheat where possible: all that matters is the end user experience. Estimate
+physics using spheres for all the things. (Assume a spherical cow...)
+
+Texture atlasses == CSS Sprites
