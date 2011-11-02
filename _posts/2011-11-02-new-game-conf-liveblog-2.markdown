@@ -20,7 +20,16 @@ Also also check out [New Game Conf Quotes](http://newgameconf.qotr.net/Quotes/Li
 I've used images that people post to Twitter; *none of them are mine*. I've used
 small versions of the images and linked to the original posting.
 
+## Notes on Chromebooks
+Non-US residents will pick up physical devices. US residents will receive
+vouchers to order Chromebooks, which will be shipped to your house.
+
 ##Keynote by Paul Bakaus
 *Nov 1, 9:00 - 9:45*
+
+CEO of Zynga Germany, creator of jQuery UI, creator of Avis Engine
+
+
+
 
 
