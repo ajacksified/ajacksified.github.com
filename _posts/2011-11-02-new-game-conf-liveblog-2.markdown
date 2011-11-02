@@ -310,6 +310,9 @@ on the DeNA network, $1-2B on Facebook, $0.6-1B on Zynga.
 
 > In Japan, there are more mobile users than PC users.
 
+> ARPU in Japan for DeNA network is 15x that of Zynga. Wow. #ngc11
+[source: @kentquirk](http://j.mp/sGbryd)
+
 Regulation can be an issue - China has the "Great Firewall", which can make
 using cloud services difficult (or impossible.) You have to host your game from
 within China, with regulated licensing. Most sites are blocked by default in
@@ -369,4 +372,14 @@ English. Language is much more fragmented in Eastern markets.
   of Android isn't available.
 * Android marketshare in Korea is 70% (10M); smaller but growing in Japan and China
   (5% [5M] and 2% [20M])
+* Chinese and Japanese users are used to playing games in portrait mode
+* Many users play games as convenient, with one hand (on the train, etc.)
+
+Still some challenges:
+
+* html5 audio
+* canvas performance
+* saving data traffic for users
+* browser adoption is high, but user adoption of new browsers is low
+
 
