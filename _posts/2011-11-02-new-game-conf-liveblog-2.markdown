@@ -150,10 +150,10 @@ acceleration.
 
 Canvas Libraries:
 
-* Processing.js
-* Three.js
-* Crafty.js
-* EaselJS
+* [Processing.js](http://processingjs.org/)
+* [Three.js](https://github.com/mrdoob/three.js/)
+* [Crafty.js](http://craftyjs.com)
+* [EaselJS](http://easeljs.com/)
 
 EaselJS:
 
