@@ -422,6 +422,8 @@ Links:
 
 ![Erik Moller](http://desmond.yfrog.com/Himg739/scaled.php?tn=0&server=739&filename=vuomd.jpg&xsize=640&ysize=640 "Erik Moller")
 
+[source: @ajacksified](http://j.mp/s8BrS7)
+
 Twitter poll, checking who here is:
 
 * Traditional Console Developers (a few)
@@ -432,3 +434,8 @@ Twitter poll, checking who here is:
 > used to laugh at him.
 
 Web developement was a totally different set of skills from game development.
+
+AAA titles saturate both GPU and CPU; unlikely to see AAA titles in html5
+soon due to the level of abstraction for html5.
+
+
