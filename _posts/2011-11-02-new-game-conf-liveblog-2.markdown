@@ -438,4 +438,15 @@ Web developement was a totally different set of skills from game development.
 AAA titles saturate both GPU and CPU; unlikely to see AAA titles in html5
 soon due to the level of abstraction for html5.
 
+Goal was to convert Emberwind to html5, totally flash-free. It's valuable for
+Opera to develop an application with their own technology, just like a game
+console company would never build a console without testing it out with their
+own software. It also helps find bugs, and determine what needs to be
+optimized.
+
+Emberwind has been tested in IE, FF, Chrome, Safari, and Opera;  on mobile,
+Opera, Android browser, and Safari. It's open source on Github. 
+
+![Emberwind Demo](http://desmond.yfrog.com/Himg741/scaled.php?tn=0&server=741&filename=h97iqu.jpg&xsize=640&ysize=640 "Emberwind Demo")
+
 
