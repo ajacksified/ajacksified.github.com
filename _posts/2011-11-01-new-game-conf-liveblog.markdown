@@ -880,7 +880,8 @@ With the issues you've had, if you went back in time, woudl you do it again?
 Sponsored by [AppMobi](http://appmobi.com)
 
 AppMobi is an alternate mobile browser that provides better canvas, sound, and
-other gamey things.
+other gamey things. Supports ImpactJS and PhoneGap, and apps can be packaged
+with AppMobi to provide things like phone vibration.
 
 * html5 was built for desktop, but mobile is more important
 * DirectCanvas is an html5 stop-gap
