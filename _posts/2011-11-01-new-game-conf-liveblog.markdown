@@ -877,4 +877,22 @@ With the issues you've had, if you went back in time, woudl you do it again?
 > how to use DirectCanvas while running on mobile and deploy the same code to 
 > desktop browsers using the standard HTML5 Canvas.
 
+Sponsored by [AppMobi](http://appmobi.com)
+
+* html5 was built for desktop, but mobile is more important
+* DirectCanvas is an html5 stop-gap
+* The DOM is your enemy; gets in the way of game rendering
+
+Found that DirectCanvas had an average performance increase of 500% vs.
+normal canvas by bypassing the DOM with DirectCanvas
+
+### Using DirectCanvas
+
+Seperate:
+
+1. DOM context (menuing, page layout)
+2. DirectCanvas context (gameplay renddering)
+
+Communicate between contexts AppMobi.canvas.execute() or AppMobi.view.execute()
+
 
