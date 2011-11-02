@@ -6,6 +6,7 @@ permalink: /2011/11/new-game-conf-liveblog-2/index.html
 categories:
 - html5
 ---
+[Day 1](http://thejacklawson.com/2011/11/new-game-conf-liveblog/index.html)
 
 This is a live blog for the second official day of 
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
@@ -189,3 +190,8 @@ in Canvas.
 
 CSS transforms allow the same math to transform the DOM that transforms the
 Canvas.
+
+Integrating web technologies, like DOM and web APIs, allow you to add more than
+what is traditionally possible with games.
+
+

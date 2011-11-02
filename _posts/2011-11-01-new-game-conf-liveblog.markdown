@@ -7,6 +7,8 @@ categories:
 - html5
 ---
 
+[Day 2](http://thejacklawson.com/2011/11/new-game-conf-liveblog-2/index.html)
+
 This is a live blog for the first official day of 
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
 the presentations, and clean up grammar / confusing structures during breaks.
