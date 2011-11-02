@@ -205,7 +205,7 @@ Canvas performance:
 * Reduce total pixel count
 * Shadows are evil
 
-![Canvas Buffer Demo](http://desmond.yfrog.com/Himg876/scaled.php?tn=0&server=876&filename=5w7v.jpg&xsize=640&ysize=640 Canvas Buffer Demo)
+![Canvas Buffer Demo](http://a.yfrog.com/img876/8541/5w7v.jpg Canvas Buffer Demo)
 
 [source: @ajacksified](http://j.mp/tFT3IS )
 
@@ -222,3 +222,9 @@ Oft-requested features for EaselJS:
 * quads / perspective / 2.5D (some kind of perspective distortion)
 * Drawing DOM elements
 * State introspection
+
+Tools for canvas: 
+
+* Sprite sheets: Zoe, Flash Pro "Reuben", SWFSheet
+* Profiling: browser dev tools, system gauges
+* EaselJS Export panel
