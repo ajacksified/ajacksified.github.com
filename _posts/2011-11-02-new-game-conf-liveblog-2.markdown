@@ -546,10 +546,33 @@ it will be in Opera 12 for the desktop, and will make its way down.*
 ## Using Google Closure for Lean and Mean Javascript Projects by Richard Anaya
 *November 2, 2:00 - 2:45* 
 
+[@richard\_anaya](http://www.twitter.com/richard_anaya)
+
 > Creating high quality optimized code in javascript has many challenges. Why 
 > not have a powerful tool by your side? This session will teach you about Google 
 > Closure: a powerful set of tools from Google to help make large javascript 
 > projects ( like game engines! ) easy to manage and optimize. We'll be talking 
 > about code optimization, localization, templates, and documentation.
 
+
+![Richard Anaya](http://desmond.yfrog.com/Himg739/scaled.php?tn=0&server=739&filename=buvhb.jpg&xsize=640&ysize=640 "Richard Anaya")
+
+How do you build a large project with quality code that is maintainable over time?
+
+We're trying to figure out how to use modern technology; modern compilers,
+design patterns. We're trying to bring large, bold ideas to the web with code
+that is increasingly complex; and we want to be proud of clean, elegant code.
+
+### Javascript
+
+* Good
+    * Speedy
+    * No types; dynamicness lends to rapid development
+    * OOP through prototypes
+    * Cross-platforms
+* Bad
+    * No types; less compile-time checking
+    * Inconsistencies across browsers
+    * Little help for organization *--ed: RequireJS / AMD?*
+    * Code is an open book; minifiers only help so much
 
