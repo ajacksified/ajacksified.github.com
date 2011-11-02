@@ -764,3 +764,10 @@ forward standards and help make html5 better.
 
 Good resouce: [caniuse.com](http://caniuse.com)
 
+Graphics, physics improving rapidly; WebGL is pushing 3D graphics forward.
+
+WebSockets allow low-latency, full-duplex UTF8 communication to servers for
+realtime apps / games. Chrome 15 now supports binary, and UDP is being
+discussed for WebSockets.
+
+
