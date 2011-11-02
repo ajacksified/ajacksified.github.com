@@ -757,4 +757,10 @@ but WebGL is great for its 1.0 and I'm looking forward to the next revision.*
 > on games. This talk is going to showcase some very recent and still-in-progress 
 > features, including a long look at the Web Audio API.
 
+![Rachel Blum](http://desmond.yfrog.com/Himg576/scaled.php?tn=0&server=576&filename=jwcx.jpg&xsize=640&ysize=640 "Rachel Blum")
+
+Goal: develop on single platform. Moved to Chrome for the ability to push
+forward standards and help make html5 better.
+
+Good resouce: [caniuse.com](http://caniuse.com)
 
