@@ -660,3 +660,24 @@ with Closure compiler?
 compilation process; I'd recommend using the Google Closure linter and go step-
 by-step over your code to see if everything follows Google standards. I
 personally haven't done much modification there, but there are people who have.*
+
+## An Initiative and Framework for 3D Gaming with HTML5 by Alan Kligman
+*Nov 2, 3:00 - 3:45*
+
+[Mozilla Paladin](https://wiki.mozilla.org/Paladin)
+
+> Paladin is an initiative by the Mozilla community at the intersection of 3D 
+> gaming, JavaScript framework and library development, and the browser. We're 
+> tied into the bits of the web that are up-and-coming, and intend to weaponize 
+> them for gaming. And where the web is missing critical gaming support, we aim 
+> to fill those gaps.
+> 
+> Three pieces are already spinning up: a framework written in JavaScript to 
+> support 3D gaming in HTML5, a first game to help drive development of that 
+> framework, and a web joystick API for Firefox. The framework currently offers 
+> 3D modelling via CubicVR, physics by ammo.js (a cross-compilation of Bullet), 
+> loading via require.js, and sound. More subsystems are likely to be up and 
+> running by the time of this talk, where I'll review our goals, progress, and 
+> opportunities to get involved.
+
+
