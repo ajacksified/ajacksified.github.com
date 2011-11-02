@@ -661,12 +661,16 @@ compilation process; I'd recommend using the Google Closure linter and go step-
 by-step over your code to see if everything follows Google standards. I
 personally haven't done much modification there, but there are people who have.*
 
+## Prizes and stuff
+People got free O'Reilly books, Windows phones, and announced the winners of
+the New Game Conf coding contest.
+
 ## An Initiative and Framework for 3D Gaming with HTML5 by Alan Kligman
 *Nov 2, 3:00 - 3:45*
 
 [Mozilla Paladin](https://wiki.mozilla.org/Paladin)
 
-[Presentation](https://github.com/benrito/paladin_presentations/blob/master/Paladin_NewGame.pdf)
+[Presentation Slides](https://github.com/benrito/paladin_presentations/blob/master/Paladin_NewGame.pdf)
 
 > Paladin is an initiative by the Mozilla community at the intersection of 3D 
 > gaming, JavaScript framework and library development, and the browser. We're 
