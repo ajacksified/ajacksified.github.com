@@ -257,4 +257,8 @@ performant, but we've seen the opposite.*
 > discuss how HTML5 games make money in Asia -- and yes, they do make money! We 
 > focus on mobile, and we'll cover lessons learned from HTML5 mobile games.
 
+![Robert Van Os, Chen Qi](http://desmond.yfrog.com/Himg861/scaled.php?tn=0&server=861&filename=83858346.jpg&xsize=640&ysize=640)
+
+[source: @ajacksified](http://j.mp/traja9 )
+
 
