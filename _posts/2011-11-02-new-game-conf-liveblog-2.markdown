@@ -146,6 +146,8 @@ acceleration.
 
 Canvas Libraries:
 
+*screwed up lists again. will fix later.*
+
 * Processing.js
 * Three.js
 * Crafty.js
@@ -168,3 +170,5 @@ EaselJS isn't a game engine as much as a graphics library. Built to have good
 docs, as a generic visual-work-library, modular architecture for extended
 functionality, performant with minimal overhead, and open-sourced on Github
 with an MIT license
+
+
