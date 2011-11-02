@@ -107,8 +107,6 @@ logic, does not apply any translations. Supports DOM, Canvas, SVG, and WebGL.
 Scrolling, zooming, snapping, and more. Extremely performant.
 
 #### [Jukebox](https://github.com/zynga/jukebox)
-*Note: link pending activation as of Nov. 2 9:41AM PST (-07:00)*
-
 Jukebox handles audio by dealing with sound sprites simple. Works around iOS
 and multi-channel constraints; can pause / resume background audio if there
 is a cosntraint around number of channels. Used in Zynga's production code
