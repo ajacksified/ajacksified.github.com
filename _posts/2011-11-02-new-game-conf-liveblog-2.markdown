@@ -382,4 +382,23 @@ Still some challenges:
 * saving data traffic for users
 * browser adoption is high, but user adoption of new browsers is low
 
+### spilgames Offerings
 
+* Global infastructure platform
+* Feature detection API
+* Localization support
+* Authentication
+* Payments
+* Hosting
+* Social graph (Friends, events, notifications); can cross-post across social
+  networks
+
+### Q &amp; A
+
+In 2011, are you seeing more Facebook penetration (in comparison to existing
+networks like Mixi?
+
+*No. It's not taking over nearly as rapidly as other networks we've seen.*
+
+## Lunch!
+*Nov 2, 11:45 - 1:00*
