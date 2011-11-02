@@ -355,3 +355,18 @@ Localizing is more than just language; but also cultural differences.
 Keep time zones in mind; peak hours for users is different. 4pm in China, where
 users play at the end of the work day; 7pm in Japan, where users play once they
 get home.
+
+In Western cultures, you can usually get away with games in English in
+non-English countries (France, Spain, etc.) because most people understand
+English. Language is much more fragmented in Eastern markets.
+
+### Tips
+
+* Compatibility issues exist, but as Android upgrades come along, it gets much 
+  better (specifically with Android 2.3.
+* Lots of difference between iOS and Android; find a balance between
+  functionality and user experience. For example, multi-touch in older versions
+  of Android isn't available.
+* Android marketshare in Korea is 70% (10M); smaller but growing in Japan and China
+  (5% [5M] and 2% [20M])
+
