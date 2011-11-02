@@ -835,9 +835,28 @@ Desired features, built into the Audio API
       web
     * September: Webkit &amp; js bindings, demoed together with Box2D
     * December: continued design work, presentation with Apple WebKit team
- 2010:
+* 2010:
     * January: initial web audio integration; decisionon was made that web audio
       work should be done on seperate branch
     * May: Audio incubator with Mozilla Audio Data 
     * September: redesign &amp; refactor, merge approval with WebKit
     * Late 2010: merge with main webkit branch
+* 2011:
+    * Early:
+        * W3C Audio Group
+        * Chrome 10: OSX Web Audio behind a flag
+        * Lots of porting
+        * Chrome 12 brought on Windows and Linux
+        * [Plink](http://labs.dinahmoe.com/plink/)
+    * Late:
+        * September: Chrome 14 exposes Web Audio by default
+        * October: [AudioJedit](http://audiojedit.herokuapp.com/), sample 
+          editor in html5 w/ Web Audio API
+        * October: Apple enables Web Audio in nightlies
+
+### Participation
+
+* Participate in W3C Groups
+* Write your own code
+* File bugs ([crbugs.com](http://crbugs.com))
+* Talk to Developer Relations
