@@ -73,7 +73,8 @@ incentive to upgrade, and thus we are stuck with old, dead tech.
 
 > Try to come up with great new stuff that only works in modern browsers
 
-> Traditional game makers make people buy new hardware
+> Traditional game devs get people to buy new hardware, and web devs can't 
+> even get users to install free software.
 
 Reminder: html5 was created as a markup language to create documents.
 Not games. The W3C and WHATWG historically had no members from gaming
@@ -194,4 +195,12 @@ Canvas.
 Integrating web technologies, like DOM and web APIs, allow you to add more than
 what is traditionally possible with games.
 
+Canvas performance: 
 
+* Redraw only when / what is needed. 
+* Choose a reasonable framerate. Consistency is more important than speed.
+* Minimize vector and text draws
+* Draw to offscreen canvases to cache, then pull in the static canvases into
+  the main game canvas
+* Reduce total pixel count
+* Shadows are evil
