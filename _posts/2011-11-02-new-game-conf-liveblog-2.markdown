@@ -403,6 +403,14 @@ networks like Mixi?
 ## Lunch!
 *Nov 2, 11:45 - 1:00*
 
-![Lunch](http://yfrog.com/nwjmngj "Lunch")
+![Lunch](http://desmond.yfrog.com/Himg860/scaled.php?tn=0&server=860&filename=jmng.jpg&xsize=640&ysize=640 "Lunch")
 
 [source: @ajacksified](http://j.mp/vvCaSV)
+
+## Porting Emberwind to HTML5 by Erik Moller
+
+> Emberwind is a platform game published on Win/Mac/iOS. This talk is the story 
+> of how Erik Möller took its 100,000 line C++ code-base and turned it into an 
+> HTML5 game running on desktop, mobile and even TVs!
+
+
