@@ -576,3 +576,21 @@ that is increasingly complex; and we want to be proud of clean, elegant code.
     * Little help for organization *--ed: RequireJS / AMD?*
     * Code is an open book; minifiers only help so much
 
+### Google Closure
+
+Closure is a production-ready collection of tools:
+
+* Closure Compiler
+* Closure library (jQuery-like library)
+* Closure templates (high-performance templates)
+* Closure Linter (style checking)
+
+Collection of tools to help make consistent code, and gives the user the
+absolute minimum needed to run an app. 
+
+The compiler helps concatenate dependencies and minimize unused paths to send
+to the client. Closure compiler reads the code to find its intent, to optimize
+execution paths and remove dead code.
+
+Closure also figures out intent of code to provide type-switching for strings /
+integers (to avoid 1 + "1" = 11 type issues)
