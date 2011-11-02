@@ -847,7 +847,7 @@ Desired features, built into the Audio API
         * Chrome 10: OSX Web Audio behind a flag
         * Lots of porting
         * Chrome 12 brought on Windows and Linux
-        * [Plink](http://labs.dinahmoe.com/plink/)
+        * [Plink](http://labs.dinahmoe.com/plink/) and [ToneCraft](http://www.chromeexperiments.com/detail/tonecraft/)
     * Late:
         * September: Chrome 14 exposes Web Audio by default
         * October: [AudioJedit](http://audiojedit.herokuapp.com/), sample 
@@ -907,3 +907,22 @@ Resources:
 * Hardware Feature Detect
 * High-performance timers
 * In-app bug reports ([crbug.com/83642](http://crbug.com/83642))
+
+### Q &amp; A
+
+You mentioned that indexDB isn't suitable for putting in large binary assets;
+why's that?
+
+*Let me rephrase that: you can do that, but it seems like it's overkill. You
+don't need a transactional database to hold game data. I don't have any
+performance numbers, but it seems like it would be slower than raw file access.*
+
+I'd like to hear a little more around your thought process around the 
+variability of hardware, and how performance is managed. PC games have 
+come up with some solutions, like minimum specs. Can we use that model?
+
+*I think we can do some things, but we can't actually spec out what exactly
+you would need to run a web app. The amount of devices is so vast that any
+specs are unlikely to be accurate. You might be able to say what features you
+support, that a device needs to support those features - but not a hardware
+performance requirement.*
