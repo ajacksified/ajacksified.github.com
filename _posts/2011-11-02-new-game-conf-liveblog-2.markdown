@@ -205,7 +205,7 @@ Canvas performance:
 * Reduce total pixel count
 * Shadows are evil
 
-![Canvas Buffer Demo](http://desmond.yfrog.com/Himg876/scaled.php?tn=0&server=876&filename=5w7v.jpg&xsize=640&ysize=640 Canvas Buffer Demo)
+![Canvas Buffer Demo](http://desmond.yfrog.com/Himg876/scaled.php?tn=0&server=876&filename=5w7v.jpg&xsize=640&ysize=640 "Canvas Buffer Demo")
 
 [source: @ajacksified](http://j.mp/tFT3IS )
 
@@ -234,3 +234,7 @@ Many display options:
 * SVG/DOM: ill-suited for interactive, performance-depenent games
 * WebGL: Fast, but new, and steep learning curve
 * Canvas: Ubiqutious, consistent, but lacks tools
+
+
+Future vision: non-display-dependent. Single API for WebGL, Canvas, DOM.
+
