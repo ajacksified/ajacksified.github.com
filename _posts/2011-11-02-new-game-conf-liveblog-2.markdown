@@ -415,6 +415,7 @@ networks like Mixi?
 
 Links: 
 
+* [Slides](http://t.co/q1qMP1Yd)
 * [Emberwind html5 (Github Pages)](http://operasoftware.github.com/Emberwind/)
 * [Emberwind (Github source)](https://github.com/operasoftware/Emberwind)
 * [Emberwind home](http://www.timetrap.se/emberwind/index.php)
