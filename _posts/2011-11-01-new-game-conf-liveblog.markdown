@@ -25,6 +25,8 @@ Also also check out [New Game Conf Quotes](http://newgameconf.qotr.net/Quotes/Li
 I've used images that people post to Twitter; *none of them are mine*. I've used
 small versions of the images and linked to the original posting.
 
+Some of the slides and are also linked at [confswag](http://confswag.com/2011/newgame/)
+
 ##Keynote by Richard Hilleman
 *Nov 1, 9:00 - 10:00*
 
