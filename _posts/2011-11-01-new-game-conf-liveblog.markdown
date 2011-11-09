@@ -9,7 +9,7 @@ categories:
 
 *Note: Combined the first and second day for a mega-wall-o-text.*
 
-## Day 1 - November 1, 2010
+## Day 1 - November 1, 2011
 
 This is a live blog for the  
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
