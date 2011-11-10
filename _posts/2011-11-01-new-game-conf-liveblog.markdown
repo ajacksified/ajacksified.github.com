@@ -1667,6 +1667,8 @@ but WebGL is great for its 1.0 and I'm looking forward to the next revision.*
 ## Web Audio API and other new features by Rachel Blum
 *Nov 2, 4:00 - 4:45*
 
+[Slides](http://ngc11-groby.appspot.com/#1)
+
 > There are lots of cool things in HTML5. Even better, there are lots of cool 
 > things being _added_ to HTML5 and Chrome all the time, quite a few with a focus 
 > on games. This talk is going to showcase some very recent and still-in-progress 
