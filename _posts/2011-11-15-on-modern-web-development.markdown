@@ -14,8 +14,9 @@ I shall begin thusly:
 
 And I will asert this:
 
-> The ability to include javascript, webgl, canvas, and other rich media
-> is meaningless if you use these tools like you would Flash.
+> The ability to build an application with a javascript framework, even
+> with "modern" development practices, is meaningless if you use these 
+> tools like you would Flash.
 
 Lately, there have been a lot of blog posts, links on [hacker news](http://news.ycombinator.com),
 links on [reddit](http://www.reddit.com), and elsewhere where someone's showing off their latest application or framework. Javacript application
