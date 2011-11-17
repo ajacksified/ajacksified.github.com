@@ -78,7 +78,7 @@ a{color:#9d261d;text-decoration:none;line-height:inherit;font-weight:inherit;}a:
 .offset-two-thirds{margin-left:660px;}
 p{font-size:16px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
 h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
-h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}h1 a{font-size:30px;}
 h2{font-size:24px;line-height:36px;}h2 small{font-size:16px;}
 h3,h4,h5,h6{line-height:36px;}
 h3{font-size:18px;}h3 small{font-size:14px;}
@@ -346,4 +346,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
   font-weight:normal;
   margin-bottom: .5em;
+}
+article .body {
+  max-width: 50em;
+  margin: auto;
+  text-align: justify;
 }
