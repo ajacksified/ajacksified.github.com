@@ -351,4 +351,13 @@ article .body {
   max-width: 50em;
   margin: auto;
   text-align: justify;
+  line-height: 1.5em;
+}
+article .body p{
+  line-height: 1.5em;
+}
+
+article li {
+  line-height: 1.25em;
+  margin-top: .5em;
 }
