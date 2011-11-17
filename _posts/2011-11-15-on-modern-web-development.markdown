@@ -9,13 +9,13 @@ categories:
 
 I shall begin thusly:
 
-    HTML5 and related technologies provide tools with which to enhance
-    accessibility through well-structured, sementically-defined content.
+> HTML5 and related technologies provide tools with which to enhance
+> accessibility through well-structured, sementically-defined content.
 
 And I will asert this:
 
-    The ability to include javascript, webgl, canvas, and other rich media
-    is meaningless if you use these tools like you would Flash.
+> The ability to include javascript, webgl, canvas, and other rich media
+> is meaningless if you use these tools like you would Flash.
 
 Lately, there have been a lot of blog posts, links on [hacker news](http://news.ycombinator.com),
 links on [reddit](http://www.reddit.com), and elsewhere where someone's showing off their latest application or framework. Javacript application
