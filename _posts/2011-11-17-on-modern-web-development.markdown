@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Modern Web Development
-description: In which I make a plea to developers
+description: In which I make a plea to developers to develop responsive, progressively enhanced applications
 permalink: /2011/11/on-modern-web-development/index.html
 categories:
 - html5
