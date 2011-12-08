@@ -13,7 +13,7 @@ defines a mechanism with which we can not only deliver content, but describe
 what the content *is*. This is what is called *semantic markup*; it is not an
 obtuse buzzword, but rather an important design methodology.
 
-It iss easy to fall into one of two pitfalls: "just get the thing done" and
+It is easy to fall into one of two pitfalls: "just get the thing done" and
 "write the minimal amount of code possible". One is caused by a developer
 who does not understand (or does not care to understand) the importance of markup;
 one is caused by a developer who is foregoing semantics in favor of misguided
@@ -70,3 +70,5 @@ coerced into acting like buttons.
 Thus we may reduce our code and provide meaning to our content, while providing
 a normalized experience to machines who read our content, be they search
 engines, browsers, or screen readers.
+
+*This post is dedicated to my colleague, Tony DeSylva, *
