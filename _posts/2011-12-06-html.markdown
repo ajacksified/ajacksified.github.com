@@ -1,0 +1,74 @@
+---
+layout: post
+title: HTML
+description: In which I discuss reasons to write semantic HTML
+permalink: /2011/12/HTML/index.HTML
+categories:
+- HTML5
+---
+
+I have a strong belief in *HTML that means something*. HTML can be viewed as a
+vessel for delivering content; however, HTML- and especially more so with HTML5-
+defines a mechanism with which we can not only deliver content, but describe
+what the content *is*. This is what is called *semantic markup*; it is not an
+obtuse buzzword, but rather an important design methodology.
+
+It iss easy to fall into one of two pitfalls: "just get the thing done" and
+"write the minimal amount of code possible". One is caused by a developer
+who does not understand (or does not care to understand) the importance of markup;
+one is caused by a developer who is foregoing semantics in favor of misguided
+"efficiency" gains, whether personally (writing less code) or for the server
+(sending less code.) However, in the long run, this serves only as a barrier
+to maintainance and usability.
+
+&#167;
+
+There was a large movement towards using `div` tags for markup, moving away
+from monolithic table-based markup. This was done in order to reduce the
+coupling between styles and content, making changes easier, content easier
+to consume, and code easier to maintain. It also allowed designs to be fluid,
+flowing around the content rather than constraining content into boxes.  Instead
+of shuffling table cells, we now only have to switch out a class, or in extreme
+examples, the order of a few `div` containers in order to update a design. This
+was an important step forward in the evolution of modern web development. 
+However, while progressive, divs were found to be meaningless. No reasonable
+heirarchy of data could be constructed; a side-bar was virtually indistinguishable
+from main content, a site's heading didn't stand out except through primitive
+`h#` tags.
+
+
+HTML5 then gave us elements such as `header`, `footer`, `time`, `nav`, `section`,
+`article`, `aside`, and more; new properties and attributes such as input types
+and input placeholders; and more (which you can read about in the
+[W3C Specs](http://www.w3.org/TR/html5-diff/#new-elements) and at the excellent
+[html5 doctor](http://html5doctor.com/element-index/). html5- true html5, not
+"marketing buzzword" html5- has a rich and beautiful focus on semantic markup
+that allows for clear consumption and maintainance of content.
+
+It is not only html5 that has semantic meaning, though; looking back through
+html4 and earlier iterations gives us examples of `hr` for splitting content
+sections, `table` for data, `form` for form, `a` for links. Many of these base
+tags are, however, ignored or forgotten in return for generic `div` zealotry.
+Links are built with div tags and javascript onclick events, 'ajax' forms are
+built using generic elements, and images are simply `div` tags with background
+images. We have begun to lose meaning not only to the browsers that consume our
+content, but also to ourselves, as developers. With semantic elements, one can
+view an `article` tag and understand where it begins and ends without following
+a chain of generic `div` tags; with a `form`, one can understand that its
+contained inputs are part of a collection to be submitted, rather than a random
+cluster of inputs, any of which might be sent out to a server; with an `a`, we
+know it goes somewhere, and with a `button`, we know it performs an action.
+
+Semantically relevant code is both code and documentation. With consistency,
+we can reduce the number of one-off styles and the amount of javascript logic
+we have to write. Instead of coupling our styles to our code, as we may have
+coupled our content to tables in the past, let us define code that uses
+elements that can describe what the content is. Style a `time` element instead
+of a `time` class on a span; write javascript based on buttons instead of divs
+coerced into acting like buttons.
+
+Thus we may reduce our code and provide meaning to our content, while providing
+a normalized experience to machines who read our content, be they search
+engines, browsers, or screen readers.
+
+*This post is dedicated to my colleague, Tony DeSylva.*
