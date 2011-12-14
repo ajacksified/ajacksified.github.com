@@ -1,3 +1,5 @@
+
+
 ---
 layout: post
 title: HTML
@@ -71,4 +73,4 @@ Thus we may reduce our code and provide meaning to our content, while providing
 a normalized experience to machines who read our content, be they search
 engines, browsers, or screen readers.
 
-*This post is dedicated to my colleague, Tony DeSylva, *
+*This post is dedicated to my colleague, Tony DeSylva, for whom I wrote this.*
