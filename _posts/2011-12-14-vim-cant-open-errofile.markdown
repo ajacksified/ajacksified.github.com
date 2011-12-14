@@ -19,7 +19,8 @@ So, I pulled down my config, loaded the submodules, and threw it all in my
 I had originally thought that it was an error with vim-ack, and tried alternate
 versions of vim-ack. But I still got an error. So I tried five different
 snapshots of MacVim. I still got the error. Then I tried copying a file with
-NERDTree, and I got *another* error. Mystifying.
+NERDTree, and I got *another* error. Delete and add worked, but not copy.
+Mystifying.
 
 vim-ack error:
 
@@ -28,6 +29,8 @@ vim-ack error:
     line   23:
     E40: Can't open errorfile /var/folders/98/_ymf2wy554n6qrs32ptrwrl40000gn/T/vx96wXC/2
     Press ENTER or type command to continue
+
+![Error executing vim-ack](http://i.imgur.com/WED9C.png)
 
 NERDTree error:
 
@@ -41,6 +44,8 @@ NERDTree error:
     Error detected while processing function <SNR>19_showMenu..30:
     line   19:
     E171: Missing :endif
+
+![Error executing NERDTree copy](http://i.imgur.com/aTr3T.png)
 
 I tried chowning the temp files; I tried unsetting TEMPDIR. Nothing worked.
 
