@@ -2,7 +2,7 @@
 layout: post
 title: HTML
 description: In which I discuss reasons to write semantic HTML
-permalink: /2011/12/HTML/index.HTML
+permalink: /2011/12/HTML/index.html
 categories:
 - HTML5
 ---
