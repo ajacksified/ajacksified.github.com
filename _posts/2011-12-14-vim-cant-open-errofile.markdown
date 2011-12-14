@@ -9,7 +9,7 @@ categories:
 
 tl;dr: put `set shell=bash` in your .vimrc
 
-I recently had to reinstall OS X after a catostrophic hard drive failure. I had
+I recently had to reinstall OS X after a catastrophic hard drive failure. I had
 most of my configuration [on Github](https://github.com/ajacksified/Config) (which is
 something I *highly* recommend), luckily, so it was a pretty easy move thanks
 to that and some well-placed backups.
