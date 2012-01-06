@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't Make Me Think: Book Review Part 2
+title: "Don't Make Me Think: Book Review Part 2"
 permalink: /2010/01/dont-make-me-think-book-review-part-2/index.html
 post_id: 128
 categories: 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: " Don't Make Me Think: Book Review Part 1"
+title: "Don't Make Me Think: Book Review Part 1"
 permalink: /2010/01/dont-make-me-think-book-review-part-1/index.html
-post_id: 112
 categories: 
 - Book Review
 - user experience
