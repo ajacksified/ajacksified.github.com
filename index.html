@@ -4,7 +4,7 @@ title: A Better Way
 ---
 
 <div class="row">
-  <section class="span10">
+  <section class="eightcol">
     <h1>Recent Posts</h2>
     {% for post in site.posts limit:5 %}
       <article>
@@ -15,17 +15,17 @@ title: A Better Way
         <div class="body">
           {{ post.content }}
         </div>
-        
+
         <footer class="meta well">
           Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
         </footer>
       </article>
     {% endfor %}
 
-    <a class="btn" href="/archive.html">View More</a>
+    <a class="btn" href="/archive.html">&lt;&lt; View Older Posts</a>
   </section>
 
-  <aside class="span6 sidebar">
+  <aside class="fourcol last sidebar">
     <div class="well">
       <h1>Latest 20 Posts</h1>
       <ul class="posts">

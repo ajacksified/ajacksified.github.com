@@ -11,12 +11,11 @@ categories:
 
 ## Day 1 - November 1, 2011
 
-This is a live blog for the  
-[New Game Conference](http://www.newgameconf.com). I'll keep quick notes during
-the presentations, and clean up grammar / confusing structures during breaks.
-The Q &amp; A sections are paraphrased. Any quotes will be signified as such. 
-Please leave
-corrections and requests for clarification in the comments here.
+This is a live blog for the [New Game Conference](http://www.newgameconf.com).
+I'll keep quick notes during the presentations, and clean up grammar / confusing
+structures during breaks.  The Q &amp; A sections are paraphrased. Any quotes will
+be signified as such.  Please leave corrections and requests for clarification in
+the comments here.
 
 Also check out #ngc11 and #bbg on irc.freenode.net
 
@@ -165,18 +164,18 @@ debug continuously.
 
 When will be a good time to start using WebGL for clients?
 
-*You can begin to be it on it now. Consider progressive ehancement with canvas 
-fallbacks.*
+> You can begin to be it on it now. Consider progressive ehancement with canvas 
+> fallbacks.
 
 How does WebGL affect mobile battery life?
 
-*WebGL is fairly similar to native code. It uses the GPU, and it will drain the
-battery more than jut using the CPU, but that's the tradeoff for more power.
-requestAnimationFrame helps because it throttles requests.*
+> WebGL is fairly similar to native code. It uses the GPU, and it will drain the
+> battery more than jut using the CPU, but that's the tradeoff for more power.
+> requestAnimationFrame helps because it throttles requests.
 
 Does WebGL give you a way to use a secondary display?
 
-*That is up to browser implementation. WebGL renders into the canvas directly.*
+> That is up to browser implementation. WebGL renders into the canvas directly.
 
 ## Lessons from the (Mobile) Trenches by Justin Quimby
 *Nov 1, 11:15 - 12:00*
@@ -290,59 +289,59 @@ Huge numbers of mobile, internet-connected devices being shipped.
 Can you put perspective on company size of Moblyng, and how that impacts your
 decisions? Where would you prioritize with a smaller headcount?
 
-*Moblyng has around 35 employees. The key to all of this is the game itself.
-At the end of the day, if your game sucks, noone's gonna care. Your team is
-initially going to probably be split 2-1; two for the game, one for system
-integration. Closer to the ship date, that ratio should split as you
-integrate with social systems. After shipment, it will reverse again as you
-respond to metrics and game mechancis updates.*
+> Moblyng has around 35 employees. The key to all of this is the game itself.
+> At the end of the day, if your game sucks, noone's gonna care. Your team is
+> initially going to probably be split 2-1; two for the game, one for system
+> integration. Closer to the ship date, that ratio should split as you
+> integrate with social systems. After shipment, it will reverse again as you
+> respond to metrics and game mechancis updates.
 
 What do you know about iOS vs Android users paying more?
 
-*It depends on the game type more than the platform.*
+> It depends on the game type more than the platform.
 
 Do you still target devices outside of Android and iOS?
 
-*We target devices outside of Android and iOS; the lion's share are in iOS
-and Android. Because we're venture-backed, we want to go big, and build games
-that work on various devices. The html5-running refrigerator validates our 
-strategy; will our game work there?*
+> We target devices outside of Android and iOS; the lion's share are in iOS
+> and Android. Because we're venture-backed, we want to go big, and build games
+> that work on various devices. The html5-running refrigerator validates our 
+> strategy; will our game work there?
 
 Focusing on user acquisition, can you speak to the difference in different
 advertising schemes?
 
-*Part of the reason we target high distrubition is because it's hard to
-estimate; it depends on the product.*
+> Part of the reason we target high distrubition is because it's hard to
+> estimate; it depends on the product.
 
 Can you talk a bit about how the platforms you choose to support influences your
 development process? Do you focus on one and expand to other platforms?
 
-*The evolution was focusing on phone; and now, it's foucsing on three platforms,
-phone, tablet, and desktop. Part of our initial product plan is to mock up UIs
-for each platform; user flows are somewhat different between platforms. We look
-at everything from day one.*
+> The evolution was focusing on phone; and now, it's foucsing on three platforms,
+> phone, tablet, and desktop. Part of our initial product plan is to mock up UIs
+> for each platform; user flows are somewhat different between platforms. We look
+> at everything from day one.
 
 Can you speak to experiences in doing work in-house vs. using contractors?
 
-*A good rule of thumb is: anything you can throw away 90% of, and still be ok,
-is a good thing to outsource. Artwork is a good idea. If you say "we need 100
-swords", you may get 10 that are good. Development should happen in-house.
-Face-to-face communication is important.*
+> A good rule of thumb is: anything you can throw away 90% of, and still be ok,
+> is a good thing to outsource. Artwork is a good idea. If you say "we need 100
+> swords", you may get 10 that are good. Development should happen in-house.
+> Face-to-face communication is important.
 
 What would you say to people who want to focus on a specific technology,
 instead of taking on more platforms?
 
-*There is a huge market; if you want to focus on a specific technology,
-and do it well, then that's a good strategy too. For us, in our history
-we've always focused on distribution. Either is a viable business
-strategy.*
+> There is a huge market; if you want to focus on a specific technology,
+> and do it well, then that's a good strategy too. For us, in our history
+> we've always focused on distribution. Either is a viable business
+> strategy.
 
 Can you talk about how beta testing has influenced development?
 
-*Automated client-side testing is difficult, because resource use for the game
-leaves little room. We do automated testing on desktops. Automated testing is
-less important than having a good game. Make sure you can make money on a game,
-then spend time automating tests.*
+> Automated client-side testing is difficult, because resource use for the game
+> leaves little room. We do automated testing on desktops. Automated testing is
+> less important than having a good game. Make sure you can make money on a game,
+> then spend time automating tests.
 
 
 ## Lunch Break
@@ -458,41 +457,41 @@ window size, and general responsiveness; setting up hosting and caching.
 
 Is using WebGL Overkill?
 
-*We used WebGL because it was an easy port; our existing game was built with
-OpenGL.*
+> We used WebGL because it was an easy port; our existing game was built with
+> OpenGL.
 
 During the development, did you feel like WebGL was the best choice?
 
-*Because we were porting the already aggressively-optimized OpenGL game
-built for iOS, the performance was already excellent.*
+> Because we were porting the already aggressively-optimized OpenGL game
+> built for iOS, the performance was already excellent.
 
 If you didn't have the original code in WebGL, would you still use WebGL?
 
-*It's all about the context of your project; if the original game wasn't in
-OpenGL, we would have probably spent time testing canvas, and looking closely
-at the markets and seeing what browsers could run WebGL. It would have been a
-more difficult decision.*
+> It's all about the context of your project; if the original game wasn't in
+> OpenGL, we would have probably spent time testing canvas, and looking closely
+> at the markets and seeing what browsers could run WebGL. It would have been a
+> more difficult decision.
 
 What three things did you take away, that you wish you knew before you started
 the project? Also, what can do we do to not have to compromise so much on the
 reach-quality-cost triange?
 
-*We need more compliance between browsers. Features like audio have to conform
-to the lowest-common-denominoator between the platforms you're targetting.
-It would be great if everyone had the same standards; that was a huge
-stumbling block to getting it on more browsers. Having browsers that auto-
-update would be useful as well, so you know where users are at. As far as
-some takeaways- I wish I knew server management was as time-consuming
-as it was for us.*
+> We need more compliance between browsers. Features like audio have to conform
+> to the lowest-common-denominoator between the platforms you're targetting.
+> It would be great if everyone had the same standards; that was a huge
+> stumbling block to getting it on more browsers. Having browsers that auto-
+> update would be useful as well, so you know where users are at. As far as
+> some takeaways- I wish I knew server management was as time-consuming
+> as it was for us.
 
 Was the caching issue with game assets, or something else?
 
-*Yes, that was about using the appropriate server headers so that I only have
-to download if I have to.*
+> Yes, that was about using the appropriate server headers so that I only have
+> to download if I have to.
 
 Is audio your biggest issue?
 
-*It is. We want awesome, synchronous audio in all browsers.*
+> It is. We want awesome, synchronous audio in all browsers.
 
 ## SONAR - WebGL, JavaScript, and Gaming by Sean Middleditch and Jason Meisel 
 
@@ -645,12 +644,12 @@ APIs that are on their way that are helpful:
 
 What gave you the inspiration to make it a papercraft visually-styled game?
 
-*It actually started as a graphics bug, where our charaters were flatfaced,
-and our designers really liked the idea.*
+> It actually started as a graphics bug, where our charaters were flatfaced,
+> and our designers really liked the idea.
 
 Have you actually cut out any papercraft models?
 
-*We considered it, but we haven't had the chance.*
+> We considered it, but we haven't had the chance.
 
 ## Cross Platform Game Programming with PlayN by Lilli Thompson
 
@@ -770,22 +769,22 @@ integration with other products- in-app payments, other software ecosystems
 
 What happens when you don't support a particular piece of functionality?
 
-*It's open source, so if it isn't working for you, consider adding the
-functionality; that's available to you. Another option is to compile
-another project that imports the extra code."*
+> It's open source, so if it isn't working for you, consider adding the
+> functionality; that's available to you. Another option is to compile
+> another project that imports the extra code."
 
 What's compelling about this is that Java's a nice language. How do you do the
 compilation to, say, Flash?
 
-*It's different on each platform; it translates to legible actionscript, then
-compiles a swf. It compiles into obfuscated Javascript, so it doesn't work
-that way always.*
+> It's different on each platform; it translates to legible actionscript, then
+> compiles a swf. It compiles into obfuscated Javascript, so it doesn't work
+> that way always.
 
 What if your phone doesn't have a GPU?
 
-*We don't have set requirements; our default path is to compile to Android
-OpenGL. Android Canvas is available, but not as fast; I'm not sure if that
-is an option during Android compilation.*
+> We don't have set requirements; our default path is to compile to Android
+> OpenGL. Android Canvas is available, but not as fast; I'm not sure if that
+> is an option during Android compilation.
 
 
 ## From Apple Store to CWS by Miguel Angel Pastor
@@ -874,7 +873,7 @@ App engine issues:
 
 With the issues you've had, if you went back in time, woudl you do it again?
 
-*Absolutely.*
+> Absolutely.
 
 ## Extreme Mobile HTML5 Graphics Performance by Sam Abadir
 
@@ -1158,9 +1157,9 @@ Future vision: non-display-dependent. Single API for WebGL, Canvas, DOM.
 
 How are you driving all of the animation?
 
-*You have three options; setinterval, settimeout, and requestanimationframe.
-We use settimeout or requestanimationframe; RAF is usually said to be more
-performant, but we've seen the opposite.*
+> You have three options; setinterval, settimeout, and requestanimationframe.
+> We use settimeout or requestanimationframe; RAF is usually said to be more
+> performant, but we've seen the opposite.
 
 ## The State of HTML5 Games in Asia by Robert Van Os &amp; Chen Qi
 *November 2, 11:00 - 11:45*
@@ -1312,7 +1311,7 @@ Still some challenges:
 In 2011, are you seeing more Facebook penetration (in comparison to existing
 networks like Mixi?
 
-*No. It's not taking over nearly as rapidly as other networks we've seen.*
+> No. It's not taking over nearly as rapidly as other networks we've seen.
 
 ## Lunch!
 *Nov 2, 11:45 - 1:00*
@@ -1547,34 +1546,34 @@ code.
 I found myself using uglifyjs because I wasn't willing to buy into some of the
 exports paradigms.
 
-*There are some minification and truncation things you can do at the local
-scope; but there aren't a ton of advantages of closure over other systems if
-you're just compiling your code with simple compliation. You'll want to use
-the other Closure offerings to really get the most out of optimizations.*
+> There are some minification and truncation things you can do at the local
+> scope; but there aren't a ton of advantages of closure over other systems if
+> you're just compiling your code with simple compliation. You'll want to use
+> the other Closure offerings to really get the most out of optimizations.
 
 How would one use Closure with unit testing systems?
 
-*Within the Closure compiler, there is a unit testing framework; if you're
-looking to using all Google libraries, you can use the framework within
-Closure.*
+> Within the Closure compiler, there is a unit testing framework; if you're
+> looking to using all Google libraries, you can use the framework within
+> Closure.
 
 I come from using RequireJS; the workflow is build code, optimize, then minify;
 can you run the Closure code without compiling anything?
 
-*You can run the code, if you run using a harness that includes the Closure
-libraries, but it's meant to be run as compiled. We do this to try to make
-browser testing easy, as you'll only need to include a single file. Compliation
-is very quick. The Compilation is good practice.*
+> You can run the code, if you run using a harness that includes the Closure
+> libraries, but it's meant to be run as compiled. We do this to try to make
+> browser testing easy, as you'll only need to include a single file. Compliation
+> is very quick. The Compilation is good practice.
 
 I've got a large project in javascript already with a bunch of jsdoc
 annotations; running it through Closure, I get a ton of warnings. What would
 you recommend to how I could produce my old documentation extensions to use
 with Closure compiler?
 
-*People have gone into the Closure code and done their own modifications to the
-compilation process; I'd recommend using the Google Closure linter and go step-
-by-step over your code to see if everything follows Google standards. I
-personally haven't done much modification there, but there are people who have.*
+> People have gone into the Closure code and done their own modifications to the
+> compilation process; I'd recommend using the Google Closure linter and go step-
+> by-step over your code to see if everything follows Google standards. I
+> personally haven't done much modification there, but there are people who have.
 
 ## Prizes and stuff
 People got free O'Reilly books, Windows phones, and announced the winners of
@@ -1659,10 +1658,10 @@ Getting involved:
 What are the biggest gaps you see in the WebGL API that prevent you from
 getting games ready?
 
-*We've been making do with what we have available today. There has been some
-noise about compressed textures, but all of CubicVR runs really well. We
-haven't seen any big gaps; things like compressed textures are nice to have,
-but WebGL is great for its 1.0 and I'm looking forward to the next revision.*
+> We've been making do with what we have available today. There has been some
+> noise about compressed textures, but all of CubicVR runs really well. We
+> haven't seen any big gaps; things like compressed textures are nice to have,
+> but WebGL is great for its 1.0 and I'm looking forward to the next revision.
 
 ## Web Audio API and other new features by Rachel Blum
 *Nov 2, 4:00 - 4:45*
@@ -1830,16 +1829,16 @@ Resources:
 You mentioned that indexDB isn't suitable for putting in large binary assets;
 why's that?
 
-*Let me rephrase that: you can do that, but it seems like it's overkill. You
-don't need a transactional database to hold game data. I don't have any
-performance numbers, but it seems like it would be slower than raw file access.*
+> Let me rephrase that: you can do that, but it seems like it's overkill. You
+> don't need a transactional database to hold game data. I don't have any
+> performance numbers, but it seems like it would be slower than raw file access.
 
 I'd like to hear a little more around your thought process around the 
 variability of hardware, and how performance is managed. PC games have 
 come up with some solutions, like minimum specs. Can we use that model?
 
-*I think we can do some things, but we can't actually spec out what exactly
-you would need to run a web app. The amount of devices is so vast that any
-specs are unlikely to be accurate. You might be able to say what features you
-support, that a device needs to support those features - but not a hardware
-performance requirement.*
+> I think we can do some things, but we can't actually spec out what exactly
+> you would need to run a web app. The amount of devices is so vast that any
+> specs are unlikely to be accurate. You might be able to say what features you
+> support, that a device needs to support those features - but not a hardware
+> performance requirement.
