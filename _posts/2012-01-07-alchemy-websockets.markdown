@@ -18,7 +18,7 @@ IE10 will also have WebSockets. Alchemy can run on Mono (which means EC2 is a go
 and supports most versions of the protocol, stretching from hybi-00 to the
 latest (and final) RFC spec.
 
-We (Drew and I and [Olivine Labs](http://www.olivinelabs.com) had started
+We (Drew and I and [Olivine Labs](http://www.olivinelabs.com)) had started
 considering how to use WebSockets for some of the games we were building and
 planning. At the time, we were thinking about using them for chat for the
 now-defunct [Chrysellia](https://github.com/Olivine-Labs/Chrysellia); and we
