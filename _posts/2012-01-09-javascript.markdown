@@ -31,11 +31,12 @@ Then come back and try out Javascript again.
 I went through this phase. I learned Javascript, and used it for horrific DOM
 manipulations. Then I learned C#. I went through a phase where everything was
 an object, everything was namespaced. Then I learned Scheme, and bounced around
-in Python and Ruby a bit. And once you've grasped procedural, functional, and
+in Python and Ruby a bit. Once you've grasped procedural, functional, and
 classic OO programming, you begin to see that the patterns in Javacript aren't
 ugly, aren't random and messy; that you don't need obese structure and *contracts*
 and type checking. You can elegantly and concisely pass around functions and
-objects and whatever, because they're all the same thing anyway. Structure is
-overbearing. Javascript is freedom.
+objects and whatever, because they're all the same thing anyway, more or less.
+
+Structure is overbearing. Javascript is freedom.
 
 I guess the whole point I'm trying to make here is, I hate sauerkraut.
