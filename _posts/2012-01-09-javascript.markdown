@@ -28,7 +28,7 @@ ugly. It's ugly in Javascript. It's ugly everywhere, really.
 Protip: learn Scheme. Try out [MIT's free online courses](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/).
 Then come back and try out Javascript again.
 
-I went through this page. I learned Javascript, and used it for horrific DOM
+I went through this phase. I learned Javascript, and used it for horrific DOM
 manipulations. Then I learned C#. I went through a phase where everything was
 an object, everything was namespaced. Then I learned Scheme, and bounced around
 in Python and Ruby a bit. And once you've grasped procedural, functional, and
