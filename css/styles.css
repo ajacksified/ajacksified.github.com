@@ -7,7 +7,10 @@ body {
 }
 
 h1, h2, h3 { font-weight: normal; line-height: 1.5em; }
-h1 a, h2 a { text-decoration: none; }
+
+h1 a, h2 a { 
+  text-decoration: none;
+}
 
 h1 {
   font-size: 36pt;
@@ -26,10 +29,14 @@ strong {
 }
 
 a {
-  color: #49C;
+  color: #C0826D;
 }
 
-p {
+a:hover, .topbar a:hover {
+  color: #A0624D;
+}
+
+p, .addthis_toolbox {
   margin-bottom: 1em;
   line-height: 1.4em;
   max-width: 40em;
@@ -42,15 +49,15 @@ pre, code {
 }
 
 pre {
-  border-bottom: solid 1px #ccc;
-  border-left: solid 10px #ccc;
+  border-bottom: solid 1px #A99C7B;
+  border-left: solid 10px #A99C7B;
   padding: 1em;
   margin: 1em 0;
 }
 
 code {
   padding: 0 .25em;
-  border: solid 1px #ccc;
+  border: solid 1px #A99C7B;
 }
 
 pre code {
@@ -58,13 +65,21 @@ pre code {
   border: none;
 }
 
+article h1 {
+  text-shadow: 0px 2px 2px rgba(255,255,255,1), 0px -1px 1px rgba(0,0,0,.5);
+}
+
+.post article h1 {
+  text-align: center;
+}
+
 article {
   margin-bottom: 1em;
 }
 
 footer, footer.row {
-  border-top: solid 1px #ccc;
-  border-bottom: solid 10px #ccc;
+  border-top: solid 1px #A99C7B;
+  border-bottom: solid 10px #A99C7B;
   background: rgba(255,255,255,.5);
   font-style: italic;
   padding: 1em;
@@ -83,7 +98,7 @@ blockquote {
   font-style: italic;
   color: #333;
   background: rgba(255,255,255,.5);
-  border-left:10px solid #ccc;
+  border-left:10px solid #A99C7B;
   margin:1.5em 10px;
   padding:.5em 10px;
   quotes:"\201C""\201D""\2018""\2019";
@@ -95,7 +110,7 @@ blockquote p {
 
 .sidebar {
   background: rgba(255,255,255,.5);
-  border: solid 1px #ccc;
+  border: solid 1px #A99C7B;
   border-radius: 2px;
 }
 
@@ -116,10 +131,10 @@ aside .well {
 .btn {
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0,0,0,.25);
-  background-color: #49C;
+  background-color: #342616;
   border-radius: 2px;
   border: solid 1px #5AD;
-  border-bottom: solid 2px #279;
+  border-bottom: solid 2px #A99C7B;
   text-decoration: none;
   padding: .25em .5em;
   display: inline-block;
@@ -129,9 +144,10 @@ aside .well {
   position: fixed;
   top: 0;
   left: 0;
-  background: #49C;
-  border-bottom: solid 2px #279;
+  background: #342616;
+  border-bottom: solid 2px #A99C7B;
   width: 100%;
+  box-shadow: 0px 3px 5px #fff;
 }
 .topbar .twelvecol {
   width: 1140px;
@@ -166,8 +182,19 @@ aside .well {
   padding: 10px;
 }
 
-.topbar a:hover {
-  background: rgba(0,0,0,.25);
+.archive .time {
+  background: #999;
+  color: white;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+
+.archive li {
+  margin-bottom: .5em;
+}
+
+.archive a {
+  padding-left: .5em;
 }
 
 @media handheld, only screen and (max-width: 767px) {
@@ -175,5 +202,3 @@ aside .well {
 
   }
 }
-
-
