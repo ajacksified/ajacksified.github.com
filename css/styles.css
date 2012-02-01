@@ -36,11 +36,15 @@ a:hover, .topbar a:hover {
   color: #A0624D;
 }
 
-p, .addthis_toolbox {
+article p, article ol, article ul .addthis_toolbox {
   margin-bottom: 1em;
   line-height: 1.4em;
   max-width: 40em;
   margin: 1em auto;
+}
+
+article li {
+  margin-left: 2.5em;
 }
 
 pre, code {
