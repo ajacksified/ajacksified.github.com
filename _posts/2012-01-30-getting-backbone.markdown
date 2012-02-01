@@ -23,7 +23,7 @@ frameworks, with Rails, [PHP](https://github.com/Olivine-Labs/Mint), and .NET
 with WPF and Silverlight applications; and thus I will start with my first
 epiphany towards using Backbone effectively:
 
-__Backbone is not MVC__
+__Backbone is not MVC.__
 
 There is no "C". There's a Router, which used to be called a Controller early
 in Backbone's history, but the Router functions purely as a way to map views
@@ -43,41 +43,36 @@ not dumb models.
 
 Your backbone application may look something like this:
 
-[User hits URL] ->
-
-[Page instantiates router object] ->
-
-[Router object finds what route you're at, news up a model, which syncs its data
-from the server, and sticks it into a view] ->
-
-[The view hooks model up to the UI, the user performs actions on the form, which 
-performs actions on the model, which syncs to the server] ->
-
-[User clicks link, which maps to the router, continues the cycle]
+1. User hits URL
+2. Page instantiates router object
+3. Router object finds what route you're at, news up a model, which syncs its data
+  from the server, and sticks it into a view
+4. The view hooks model up to the UI, the user performs actions on the form, which 
+  performs actions on the model, which syncs to the server
+5. User clicks link, which maps to the router, continues the cycle
 
 But wait. You *might not even use a router.* For example, maybe you want the
-awesomeness of Backbone, but you've only half-converted your app. So let's
-work out that scenario:
+awesomeness of Backbone, but you don't plan on building a single-page app, or maybe
+you plan on building one later but can't do it all at once. That scenario might look
+more like:
 
-[User hits URL] ->
+1. User hits URL
+2. Page instantiates model with data from the server (so we don't have to make
+  two trips), instantiates view with this model
+3. View hooks model up to the UI, performs actions on the model, which syncs to
+  the server
+4. User clicks link, which goes to a different page
 
-[Page instantiates model with data from the server (so we don't have to make
-two trips), instantiates view with this model] ->
+The traditional controller is more baked into the models, and the router is entirely
+for convenience if you want to manage history to enable some back-button functionality
+for the user or if you want to store a bookmarkable state such as if you're building a
+single-page-app.
 
-[View hooks model up to the UI, performs actions on the model, which syncs to
-the server] ->
-
-[User clicks link, which goes to a different page]
-
-So, the traditional controller is more baked into the models, and the
-router is entirely for convenience (or if you're building a single-page-app
-kind of dealio.)
-
-Backbone's starting to look a whole lot more flexible now,
-more as a framework for splitting up DOM manipulation and Data manipulation
-and less as a complete web application composing kit. It *can* do that. But it
-doesn't have to if you're not building one. When you are ready- if you want to
-go that route- it's a matter of making your a tags map to hash or history changes
-instead of real URLs, and wazam, you have a singple page app with a fallback to
+Backbone's starting to look a whole lot more flexible now, more as a framework for
+splitting up DOM manipulation and Data manipulation and less as a complete web
+application composing kit. It *can* do that. But it doesn't have to if you're
+not building it that particular way, or if you're working on it but can't get
+there *today*. It's mostly a matter of making your a tags map to hash or history
+changes instead of real URLs, and wazam, you have a singple page app with a fallback to
 plain old HTML, a fancy, trendy application, and a RESTful service- everything
 you need for an accessible, scalable front-end.
