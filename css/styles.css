@@ -196,6 +196,14 @@ aside .well {
   padding-left: .5em;
 }
 
+.oldie article {
+  text-align: center;
+}
+
+.oldie article * {
+  text-align: left;
+}
+
 @media handheld, only screen and (max-width: 767px) {
   body {
 

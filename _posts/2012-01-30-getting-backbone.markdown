@@ -69,10 +69,7 @@ for the user or if you want to store a bookmarkable state such as if you're buil
 single-page-app.
 
 Backbone's starting to look a whole lot more flexible now, more as a framework for
-splitting up DOM manipulation and Data manipulation and less as a complete web
-application composing kit. It *can* do that. But it doesn't have to if you're
-not building it that particular way, or if you're working on it but can't get
-there *today*. It's mostly a matter of making your a tags map to hash or history
-changes instead of real URLs, and wazam, you have a singple page app with a fallback to
-plain old HTML, a fancy, trendy application, and a RESTful service- everything
-you need for an accessible, scalable front-end.
+splitting up DOM and data manipulation and less as a web application composing kit.
+It *can* certainly do that- and it does that well. But it doesn't have to if you're
+not building it that particular way, or if you're working on it but can't get there
+*today*.
