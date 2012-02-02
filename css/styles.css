@@ -36,7 +36,7 @@ a:hover, .topbar a:hover {
   color: #A0624D;
 }
 
-article p, article ol, article ul .addthis_toolbox {
+article p, article ol, article blockquote, article ul, .addthis_toolbox {
   margin-bottom: 1em;
   line-height: 1.4em;
   max-width: 40em;
@@ -181,7 +181,7 @@ aside .well {
   padding: 10px;
 }
 
-.archive .time {
+.archive time {
   background: #999;
   color: white;
   border-radius: 5px;
