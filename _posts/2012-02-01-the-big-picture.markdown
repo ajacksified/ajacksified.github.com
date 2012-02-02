@@ -19,13 +19,10 @@ with:
 > Web, to making content accessible to Screen-Readers (SR) - from targeting
 > users, to focusing on devices and modern browsers.
 
-One thousand times yes. We seem to be in the *exact same* prediciment that
-caused the stagnated IE: we're targetting "Webkit only", for example,
-when we should be building progressively enhanced websites that work
-with everything, and adding on the fanciness to newer browsers. Take a note
-here, before sending out the pitchforks and torches: "work with everything"
-doesn't mean the same thing as "the same in every browser, so you have to
-try to hack in gradients and rounded corners in IE5.5".  I highly suggest 
+We seem to be in the *exact same* prediciment that
+caused the stagnated IE: we're targetting specific browers, even when we have
+the tools, knowledge, and more importantly foresight to be better than this.
+To be better than building "Webkit only" sites. I highly suggest 
 that you [read it here](http://www.css-101.org/articles/the_power_of_the_web_is_in_its_universality/strive_to_make_content_accessible_to_all.php).
 
 If you want to find out more about progressive enhancement, check out
