@@ -25,6 +25,7 @@ title: A Better Way
 
       <footer class="meta well">
         Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
+        | <a href="{{ post.url }}">permalink</a> | <a href="{{ post.url }}#disqus_thread">comments</a>
       </footer>
     </article>
   {% endfor %}
