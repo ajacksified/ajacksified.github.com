@@ -3,25 +3,31 @@ layout: default
 title: A Better Way
 ---
 
-<div class="row">
-  <section class="eightcol">
-    <h1>Recent Posts</h2>
-    {% for post in site.posts limit:5 %}
-      <article>
-        <header>
-          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        </header>
-
-        <div class="body">
-          {{ post.content }}
-        </div>
-
-        <footer class="meta well">
-          Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
-        </footer>
-      </article>
-    {% endfor %}
-
-    <a class="btn" href="/archive.html">&lt;&lt; View Older Posts</a>
-  </section>
+<div class="row siteheader">
+  <h1>A Better Way</h1>
+  <h2>Jack Lawson</h2>
 </div>
+
+<section class="row">
+  <header>
+    <h1>Recent Posts</h2>
+  </header>
+
+  {% for post in site.posts limit:5 %}
+    <article>
+      <header>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      </header>
+
+      <div class="body">
+        {{ post.content }}
+      </div>
+
+      <footer class="meta well">
+        Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
+      </footer>
+    </article>
+  {% endfor %}
+
+  <a class="btn" href="/archive.html">&lt;&lt; View Older Posts</a>
+</section>

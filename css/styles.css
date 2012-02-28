@@ -1,27 +1,147 @@
-body {
-  background: #fcfcfc url('../img/goovepaper.png');
-  color: #210;
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  padding-top: 40px;
+/* reset */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
-h1, h2, h3 { font-weight: normal; line-height: 1.5em; }
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('./fonts/Chunkfive-webfont.eot');
+    src: url('./fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Chunkfive-webfont.woff') format('woff'),
+         url('./fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('./fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* real stuff */
+
+body {
+  background: #fcfcfc url('../img/goovepaper.png');
+  color: #2e2634;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, .topbar a { font-weight: normal; line-height: 1.5em; font-family: "ChunkFiveRegular", Georgia, serif; }
 
 h1 a, h2 a { 
   text-decoration: none;
 }
 
 h1 {
-  font-size: 36pt;
-}
-
-h2 {
   font-size: 24pt;
 }
 
-h3 {
+h2 {
   font-size: 18pt;
+}
+
+h3 {
+  font-size: 14pt;
 }
 
 strong {
@@ -29,18 +149,17 @@ strong {
 }
 
 a {
-  color: #C0826D;
+  color: #99193c;
 }
 
-a:hover, .topbar a:hover {
-  color: #A0624D;
+a:hover {
+  color: #79091c;
 }
 
 article p, article ol, article blockquote, article ul, .addthis_toolbox {
-  margin-bottom: 1em;
   line-height: 1.4em;
   max-width: 40em;
-  margin: 1em auto;
+  margin: 0 auto 1em auto;
 }
 
 article blockquote {
@@ -57,15 +176,15 @@ pre, code {
 }
 
 pre {
-  border-bottom: solid 1px #A99C7B;
-  border-left: solid 10px #A99C7B;
+  border-bottom: solid 1px #ddeab8;
+  border-left: solid 10px #ddeab8;
   padding: 1em;
   margin: 1em 0;
 }
 
 code {
   padding: 0 .25em;
-  border: solid 1px #A99C7B;
+  border: solid 1px #ddeab8;
 }
 
 pre code {
@@ -85,9 +204,10 @@ article {
   margin-bottom: 1em;
 }
 
+
 footer, footer.row {
-  border-top: solid 1px #A99C7B;
-  border-bottom: solid 10px #A99C7B;
+  border-top: solid 1px #ddeab8;
+  border-bottom: solid 10px #ddeab8;
   background: rgba(255,255,255,.5);
   font-style: italic;
   padding: 1em;
@@ -106,7 +226,7 @@ blockquote {
   font-style: italic;
   color: #333;
   background: rgba(255,255,255,.5);
-  border-left:10px solid #A99C7B;
+  border-left:10px solid #ddeab8;
   margin:1.5em 10px;
   padding:.5em 10px;
   quotes:"\201C""\201D""\2018""\2019";
@@ -118,7 +238,7 @@ blockquote p {
 
 .sidebar {
   background: rgba(255,255,255,.5);
-  border: solid 1px #A99C7B;
+  border: solid 1px #ddeab8;
   border-radius: 2px;
 }
 
@@ -139,23 +259,24 @@ aside .well {
 .btn {
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0,0,0,.25);
-  background-color: #342616;
+  background-color: #99193c;
   border-radius: 2px;
-  border: solid 1px #5AD;
-  border-bottom: solid 2px #A99C7B;
+  border: solid 1px #fff;
+  border-bottom: solid 2px #eee;
   text-decoration: none;
   padding: .25em .5em;
   display: inline-block;
 }
 
+.btn:hover {
+  color: #eee;
+  background-color: #79091c;
+}
+
 .topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #342616;
-  border-bottom: solid 2px #A99C7B;
+  background: #99193c;
+  border-bottom: solid 2px #ddeab8;
   width: 100%;
-  box-shadow: 0px 3px 5px #fff;
 }
 
 .topbar h1, .topbar h2, .topbar h3{
@@ -182,7 +303,12 @@ aside .well {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: .25em;
+  font-size: 20px;
+}
+
+.topbar a:hover {
+  color: #ddd;
 }
 
 .archive time {
@@ -208,8 +334,47 @@ aside .well {
   text-align: left;
 }
 
-@media handheld, only screen and (max-width: 767px) {
-  body {
+.row {
+  max-width: 40em;
+  margin: auto;
+}
 
+.siteheader { 
+  margin: .5em auto 2em auto;
+}
+
+.siteheader h1 {
+  color: #98193d;
+  line-height: 1em;
+  font-size: 80px;
+}
+
+.siteheader h2 {
+  font-size: 82px;
+  line-height: 1em;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .topbar nav {
+    float: none;
+  }
+
+  .topbar a {
+    padding-left: 0;
+  }
+
+  .siteheader h1 {
+    color: #98193d;
+    line-height: 1em;
+    font-size: 40px;
+  }
+
+  .siteheader h2 {
+    font-size: 41px;
+    line-height: 1em;
   }
 }
+
+
+
+
