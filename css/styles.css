@@ -1,12 +1,17 @@
-/* reset */
+/* fonts */
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('./fonts/Chunkfive-webfont.eot');
+    src: url('./fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Chunkfive-webfont.woff') format('woff'),
+         url('./fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('./fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
+}
+
+/* reset */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -103,20 +108,6 @@ input, select {
     vertical-align:middle;
 }
 
-
-/* fonts */
-@font-face {
-    font-family: 'ChunkFiveRegular';
-    src: url('./fonts/Chunkfive-webfont.eot');
-    src: url('./fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Chunkfive-webfont.woff') format('woff'),
-         url('./fonts/Chunkfive-webfont.ttf') format('truetype'),
-         url('./fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* real stuff */
 
 body {
@@ -124,11 +115,16 @@ body {
   color: #2e2634;
   font-family: Arial, sans-serif;
   font-weight: 400;
+  line-height: 1.4em;
+}
+
+strong {
+  font-weight: 700;
 }
 
 h1, h2, h3, .topbar a { font-weight: normal; line-height: 1.5em; font-family: "ChunkFiveRegular", Georgia, serif; }
 
-h1 a, h2 a { 
+h1 a, h2 a {
   text-decoration: none;
 }
 
@@ -144,9 +140,6 @@ h3 {
   font-size: 14pt;
 }
 
-strong {
-  font-weight: 700;
-}
 
 a {
   color: #99193c;
@@ -156,18 +149,37 @@ a:hover {
   color: #79091c;
 }
 
-article p, article ol, article blockquote, article ul, .addthis_toolbox {
-  line-height: 1.4em;
-  max-width: 40em;
-  margin: 0 auto 1em auto;
+article {
+  margin: 1em auto;
 }
 
 article blockquote {
-  max-width: 30em;
+  margin: 1em;
 }
 
 article li {
   margin-left: 2.5em;
+}
+
+article h1 {
+  text-shadow: 0px 2px 2px rgba(255,255,255,1), 0px -1px 1px rgba(0,0,0,.5);
+}
+
+article footer {
+  margin-bottom: 2em;
+}
+
+.post article h1 {
+  text-align: center;
+}
+
+footer {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 10px #ddd;
+  background: rgba(255,255,255,.5);
+  font-style: italic;
+  padding: 1em;
+  margin-top: 1em;
 }
 
 pre, code {
@@ -176,15 +188,15 @@ pre, code {
 }
 
 pre {
-  border-bottom: solid 1px #ddeab8;
-  border-left: solid 10px #ddeab8;
+  border-bottom: solid 1px #ddd;
+  border-left: solid 10px #ddd;
   padding: 1em;
   margin: 1em 0;
 }
 
 code {
   padding: 0 .25em;
-  border: solid 1px #ddeab8;
+  border: solid 1px #ddd;
 }
 
 pre code {
@@ -192,41 +204,11 @@ pre code {
   border: none;
 }
 
-article h1 {
-  text-shadow: 0px 2px 2px rgba(255,255,255,1), 0px -1px 1px rgba(0,0,0,.5);
-}
-
-.post article h1 {
-  text-align: center;
-}
-
-article {
-  margin-bottom: 1em;
-}
-
-
-footer, footer.row {
-  border-top: solid 1px #ddeab8;
-  border-bottom: solid 10px #ddeab8;
-  background: rgba(255,255,255,.5);
-  font-style: italic;
-  padding: 1em;
-  margin-top: 1em;
-}
-
-article footer {
-  margin-bottom: 2em;
-}
-
-aside h1 {
-  font-size: 18pt;
-}
-
 blockquote {
   font-style: italic;
   color: #333;
   background: rgba(255,255,255,.5);
-  border-left:10px solid #ddeab8;
+  border-left:10px solid #ddd;
   margin:1.5em 10px;
   padding:.5em 10px;
   quotes:"\201C""\201D""\2018""\2019";
@@ -236,24 +218,8 @@ blockquote p {
   display:inline;
 }
 
-.sidebar {
-  background: rgba(255,255,255,.5);
-  border: solid 1px #ddeab8;
-  border-radius: 2px;
-}
-
-aside .well {
-  margin: 1em;
-}
-
-.sidebar ul {
-  list-style: disc;
-  margin: 0 0 0 1em;
-  padding: 0;
-}
-
-.sidebar li{
-  margin-bottom: .5em;
+aside h1 {
+  font-size: 18pt;
 }
 
 .btn {
@@ -275,11 +241,11 @@ aside .well {
 
 .topbar {
   background: #99193c;
-  border-bottom: solid 2px #ddeab8;
+  border-bottom: solid 2px #ddd;
   width: 100%;
 }
 
-.topbar h1, .topbar h2, .topbar h3{
+.topbar h1 {
   color: #fff;
   display: inline;
   margin: 0;
@@ -311,10 +277,14 @@ aside .well {
   color: #ddd;
 }
 
+.archive ul {
+  list-style: none;
+}
+
 .archive time {
   background: #999;
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 1px 5px;
 }
 
@@ -339,7 +309,7 @@ aside .well {
   margin: auto;
 }
 
-.siteheader { 
+.siteheader {
   margin: 1em auto 2em auto;
 }
 
