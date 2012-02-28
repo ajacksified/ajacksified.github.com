@@ -7,8 +7,11 @@ categories:
 - meta
 ---
 
-So a little while ago I wrote about ditching bootstrap, at which point I did
-a very slight redesign of the blog; I recently ditched a grid system and folded
-a reset stylesheet as part of a new blog redesign. I previously put about
-twenty minutes of work into my last design; this one got at least thirty. I
-like the bolder reds.
+About two months ago, I wrote about [ditching Twitter Bootstrap](http://thejacklawson.com/2012/01/ditching-twitter-bootstrap/index.html).
+I had put up a temporary design that was, more or less, a clone of my existing
+Bootstrap site; brown instead of black and white, but more or less the same.
+I've decided to revisit some of my decisions, such as the use of a grid system
+and roughly applied CSS and remove some of the unnecessary stuff.
+
+This new design, then, has much less complexity; it sticks with a very limited
+palette and uses typography better to set the feel of the site.
