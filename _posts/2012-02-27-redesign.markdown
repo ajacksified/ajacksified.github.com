@@ -1,0 +1,14 @@
+---
+layout: post
+title: Redesign
+description: In which I redesign my blog again.
+permalink: /2012/02/redesign/index.html
+categories:
+- meta
+---
+
+So a little while ago I wrote about ditching bootstrap, at which point I did
+a very slight redesign of the blog; I recently ditched a grid system and folded
+a reset stylesheet as part of a new blog redesign. I previously put about
+twenty minutes of work into my last design; this one got at least thirty. I
+like the bolder reds.
