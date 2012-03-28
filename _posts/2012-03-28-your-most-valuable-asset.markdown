@@ -12,7 +12,7 @@ however specialized. It is the combination of your skills and experience that
 put you at a unique position to be able to deliver innovative concepts.
 
 An engineer who knows Ruby, Python, and Javascript is an entirely different
-developer than an engineer who konws C#, Java, and Javascript, even when coding
+developer than an engineer who knows C#, Java, and Javascript, even when coding
 in the same language. Both have relevant experience; both may be the best in
 their fields. A team, however, is made up of both; conflicting and harmonizing
 experiences which can merge together to forge something that can take the best of
