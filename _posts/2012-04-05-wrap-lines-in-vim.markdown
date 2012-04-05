@@ -2,7 +2,7 @@
 layout: post
 title: Wrap Lines in Vim
 description: In which I share '!fold -80 -s'
-permalink: /2012/02/i-love-javascript-too/index.html
+permalink: /2012/04/wrap-lines-in-vim/index.html
 categories:
 - vim
 ---
