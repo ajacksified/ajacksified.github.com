@@ -94,11 +94,12 @@ footer {
 pre, code {
   background: rgba(0,0,0,.1);
   border-radius: 2px;
+  font-size: 13px;
 }
 
 pre {
-  border-bottom: solid 1px #ddd;
-  border-left: solid 10px #ddd;
+  border-bottom: solid 1px #ccc;
+  border-left: solid 10px #ccc;
   padding: 1em;
   margin: 1em 0;
 }

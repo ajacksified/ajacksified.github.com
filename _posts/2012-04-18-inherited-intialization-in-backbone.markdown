@@ -14,13 +14,14 @@ categories:
 One of the niceties that Backbone provides is the ability to perform some level
 of inheritance in your Backbone objects. You can, for example, create 'base'
 models that provide some kind of functionality; perhaps they override the fetch
-method to match your API. Views, in particular, often share similar sub-views
-or components that need to be initialized. 
+method to match your API. Views can share similar functionality or use sub-views
+to share functionality across various pages.
 
-An example of an application that has two pages: a *home* page and a member's
+Here's an example of an application that has two pages: a *home* page and a member's
 *personal gallery* page, might look like this. This uses Twitter's
 [Hogan.js](http://twitter.github.com/hogan.js/) (essentially, mustache templates.)
-and renders photos within a photoGalery partial.
+with Backbone code written in Coffeescript. Both render a photo gallery, based on
+a model consisting of a collection of photos.
 
 {% highlight coffeescript %}
 App.Views.Home ||= {}
@@ -59,7 +60,7 @@ class App.Views.Members.GalleryView extends Backbone.View
     @$el.find('.photoGallery').flexslider();
 {% endhighlight %}
 
-As you can see, *they're almost the same thing*. One can make a base class
+As you can see, *they're almost the same thing*. We can make a base class
 to inherit from, such as a GalleryView that sets up the initialize and render
 functions; but, that limits us from the ability to add custom initialize and
 render functions on our individual page views.
