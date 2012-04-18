@@ -101,6 +101,7 @@ class App.Views.Gallery.GalleryView extends Backbone.View
 
   initialize: () ->
     @model.bind('reset', @render)
+    @render()
 
   render: () ->
     html = @template.render({ photos: @model.toJSON() }, { 
