@@ -16,6 +16,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 /* real stuff */
 
+menu,ol,ul{padding:0;}
+
 body {
   background: #fcfcfc url('../img/goovepaper.png');
   color: #2e2634;
