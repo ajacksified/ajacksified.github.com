@@ -124,7 +124,7 @@ busted specs using both lua 5.1 and luajit. We define a series of installation
 steps that will get everything installed and run the script, then post the
 results to a web hook and send an email to me.
 
-{% highlight javascript %}
+{% highlight yml %}
 language: erlang
 
 env:
