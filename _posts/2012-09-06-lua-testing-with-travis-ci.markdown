@@ -28,7 +28,7 @@ It's also, in my opinion, totally underutilized.
 styles itself after such test frameworks as Mocha, Jasmine, RSpec, and \*Unit.
 An example might look like this, taken from the official documentation:
 
-```lua
+{% highlight lua %}
 require("busted")
 
 describe("Busted unit testing framework", function()
@@ -50,7 +50,7 @@ describe("Busted unit testing framework", function()
     end)
 
     it("should provide some shortcuts to common functions", function()
-      assert.are.unique({{ thing = 1 }, { thing = 2 }, { thing = 3 }})
+      assert.are.unique({ { thing = 1 }, { thing = 2 }, { thing = 3 } })
     end)
 
     it("should have mocks and spies for functional tests", function()
@@ -63,7 +63,7 @@ describe("Busted unit testing framework", function()
     end)
   end)
 end)
-```
+{% endhighlight %}
 
 Our goal was to make it super easy to read and write; to not have to look up
 documentation every time you want a test, but at the same time, build in
@@ -124,7 +124,7 @@ busted specs using both lua 5.1 and luajit. We define a series of installation
 steps that will get everything installed and run the script, then post the
 results to a web hook and send an email to me.
 
-```yml
+{% highlight javascript %}
 language: erlang
 
 env:
@@ -152,7 +152,7 @@ notifications:
     on_success: change
     on_failure: always
 
-```
+{% endhighlight %}
 
 At Olivine Labs, our webhook is actually a hubot endpoint that uses this
 [travis-ci hubot script](https://gist.github.com/3660666).  This allows our 
