@@ -23,8 +23,7 @@ Here's an example of an application that has two pages: a *home* page and a memb
 with Backbone code written in Coffeescript. Both render a photo gallery, based on
 a model consisting of a collection of photos.
 
-{% highlight coffeescript %}
-App.Views.Home ||= {}
+<pre><code data-language="coffeescript">App.Views.Home ||= {}
 
 class App.Views.Home.IndexView extends Backbone.View
   template: HoganTemplates['photos/index']
@@ -58,7 +57,7 @@ class App.Views.Members.GalleryView extends Backbone.View
     @$el.find(".photoGallery").html(html)
 
     @$el.find('.photoGallery').flexslider();
-{% endhighlight %}
+</code></pre>
 
 As you can see, *they're almost the same thing*. We can make a base class
 to inherit from, such as a GalleryView that sets up the initialize and render
@@ -73,20 +72,15 @@ same time with a code sippet that looks like:
 
 (javascript)
 
-{% highlight javascript %}
-this.constructor.__super__.initialize.apply(this, [options]);
-{% endhighlight %}
+<pre><code data-language="javascript">this.constructor.__super__.initialize.apply(this, [options]);</code></pre>
 
 (coffeescript)
 
-{% highlight coffeescript %}
-super
-{% endhighlight %}
+<pre><code data-language="coffeescript">super</code></pre>
 
 And turn that initial code into this:
 
-{% highlight coffeescript %}
-App.Views.Base ||= {}
+<pre><code data-language="coffeescript">App.Views.Base ||= {}
 class App.Views.Base.GalleryView extends Backbone.View
   initialize: () ->
     @model.bind('reset', @render)
@@ -143,7 +137,7 @@ class App.Views.Members.GalleryView extends Backbone.View
     super
 
     @$el.find('.photoGallery').flexslider();
-{% endhighlight %}
+</code></pre>
 
 Super calls it's ancestor's functions. Once the base template is rendered,
 it calls the base view's, which builds a gallery and sets it up as a slider.
