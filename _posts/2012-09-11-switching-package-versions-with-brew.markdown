@@ -24,11 +24,11 @@ brew versions lua
 
 which returns
 
-```
+<pre>
 5.2.1    git checkout 894f668 /usr/local/Library/Formula/lua.rb
-
 5.1.4    git checkout 7e5bc89 /usr/local/Library/Formula/lua.rb
-```
+</pre>
+
 
 so I can
 
