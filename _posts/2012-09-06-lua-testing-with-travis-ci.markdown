@@ -12,7 +12,7 @@ categories:
 Lua's an awesome language. If you already know what Lua is, skip ahead to
 the Busted section. If not, here's a brief overview.
 
-Lua is a lightweight (< 1MB), super fast (fastest scripting language in
+Lua is a lightweight (< 500kb), super fast (fastest scripting language in
 almost all benchmarks when using the Luajit interpreter), simple language. It's
 primarily used in building game scripts, such as World of Warcraft plugins,
 but is also used in applications like Adobe Lightroom (which is, or was, largely
