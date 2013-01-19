@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WebSockets: A Guide
+title: WebSockets, A Guide
 description: In which I discuss what exactly WebSockets are.
 permalink: /2012/10/websockets-a-guide/index.html
 categories:
