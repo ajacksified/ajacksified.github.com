@@ -52,7 +52,7 @@ exponential complexity.
 
 We ended up using Gentoo for our servers, because even if it's a little
 *weird*, it's __really fast__. Everything is compiled right for the hardware.
-Additionally, to make __ops__ easy, we can build our own portage tree and
+Additionally, to make ops easy, we can build our own portage tree and
 update and install our applications through our own package manager. We can
 also mask releases (mark some as dangerous) until testing passes, giving the
 option to run beta / test / non-passing versions of an application if it's
@@ -63,7 +63,7 @@ autoscaling groups](http://www.cardinalpath.com/autoscaling-your-website-with-am
 
 ## Deployment and Security
 
-Next, we set up LDAP on a server so that we could quickly SSH into servers.
+Next, we set up LDAP / LPK on a server so that we could quickly SSH into servers.
 Gentoo's great about LDAP, so that didn't take terribly long. That allowed us
 to use things like `ssh jlawson@files.application.com` (previously, we shared
 the EC2 pems on Google Docs. Don't look at me like that, I know, it's
