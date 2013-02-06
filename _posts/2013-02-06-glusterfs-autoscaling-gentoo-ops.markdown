@@ -88,8 +88,7 @@ complicated bash scripts.
 All services for a single application deploy to the same GlusterFS file server. 
 This allows any application server to load up whatever app it needs to run.
 
-We can also cluster GlusterFS into multiple zones and, eventually, regions for
-durability and performance using a round-robin DNS scheme.
+We can also cluster GlusterFS into multiple zones and, eventually, regions.
 
 ## Server Configuration
 
