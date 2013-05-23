@@ -33,7 +33,6 @@ h1 a, h2 a {
 
 h1 {
   font-size: 32pt;
-  margin-top: 2em;
 }
 
 h2 {
@@ -120,7 +119,7 @@ aside h1 {
 
 .btn:hover {
   color: #eee;
-  background-color: #79091c;
+  background-color: #030;
 }
 
 .topbar {
@@ -129,6 +128,10 @@ aside h1 {
   width: 100%;
   font-size: 14px;
   overflow: auto;
+}
+
+.topbar .row {
+  padding: 0;
 }
 
 .topbar h1 {
