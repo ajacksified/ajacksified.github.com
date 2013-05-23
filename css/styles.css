@@ -8,9 +8,10 @@ menu,ol,ul{padding:0;}
 body {
   background: #fcfcfc url('../img/debut_light.png');
   color: #2e2634;
-  font-family: gentium-book-basic, 'Times New Roman', 'Times', serif;
+  font-family: gentium-book-basic, 'Georgia', serif;
   font-weight: 400;
-  line-height: 1.4em;
+  line-height: 1.5em;
+  font-size: 18px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
@@ -139,6 +140,8 @@ aside h1 {
   background: #1C481A;
   border-bottom: solid 2px #ddd;
   width: 100%;
+  font-size: 14px;
+  overflow: auto;
 }
 
 .topbar h1 {
@@ -149,6 +152,7 @@ aside h1 {
   line-height: 1em;
   font-size: 14pt;
   border-bottom: none;
+  float: left;
 }
 
 .topbar nav, .topbar ul {
@@ -202,7 +206,8 @@ aside h1 {
 }
 
 .row {
-  max-width: 40em;
+  max-width: 42em;
+  padding: 1em;
   margin: auto;
 }
 
@@ -228,5 +233,9 @@ aside h1 {
   .siteheader h2 {
     font-size: 41px;
     line-height: 1em;
+  }
+
+  .topbar li {
+    display: list-item;
   }
 }
