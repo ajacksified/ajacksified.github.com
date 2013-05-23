@@ -33,9 +33,6 @@ h1 a, h2 a {
 
 h1 {
   font-size: 32pt;
-  text-align: center;
-  border-bottom: 1px dotted #aaa;
-  padding-bottom: .5em;
   margin-top: 2em;
 }
 
@@ -59,15 +56,11 @@ article {
   margin: 1em auto;
 }
 
-article blockquote {
-  margin: 1em;
-}
-
 article li {
   margin-left: 2.5em;
 }
 
-article p, article ol, article blockquote, article ul, .addthis_toolbox {
+article p, article ol, article ul, .addthis_toolbox {
   margin: 0 auto 1em auto;
 }
 
@@ -102,13 +95,11 @@ pre, code {
 
 blockquote {
   font-style: italic;
-  color: #333;
+  color: #555;
   background: rgba(255,255,255,.5);
-  border-left:10px solid #ddd;
-  margin:1.5em 10px;
-  padding:.5em 10px;
-  quotes:"\201C""\201D""\2018""\2019";
-  border-radius: 10px;
+  margin: 1em;
+  padding: .5em 1em;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote p {
