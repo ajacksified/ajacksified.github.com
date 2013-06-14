@@ -9,5 +9,7 @@ categories:
 - mvc
 ---
 
-<iframe src="http://player.vimeo.com/video/61043049" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="media-container">
+  <iframe src="http://player.vimeo.com/video/61043049" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 

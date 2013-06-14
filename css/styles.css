@@ -3,13 +3,15 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 /* real stuff */
 
-menu,ol,ul{padding:0;}
+menu, ol, ul{
+  padding:0;
+}
 
 body {
-  background: #fcfcfc url('../img/debut_light.png');
+  background: #fcfcfc url('../img/squairy_light.png');
   color: #2e2634;
-  font-family: gentium-book-basic, 'Georgia', serif;
-  font-weight: 400;
+  font-family: neuton, 'Georgia', serif;
+  font-weight: light;
   line-height: 1.5em;
   font-size: 18px;
   text-rendering: optimizeLegibility;
@@ -17,7 +19,7 @@ body {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   body {
-    background-image: url(../img/debut_light_2X.png);
+    background-image: url(../img/squairy_light_@2X.png);
     background-size: 200px 200px;
   }
 }
@@ -30,6 +32,7 @@ h1, h2, h3, .topbar a { line-height: 1.1em; }
 
 h1 a, h2 a {
   text-decoration: none;
+  border: none;
 }
 
 h1 {
@@ -46,10 +49,13 @@ h3 {
 
 a {
   color: #1C481A;
+  text-decoration: none;
+  border-bottom: dotted 1px #1C481A;
 }
 
 a:hover {
   color: #030;
+  border-color: #030;
 }
 
 article {
@@ -66,6 +72,10 @@ article p, article ol, article ul, .addthis_toolbox {
 
 article footer {
   margin-bottom: 2em;
+}
+
+.media-container {
+  text-align: center;
 }
 
 .visuallyhidden {
@@ -96,6 +106,7 @@ blockquote {
   margin: 1em;
   padding: .5em 1em;
   quotes: "\201C""\201D""\2018""\2019";
+  font-size: 22px;
 }
 
 blockquote p {
@@ -197,6 +208,7 @@ aside h1 {
 }
 
 .row {
+  font-size: 18px;
   max-width: 42em;
   padding: 1em;
   margin: auto;
