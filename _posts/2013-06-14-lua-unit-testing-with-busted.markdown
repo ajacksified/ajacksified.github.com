@@ -66,7 +66,8 @@ which will run in most variations of Linuxes, OSX, and Windows.
 
 The homepage has an example that looks something like:
 
-<pre><code data-language="lua">describe("Busted unit testing framework", function()
+```lua
+describe("Busted unit testing framework", function()
   describe("should be awesome", function()
     it("should be easy to use", function()
       assert.truthy("Yup.")
@@ -86,7 +87,7 @@ The homepage has an example that looks something like:
     end)
   end)
 end)
-</code></pre>
+```
 
 If you save this to a file like `spec/busted_spec.lua`, you can run `busted`,
 which will automatically look for files matching `spec/*_spec.lua`,
