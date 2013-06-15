@@ -73,7 +73,11 @@ The homepage has an example that looks something like:
     end)
 
     it("should provide some shortcuts to common functions", function()
-      assert.are.unique(\{\{ thing = 1 }, \{ thing = 2 }, \{ thing = 3 }})
+      assert.are.unique({
+        { thing = 1 },
+        { thing = 2 },
+        { thing = 3 }
+      })
     end)
 
     it("should have mocks and spies for functional tests", function()
