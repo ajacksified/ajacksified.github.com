@@ -7,10 +7,9 @@ menu, ol, ul{
 }
 
 body {
-  background: #fcfcfc;
+  background: #f3f3f3;
   color: #303530;
   font-family: neuton, 'Georgia', serif;
-  font-weight: light;
   line-height: 1.5em;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -51,11 +50,11 @@ article {
   margin: 1em auto;
 }
 
-article li {
+article ol, article ul {
   margin-left: 2.5em;
 }
 
-article p, article ol, article ul, .addthis_toolbox {
+article p, .addthis_toolbox {
   margin: 0 auto 1em auto;
 }
 
@@ -63,18 +62,6 @@ article footer {
   margin-bottom: 2em;
 }
 
-.media-container {
-  text-align: center;
-}
-
-.visuallyhidden {
-  position: absolute;
-  left: -100%;
-}
-
-#container > footer {
-  margin-top: 2em;
-}
 
 footer {
   border-top: solid 1px #ddd;
@@ -105,54 +92,79 @@ aside h1 {
   font-size: 18pt;
 }
 
+.row {
+  font-size: 20px;
+  max-width: 42em;
+  padding: 1em;
+  margin: auto;
+}
+
+.site-header {
+  margin: 1em auto 2em auto;
+}
+
+.media-container {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -100%;
+}
+
+#container > footer {
+  margin-top: 2em;
+}
+
 .pull-right {
   float: right;
 }
 
-.topbar .row {
-  padding: 0;
+.nav-bar {
   border-bottom: solid 1px #ddd;
   overflow: auto;
 }
 
-.topbar h1 {
-  font-size: 14pt;
-  float: left;
+.nav-bar .row {
+  overflow: auto;
 }
 
-.topbar nav, .topbar ul {
+.nav-bar-heading {
+  font-size: 14pt;
+  float: left;
+  margin: 0;
+}
+
+.nav-list {
   padding: 0;
   float: right;
   margin: 0;
 }
 
-.topbar li {
+.nav-list li {
   display: inline-block;
   margin-left: 1em;
 }
 
-.topbar a {
+.nav-list a {
   display: inline-block;
   text-decoration: none;
 }
 
-.archive ul {
+.archive-list {
   list-style: none;
 }
 
-.archive time {
+.archive-list li {
+  margin-bottom: .5em;
+}
+
+.archive-list time {
   background: #999;
   color: white;
   border-radius: 3px;
   padding: 1px 5px;
-}
-
-.archive li {
-  margin-bottom: .5em;
-}
-
-.archive a {
-  padding-left: .5em;
+  margin-right: 0.5em;
 }
 
 .oldie article {
@@ -163,23 +175,12 @@ aside h1 {
   text-align: left;
 }
 
-.row {
-  font-size: 20px;
-  max-width: 42em;
-  padding: 1em;
-  margin: auto;
-}
-
-.siteheader {
-  margin: 1em auto 2em auto;
-}
-
 @media handheld, only screen and (max-width: 767px) {
-  .topbar nav {
+  .nav-bar nav {
     float: none;
   }
 
-  .topbar a {
+  .nav-bar a {
     padding-left: 0;
   }
 
@@ -194,7 +195,7 @@ aside h1 {
     line-height: 1em;
   }
 
-  .topbar li {
+  .nav-bar li {
     display: list-item;
   }
 }
