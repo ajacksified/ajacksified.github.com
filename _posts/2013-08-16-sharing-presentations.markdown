@@ -24,7 +24,7 @@ Oh, and if this wasn't already magical enough, I can store all of my
 presentations on GitHub. That allows for sharing, pull requests, and quick
 updates through either Vim or the web ui.
 
-That's whyn it struck me today - not only can I put my slides on GitHub for
+That's when it struck me today - not only can I put my slides on GitHub for
 keeping track of edits and all that Git goodness, but I can create a `gh-pages`
 branch, and it will *automatically host my slides under my domain name*.
 
