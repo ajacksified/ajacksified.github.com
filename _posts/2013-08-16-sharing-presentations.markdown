@@ -35,7 +35,7 @@ But wait, there's more. You don't even have to hop into the terminal to do it.
 In GitHub, click on the 'branches' button, as shown below; type in `gh-pages`,
 and a minute later you're up and running.
 
-![pressing the branches button](/img/sharing-presentations-github.png)
+![pressing the branches button](/img/posts/sharing-presentations-github.png)
 
 Check out these examples:
 
