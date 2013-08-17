@@ -9,7 +9,7 @@ categories:
 
 I've been using the supremely excellent
 [reveal.js](http://lab.hakim.se/reveal-js/) library for all of my presentations
-in the last few years. It's super easy to use, it's very lightweight, and I can
+in the last year. It's super easy to use, it's very lightweight, and I can
 build a sharp presentation without having to download or install some 400mb
 software package on my computer *and* the computer I'm using to present, if,
 God forbid, it's not the same as I used to write it.
