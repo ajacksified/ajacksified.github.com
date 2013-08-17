@@ -14,9 +14,6 @@ build a sharp presentation without having to download or install some 400mb
 software package on my computer *and* the computer I'm using to present, if,
 God forbid, it's not the same as I used to write it.
 
-(The same one is linked here on Slideshare, but I'll probably replace it,
-because the interaction and animation's way better on reveal.js.)
-
 Also, by virtue of being html, I can write my own theme files in CSS and
 plugins in Javascript (some of which are supported: secondary-monitor speaker
 notes, remote control over mobile phone, markdown, and code syntax
