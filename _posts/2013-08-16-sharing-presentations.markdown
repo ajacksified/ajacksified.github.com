@@ -9,16 +9,13 @@ categories:
 
 I've been using the supremely excellent
 [reveal.js](http://lab.hakim.se/reveal-js/) library for all of my presentations
-in the last few years. It's super easy to use, it's very lightweight, and I can
+in the last year. It's super easy to use, it's very lightweight, and I can
 build a sharp presentation without having to download or install some 400mb
 software package on my computer *and* the computer I'm using to present, if,
 God forbid, it's not the same as I used to write it.
 
-(The same one is linked here on Slideshare, but I'll probably replace it,
-because the interaction and animation's way better on reveal.js.)
-
 Also, by virtue of being html, I can write my own theme files in CSS and
-plugins in Javascript (some of which are supported: secondary-monitor speaker
+plugins in Javascript. Some plugins supported include secondary-monitor speaker
 notes, remote control over mobile phone, markdown, and code syntax
 highlighting. It can also print all the slides to PDF in individual pages. And,
 perhaps best of all, you can use gifs as massive background images.
@@ -27,7 +24,7 @@ Oh, and if this wasn't already magical enough, I can store all of my
 presentations on GitHub. That allows for sharing, pull requests, and quick
 updates through either Vim or the web ui.
 
-That's whyn it struck me today - not only can I put my slides on GitHub for
+That's when it struck me today - not only can I put my slides on GitHub for
 keeping track of edits and all that Git goodness, but I can create a `gh-pages`
 branch, and it will *automatically host my slides under my domain name*.
 
