@@ -15,7 +15,7 @@ software package on my computer *and* the computer I'm using to present, if,
 God forbid, it's not the same as I used to write it.
 
 Also, by virtue of being html, I can write my own theme files in CSS and
-plugins in Javascript (some of which are supported: secondary-monitor speaker
+plugins in Javascript. Some plugins supported include secondary-monitor speaker
 notes, remote control over mobile phone, markdown, and code syntax
 highlighting. It can also print all the slides to PDF in individual pages. And,
 perhaps best of all, you can use gifs as massive background images.
