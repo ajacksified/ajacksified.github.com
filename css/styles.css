@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22pt;
+  font-size: 20pt;
 }
 
 a {
@@ -175,6 +175,24 @@ aside h1 {
 
 .oldie article * {
   text-align: left;
+}
+
+.archive h2,
+.archive h3 {
+  margin: 0;
+  line-height: 1.25em;
+}
+
+.archive article {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: dotted 1px #ccc;
+}
+
+.archive article:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
 }
 
 @media handheld, only screen and (max-width: 767px) {
