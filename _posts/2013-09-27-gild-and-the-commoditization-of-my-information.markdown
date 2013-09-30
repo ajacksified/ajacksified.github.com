@@ -113,5 +113,8 @@ And then:
 >Thanks,
 >Swapna
 
-(I shall update this as we talk more.)
+I've replied and asked for a call later this week, and will update as we talk
+more.
+
+[Hackernews discussion](https://news.ycombinator.com/item?id=6471970)
 
