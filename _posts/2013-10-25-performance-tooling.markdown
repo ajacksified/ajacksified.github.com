@@ -22,6 +22,6 @@ the arrows on-screen, or if on mobile, slide. You can also hit 's' to bring up
 my speaker notes which contain more information.
 
 <div class="media-container">
-  <iframe src="http://thejacklawson.com/performance-tooling?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
+  <iframe src="http://thejacklawson.com/performance-tooling/?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
 </div>
 

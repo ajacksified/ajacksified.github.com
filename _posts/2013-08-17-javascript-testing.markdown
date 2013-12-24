@@ -36,6 +36,6 @@ Click inside the presentation, and then either use your arrow keys,
 the arrows on-screen, or if on mobile, slide. 
 
 <div class="media-container">
-  <iframe src="http://thejacklawson.com/javascript-testing?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
+  <iframe src="http://thejacklawson.com/javascript-testing/?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
 </div>
 

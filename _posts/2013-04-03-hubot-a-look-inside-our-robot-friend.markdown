@@ -15,6 +15,6 @@ Source with examples at
 [github.com/ajacksified/how-to-hubot](https://github.com/ajacksified/how-to-hubot)
 
 <div class="media-container">
-  <iframe src="http://thejacklawson.com/how-to-hubot?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
+  <iframe src="http://thejacklawson.com/how-to-hubot/?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
 </div>
 
