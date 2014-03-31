@@ -10,14 +10,15 @@ menu, ol, ul{
 body {
   background: #f3f3f3;
   color: #303530;
-  font-family: 'EB Garamond', 'Georgia', serif;
+  font-family: 'Alegreya', 'Georgia', serif;
   line-height: 1.5em;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, strong {
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Roboto Slab', 'Georgia', serif;
 }
 
 h1, h2, h3 {
@@ -42,11 +43,11 @@ h3 {
 }
 
 a {
-  color: #1C481A;
+  color: #543;
 }
 
 a:hover {
-  color: #030;
+  color: #010;
 }
 
 article {
@@ -70,6 +71,15 @@ footer {
   font-style: italic;
   padding: 1em;
   margin-top: 1em;
+}
+
+.footer {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKElEQVQIW2MsDzX+f+89AxwwhroY/0dwGRjgAi7GSgx7zt5DCMBUAQDYMwwx8ZDuFAAAAABJRU5ErkJggg==) repeat;
+  color: #fff;
+}
+
+.footer a {
+  color: #ca9;
 }
 
 pre, code {
@@ -121,6 +131,7 @@ aside h1 {
 .nav-bar {
   border-bottom: solid 1px #ddd;
   overflow: auto;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQIW2OcOXPm//T0dEYGKIAziBcAAAIlBAXxgFDiAAAAAElFTkSuQmCC) repeat;
 }
 
 .nav-bar .row {
@@ -128,7 +139,7 @@ aside h1 {
 }
 
 .nav-bar-heading {
-  font-size: 14pt;
+  font-size: 20pt;
   float: left;
   margin: 0;
 }
@@ -145,6 +156,8 @@ aside h1 {
 }
 
 .nav-list a {
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-size: 12pt;
   display: inline-block;
   text-decoration: none;
 }
