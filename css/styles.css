@@ -50,19 +50,19 @@ a:hover {
   color: #010;
 }
 
-article {
+.article {
   margin: 1em auto;
 }
 
-article ol, article ul {
+.article ol, .article ul {
   margin-left: 2.5em;
 }
 
-article p, .addthis_toolbox {
+.article p, .addthis_toolbox {
   margin: 0 auto 1em auto;
 }
 
-article footer {
+.article footer {
   margin-bottom: 2em;
 }
 
@@ -178,11 +178,11 @@ aside h1 {
   margin-right: 0.5em;
 }
 
-.oldie article {
+.oldie .article {
   text-align: center;
 }
 
-.oldie article * {
+.oldie .article * {
   text-align: left;
 }
 
@@ -192,13 +192,13 @@ aside h1 {
   line-height: 1.25em;
 }
 
-.archive article {
+.archive .article {
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: dotted 1px #ccc;
 }
 
-.archive article:last-child {
+.archive .article:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border: none;
