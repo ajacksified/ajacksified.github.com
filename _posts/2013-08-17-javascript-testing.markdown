@@ -28,6 +28,6 @@ asset compilation awesome.
 
 Hopefully the slides are clear without too much explanation or notes, but
 if they're obtuse, feel free to contact me and I'll add appropriate
-notes. The slides are built in Reveal.js, and are available (MIT
-Licensed) at
-[github.com/ajacksified/javascript-testing](https://github.com/ajacksified/javascript-testing).
+notes. The slides are built in Reveal.js, and are available at
+[/javascript-testing](http://thejacklawson.com/javascript-testing).
+([github](https://github.com/ajacksified/javascript-testing))

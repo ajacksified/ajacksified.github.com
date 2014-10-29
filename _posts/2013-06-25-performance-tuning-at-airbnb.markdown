@@ -11,5 +11,5 @@ I've published a post at the [Airbnb engineering blog](http://nerds.airbnb.com/)
 regarding some of the tools and methods we've used to drop median page load
 time by over 30%.
 
-[Check it out at nerds.airbnb.com]( http://nerds.airbnb.com/performance-tuning/)
+[Check it out at nerds.airbnb.com](http://nerds.airbnb.com/performance-tuning/)
 

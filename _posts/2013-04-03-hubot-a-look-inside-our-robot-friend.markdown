@@ -12,4 +12,5 @@ categories:
 Click inside the presentation, and then either use your arrow keys,
 the arrows on-screen, or if on mobile, slide. Built using Reveal.js.
 Source with examples at
-[github.com/ajacksified/how-to-hubot](https://github.com/ajacksified/how-to-hubot).
+[/how-to-hubot](http://thejacklawson.com/how-to-hubot).
+([github.com](https://github.com/ajacksified/how-to-hubot))
