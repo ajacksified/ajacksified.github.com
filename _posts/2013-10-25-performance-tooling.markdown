@@ -15,13 +15,4 @@ I gave this presentation at Akamai's Edge conference and NewRelic's FutureStack
 web performance work I do.
 
 The slides are built in Reveal.js, and are available at
-[github.com/ajacksified/performance-tooling](https://github.com/ajacksified/performance-tooling)
-
-Click inside the presentation, and then either use your arrow keys,
-the arrows on-screen, or if on mobile, slide. You can also hit 's' to bring up
-my speaker notes which contain more information.
-
-<div class="media-container">
-  <iframe src="http://thejacklawson.com/performance-tooling/?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
-</div>
-
+[github.com/ajacksified/performance-tooling](https://github.com/ajacksified/performance-tooling).

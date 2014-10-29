@@ -30,12 +30,4 @@ Hopefully the slides are clear without too much explanation or notes, but
 if they're obtuse, feel free to contact me and I'll add appropriate
 notes. The slides are built in Reveal.js, and are available (MIT
 Licensed) at
-[github.com/ajacksified/javascript-testing](https://github.com/ajacksified/javascript-testing)
-
-Click inside the presentation, and then either use your arrow keys,
-the arrows on-screen, or if on mobile, slide. 
-
-<div class="media-container">
-  <iframe src="http://thejacklawson.com/javascript-testing/?src=embedded" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen style="width:100%; height:500px;"> </iframe>
-</div>
-
+[github.com/ajacksified/javascript-testing](https://github.com/ajacksified/javascript-testing).

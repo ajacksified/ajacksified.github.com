@@ -20,7 +20,4 @@ most cases, increase your efficiency, increase the longevity of your code,
 and will allow you to scale in application complexity without sacrificing
 code quality or agility.
 
-<div class="media-container">
-  <iframe src="http://player.vimeo.com/video/61043049" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-
+Check out the slides at [http://vimeo.com/video/61043049](http://vimeo.com/video/61043049).
