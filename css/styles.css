@@ -32,14 +32,14 @@ pre .string {
 }
 
 pre .keyword, pre .selector {
-  color: #245361;
+  color: #d26937;
 }
 
 pre .inherited-class {
   font-style: italic;
 }
 
-pre .support {
+pre .support, pre .keyword.operator {
   color: #599cab;
 }
 
