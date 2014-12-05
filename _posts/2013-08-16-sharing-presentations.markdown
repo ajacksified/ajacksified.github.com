@@ -29,10 +29,8 @@ keeping track of edits and all that Git goodness, but I can create a `gh-pages`
 branch, and it will *automatically host my slides under my domain name*.
 
 But wait, there's more. You don't even have to hop into the terminal to do it.
-In GitHub, click on the 'branches' button, as shown below; type in `gh-pages`,
+In GitHub, click on the 'branches' button, type in `gh-pages`,
 and a minute later you're up and running.
-
-<img src="/img/posts/sharing-presentations-github.png" alt="Clicking the branch button in a GitHub repository" width="504" />
 
 Check out these examples:
 

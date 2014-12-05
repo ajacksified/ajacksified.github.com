@@ -9,18 +9,21 @@ title: A Suffusion of Coffee
   </header>
 
   {% for post in site.posts limit:5 %}
-    <article class="article">
-      <header>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      </header>
+    <article class='article'>
+      <a href='{{ post.url }}' class='heading'>
+        <header>
+          <h1 class='post-title'>
+            {{ post.title }}
+            --
+            <time datetime='{{ post.date | date_to_xmlschema }}' pubdate>{{ post.date | date_to_string }}</time>
+          </h1>
+        </header>
+      </a>
 
-      <div class="body">
+
+      <div class='body'>
         {{ post.content }}
       </div>
-
-      <footer class="meta well">
-        Posted on <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
-      </footer>
     </article>
   {% endfor %}
 

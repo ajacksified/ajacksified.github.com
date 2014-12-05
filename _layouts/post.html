@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
-<div class="post container">
-  <div class="row">
+<div class='post container'>
+  <div class='row'>
     <article class='article'>
-      <header class="site-header">
-        <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+      <header>
+        <h1 class='post-title'><a href='{{ post.url }}'>{{ page.title }}</a></h1>
       </header>
-
-      <div class="body">
-        {{ content }}
-      </div>
-
       <footer>
         <p>
-          Posted on <a href="{{ page.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date_to_string }}</time></a>
+          <time datetime='{{ page.date | date_to_xmlschema }}' pubdate>{{ page.date | date_to_string }}</time>
+          <br />
+          Jack Lawson
         </p>
       </footer>
+
+      <div class='body'>
+        {{ content }}
+      </div>
     </article>
   </div>
 </div>

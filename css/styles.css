@@ -55,7 +55,7 @@ body {
   color: #ded;
   font-family: 'Inconsolata', Consolas, monospace;
   line-height: 1.4em;
-  font-size: 18px;
+  font-size: 1em;
   text-rendering: optimizeLegibility;
 }
 
@@ -65,45 +65,47 @@ h1, h2, h3, strong {
 
 h1, h2, h3 {
   line-height: 1.1em;
+  font-size: 1em;
 }
 
 h1 a, h2 a, h3 a {
   border: none;
 }
 
-h1 {
-  font-size: 32pt;
-}
-
-h2 {
-  font-size: 24pt;
-}
-
-h3 {
-  font-size: 20pt;
+h2::before {
+  content: '# ';
 }
 
 h3::before {
-  content: '# ';
+  content: '## ';
 }
 
 a {
   color: #99d1ce;
 }
 
-h1 a {
-  text-decoration: none;
-
-  text-shadow: -.033em 0 .025em rgba(255, 0, 0, 1),
-    .05em 0 .033em rgba(0, 0, 255, 1),
-    .0 .025em .005em rgba(0, 255, 0, 1);
-
-  -webkit-animation: twitch .1s linear 0s infinite alternate;
-  animation: twitch .1s linear 0s infinite alternate;
-}
 
 .article {
-  margin: 0 auto 2em auto;
+  margin: 0 auto 5em auto;
+}
+
+.heading {
+  text-decoration: none;
+  color: #ded;
+}
+
+.article header {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: dashed 2px;
+}
+
+.article header h1 {
+  text-align: center;
+}
+
+.article header p {
+  margin: 0;
 }
 
 .article ol, .article ul {
@@ -114,23 +116,12 @@ h1 a {
   margin: 0 auto 1em auto;
 }
 
-.article footer {
-  margin-bottom: 2em;
-}
-
-footer {
-  font-style: italic;
-  padding: 1em;
-  margin-top: 1em;
-}
-
 code {
   background: rgba(0,255,0,.25);
   padding: .15em;
 }
 
 pre {
-  font-size: 13px;
   line-height: 1.4em;
 }
 
@@ -145,11 +136,6 @@ blockquote {
   margin: 1em;
   padding: .5em 1em;
   quotes: "\201C""\201D""\2018""\2019";
-  font-size: 22px;
-}
-
-aside h1 {
-  font-size: 18pt;
 }
 
 .row {
@@ -189,7 +175,6 @@ aside h1 {
 }
 
 .nav-bar-heading {
-  font-size: 20pt;
   float: left;
   margin: 0;
 }
@@ -206,7 +191,6 @@ aside h1 {
 }
 
 .nav-list a {
-  font-size: 12pt;
   display: inline-block;
   text-decoration: none;
 }
@@ -250,11 +234,9 @@ aside h1 {
   .siteheader h1 {
     color: #98193d;
     line-height: 1em;
-    font-size: 40px;
   }
 
   .siteheader h2 {
-    font-size: 41px;
     line-height: 1em;
   }
 
