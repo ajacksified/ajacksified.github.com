@@ -11,8 +11,8 @@ title: A Suffusion of Coffee
   {% for post in site.posts limit:5 %}
     <article class='article'>
       <a href='{{ post.url }}' class='heading'>
-        <header>
-          <h1 class='post-title'>
+        <header class='article-header'>
+          <h1 class='article-title'>
             {{ post.title }}
             --
             <time datetime='{{ post.date | date_to_xmlschema }}' pubdate>{{ post.date | date_to_string }}</time>

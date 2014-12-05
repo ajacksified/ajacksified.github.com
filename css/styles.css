@@ -12,13 +12,8 @@ pre {
 
 pre .comment {
   color: #9933CC;
-#0c1014
 }
 
-/* 
-#d3ebe9
-#599cab; 
- */
 pre .constant {
   color: #d3ebe9;
 }
@@ -43,11 +38,10 @@ pre .support, pre .keyword.operator {
   color: #599cab;
 }
 
-
 /* thejacklawson.com blog styles | MIT License | github.com/ajacksified/ajacksified.github.com */
 
 menu, ol, ul{
-  padding:0;
+  padding: 0;
 }
 
 body {
@@ -68,10 +62,6 @@ h1, h2, h3 {
   font-size: 1em;
 }
 
-h1 a, h2 a, h3 a {
-  border: none;
-}
-
 h2::before {
   content: '# ';
 }
@@ -84,7 +74,6 @@ a {
   color: #99d1ce;
 }
 
-
 .article {
   margin: 0 auto 5em auto;
 }
@@ -94,18 +83,14 @@ a {
   color: #ded;
 }
 
-.article header {
+.article-header {
   padding: 1em;
   margin-bottom: 1em;
   border: dashed 2px;
 }
 
-.article header h1 {
+.article-title {
   text-align: center;
-}
-
-.article header p {
-  margin: 0;
 }
 
 .article ol, .article ul {
@@ -157,7 +142,7 @@ blockquote {
   left: -100%;
 }
 
-#container > footer {
+.site-footer {
   margin-top: 2em;
 }
 
@@ -166,7 +151,6 @@ blockquote {
 }
 
 .nav-bar {
-  border-bottom: solid 1px #040;
   overflow: auto;
 }
 
@@ -244,47 +228,3 @@ blockquote {
     display: list-item;
   }
 }
-
-
-@-webkit-keyframes twitch {
-  0% {
-    text-shadow: -.033em 0 .018em rgba(255, 0, 0, 1),
-      .05em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-
-  50% {
-    text-shadow: -.033em 0 .018em rgba(255, 0, 0, 1),
-      .03em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-
-  100% {
-    text-shadow: -.04em 0 .018em rgba(255, 0, 0, 1),
-      .04em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-}
-
-@keyframes twitch {
-  0% {
-    text-shadow: -.033em 0 .018em rgba(255, 0, 0, 1),
-      .05em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-
-  50% {
-    text-shadow: -.033em 0 .018em rgba(255, 0, 0, 1),
-      .03em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-
-  100% {
-    text-shadow: -.04em 0 .018em rgba(255, 0, 0, 1),
-      .04em 0 .025em rgba(0, 0, 255, 1),
-      0 .015em .005em rgba(0, 255, 0, 1);
-  }
-}
-
-
-
