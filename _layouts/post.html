@@ -1,23 +1,4 @@
 ---
 layout: default
 ---
-<div class='post container'>
-  <div class='row'>
-    <article class='article'>
-      <a href='{{ page.url }}' class='heading'>
-        <header class='article-header'>
-          <h1 class='article-title'>
-            {{ page.title }}
-            --
-            <time datetime='{{ page.date | date_to_xmlschema }}' pubdate>{{ page.date | date_to_string }}</time>
-          </h1>
-        </header>
-      </a>
-
-
-      <div class='body'>
-        {{ content }}
-      </div>
-    </article>
-  </div>
-</div>
+{% include post.html post=page content=content %}

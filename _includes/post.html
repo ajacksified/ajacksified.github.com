@@ -1,0 +1,17 @@
+<div class='post container'>
+  <div class='row'>
+    <article class='article'>
+      <header class='article-header'>
+        <h1 class='article-title'>
+          <a href='{{ include.post.url }}' class='heading'>
+            {{ include.post.title }}
+            --
+            <time datetime='{{ include.post.date | date_to_xmlschema }}' pubdate>{{ include.post.date | date_to_string }}</time>
+          </a>
+        </h1>
+      </header>
+
+      {{ include.content | include.post.content }}
+    </article>
+  </div>
+</div>

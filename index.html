@@ -3,28 +3,13 @@ layout: default
 title: A Suffusion of Coffee
 ---
 
-<section class="row">
+<section>
   <header class="visually-hidden">
     <h1>Recent Posts</h1>
   </header>
 
   {% for post in site.posts limit:5 %}
-    <article class='article'>
-      <a href='{{ post.url }}' class='heading'>
-        <header class='article-header'>
-          <h1 class='article-title'>
-            {{ post.title }}
-            --
-            <time datetime='{{ post.date | date_to_xmlschema }}' pubdate>{{ post.date | date_to_string }}</time>
-          </h1>
-        </header>
-      </a>
-
-
-      <div class='body'>
-        {{ post.content }}
-      </div>
-    </article>
+    {% include post.html post=post content=post.content %}
   {% endfor %}
 
   <a href="/archive.html">&lt;&lt; View Older Posts</a>
