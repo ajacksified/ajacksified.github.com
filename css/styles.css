@@ -45,33 +45,20 @@ menu, ol, ul{
 }
 
 body {
-  background: #010;
-  color: #ded;
-  font-family: 'Inconsolata', Consolas, monospace;
+  background: #fff;
+  color: #222;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
   line-height: 1.4em;
   font-size: 1em;
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, strong {
-  font-weight: 400;
-}
-
 h1, h2, h3 {
   line-height: 1.1em;
-  font-size: 1em;
-}
-
-h2::before {
-  content: '# ';
-}
-
-h3::before {
-  content: '## ';
 }
 
 a {
-  color: #99d1ce;
+  color: #9a9;
 }
 
 .article {
@@ -80,17 +67,11 @@ a {
 
 .heading {
   text-decoration: none;
-  color: #ded;
 }
 
 .article-header {
-  padding: 1em;
+  padding: 1em 0;
   margin-bottom: 1em;
-  border: dashed 2px;
-}
-
-.article-title {
-  text-align: center;
 }
 
 .article ol, .article ul {
