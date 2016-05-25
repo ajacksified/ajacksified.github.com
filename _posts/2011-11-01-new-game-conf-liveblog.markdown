@@ -919,7 +919,7 @@ Day 1 of the conference is over; time to head next door for Microsoft-sponsored 
 
 ## Day 2 - November 2, 2011
 
-[Day 1](http://thejacklawson.com/2011/11/new-game-conf-liveblog/index.html)
+[Day 1](/2011/11/new-game-conf-liveblog/index.html)
 
 This is a live blog for the second official day of 
 [New Game Conference](http://www.newgameconf.com). I'll keep quick notes during

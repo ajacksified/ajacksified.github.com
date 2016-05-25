@@ -8,5 +8,5 @@ categories:
 ---
 I combined the notes for day 1 and 2 into a megasuperpost. Check it out at:
 
-[New Game Conf Liveblog](http://thejacklawson.com/2011/11/new-game-conf-liveblog/index.html)
+[New Game Conf Liveblog](/2011/11/new-game-conf-liveblog/index.html)
 

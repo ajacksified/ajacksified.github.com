@@ -34,8 +34,8 @@ and a minute later you're up and running.
 
 Check out these examples:
 
-* [thejacklawson.com/how-to-hubot](http://thejacklawson.com/how-to-hubot)
-* [thejacklawson.com/dismantling-the-monorail](http://thejacklawson.com/dismantling-the-monorail)
-* [thejacklawson.com/javascript-testing](http://thejacklawson.com/javascript-testing)
+* [thejacklawson.com/how-to-hubot](/how-to-hubot)
+* [thejacklawson.com/dismantling-the-monorail](/dismantling-the-monorail)
+* [thejacklawson.com/javascript-testing](/javascript-testing)
 
 

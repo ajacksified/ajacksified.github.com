@@ -30,7 +30,7 @@ stick or not, but here's trying. The color scheme is based on
 implemented it while listening to a lot of
 [Com Truise](http://rd.io/x/QCfeLUjRAA/).
 
-### [CSS*WORDS](http://thejacklawson.com/csswords)
+### [CSS*WORDS](/csswords)
 
 I took a listing from `/usr/share/dict/words`, then `grep`ped it to find what
 words had `[0-9a-f]` along with some letters I could translate

@@ -7,7 +7,7 @@ categories:
 - progressive-enhancement
 ---
 
-I had written [a post](http://thejacklawson.com/2011/12/HTML/index.html) a
+I had written [a post](/2011/12/HTML/index.html) a
 couple months ago, stressing the importance of semantic HTML. I feel good about
 that article, but I had originally meant to write more about the importance of
 progressive enhancement. Today, while I was reading an article by Bruce Lawson

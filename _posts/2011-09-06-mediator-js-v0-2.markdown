@@ -13,7 +13,7 @@ categories:
 Source: [Mediator.js](https://github.com/ajacksified/Mediator.js)
 
 Original post: [Mediators for Modularized Asynchronous Programming in 
-Javascript](http://thejacklawson.com/2011/06/mediators-for-modularized-asynchron
+Javascript](/2011/06/mediators-for-modularized-asynchron
 ous-programming-in-javascript/index.html)
 
 As I was reading Addy Osmani's excellent post 

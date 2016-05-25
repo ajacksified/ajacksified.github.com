@@ -7,7 +7,7 @@ categories:
 - meta
 ---
 
-About two months ago, I wrote about [ditching Twitter Bootstrap](http://thejacklawson.com/2012/01/ditching-twitter-bootstrap/index.html).
+About two months ago, I wrote about [ditching Twitter Bootstrap](/2012/01/ditching-twitter-bootstrap/index.html).
 I had put up a temporary design that was, more or less, a clone of my existing
 Bootstrap site; brown instead of black and white, but more or less the same.
 I've decided to revisit some of my decisions, such as the use of a grid system
