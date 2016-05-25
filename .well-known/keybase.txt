@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ajacksified
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://thejacklawson.com
+  * I am ajacksified (https://keybase.io/ajacksified) on keybase.
+  * I have a public key with fingerprint 5407 F376 63D5 1E24 8134  EB7D 8624 00BA CA1B D833
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fe423f74a4b8225209349bb95f65b1981e4d8e22a26f0b6acecb883e977e74c90a",
+            "fingerprint": "5407f37663d51e248134eb7d862400baca1bd833",
+            "host": "keybase.io",
+            "key_id": "862400baca1bd833",
+            "kid": "0101fe423f74a4b8225209349bb95f65b1981e4d8e22a26f0b6acecb883e977e74c90a",
+            "uid": "71ec151aabcd9b229d5eea5974dc2619",
+            "username": "ajacksified"
+        },
+        "service": {
+            "hostname": "thejacklawson.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1464143672,
+    "expire_in": 157680000,
+    "prev": "7f70f15be0c8a596eb9b43faf1cf361005dbaeb92ba24f1f0e5b7eae1f1e1a37",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNGAnicrVJ/TFVlGL5wLzCvczBMHIZCB4pgSOf3j3sjIpCRS7ugaE7gdr5zvnM5
+3cs9eO4FQgYz0yuJygKWojaVxDZRuIyxomIhFDpsOtIcUFCirTFcTBgICNU5zP7r
+z75/vn3v+zzP+zzvvu/WGA3mAF+c4auB54eIgJvXzpUYdm8JZSsQoIjliKUCccKV
+C7pE6PHanbKIWBAUQzEJkjghMSRPAhbHKRzlCJIDgKMkmgIYx2KQFFmI4zxOSyig
+eQEKgGUJyDEMZEiBQ3kkCZFktwOqxars9mqyFIkyEsHQNCFSGMRJFiNICBiRpXES
+RQEv8BgQWYLQiIWKR2do5gDvgcmyotW0h33F3n/g/2ffJStyDAYFjMJ4HggiB3Cc
+EykIeYpjSFHAaYzTgR6ouvkiqKH593jB6ZElGYpIZRKiNUplAeq71cM8A3kLoQ5z
+8WUexZ0sKEWaRrGqeBVBcWntQq+32KKzveXFOrwMAvszITuQ3aK2To1QClWPrLgR
+C6YhBa+sK2MkTWIkQTN4EgLfL5ZVaJd1BMXQLKodfQws1UNJDCphFICowGpZaAg4
+QBISL2GCRNAYilIi4LUiDniclDAJhRRgIA8xCYMYTzCIHm2fW9FHaj55h6bpkR1u
+3luiQqSy91qeyRBgNgQHBer/zGBeFfbv7+tJDV2O3Jvy4obJv5iOK9H1lvr5X/bf
+zR+e/Pr6cj76uKt2e2PoQXEm1Nx+C7/ZF5bZH9Ln/NtxcZVlIe3OKSS8cyy/esOy
+OXhflKP6oHMmt+34rYlv0xKG33lsrzw7PrJw/vzp1yvn7h3bvFT+zSs3HMa2gcB6
+Jv7qw9njPjJ9G1Ubu7Oln606cLrmk21vbF3KIU/cv9h6pSPvj9y0w0P1B4ZPTCZF
+56T9Oj0zycSYguPOWs0yH269bHozseryYs3HrXWjT0YSv3CYbiAbzz347eW+2ubr
+G/Hlnm51U/hJQv3paGBXVADdPPZqE5VSdsj0VtnUDlfWUGb1fmVwyW/c87D3mK0o
+Y/DBqS9PfvboUov/R3+4M0JYG+ntTTFXjfRE2RoiZr+P8zUuNBUcbowdd1d1rs/y
+j+el2ob3Wnb8/lxBTM78OrSlPB60prQDcvXE6KVcT/Zr9dEN6WNPjbFBSmr1ma0w
+uuDtmDV1L3x+m1nd0Wr5tN/aOzR1YTF8dn5XwtShCHL9/B7qqbXp3W6b0Xuk0rB5
+6KMtt20fHFnEEx0/18SoCYN3rLsaN0W6skxVFdOusLu5gZa1pdOq70yWK9s/NXd/
+oaHTl7hwNXtCNP0waLVn7oyY6yeyP4wYIwYyutIVf4ZpnW93Se5L8X5D24U/t997
+1N2chY0GtQ8sPakNqesxRiWHqP8AcRK77g==
+=ZAPX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ajacksified
+
+==================================================================
+
