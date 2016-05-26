@@ -35,6 +35,7 @@ place; here's what I did:
 5. Edit `~/.gnupg/gpg.conf` to uncomment the line `use-agent`.
 6. Update your `~/.bashrc` or `~/.bash_profile` or whatever to add the
   following, which sets up the GPG daemon:
+
 ```
 [ -f ~/.gpg-agent-info ] && source ~/.gpg-agent-info
 if [ -S "${GPG_AGENT_INFO%%:*}" ]; then
