@@ -86,7 +86,7 @@ a {
 }
 
 code {
-  background: rgba(0,255,0,.25);
+  background: #efefef;
   padding: .15em;
 }
 
@@ -101,7 +101,7 @@ pre code {
 
 blockquote {
   font-style: italic;
-  background: rgba(0,255,0,.05);
+  background: #efefef;
   margin: 1em;
   padding: .5em 1em;
   quotes: "\201C""\201D""\2018""\2019";
