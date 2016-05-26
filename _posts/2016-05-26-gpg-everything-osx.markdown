@@ -13,7 +13,7 @@ I finally got around to creating a public key, after Github
 It's something I've been meaning to set up for a while (as a curiosity more than
 as a threat mitigation strategy).
 
-![A screenshot of GitHub saying the commit is verified.](/img/gpg-verified.png)
+![A screenshot of GitHub saying the commit is verified.](/img/posts/gpg-verified.png)
 
 What I wanted was to automatically sign git commits (without too much hassle),
 and an easy way to send encrypted messages, such as shared passwords, with

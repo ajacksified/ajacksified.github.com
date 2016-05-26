@@ -2,11 +2,10 @@
 
 /* rainbow.js theme based on All Hallows Eve */
 pre {
-  background: rgba(0,255,0,.10);
+  background: #C0FFEE;
   word-wrap: break-word;
   margin: 0px;
   padding: 10px;
-  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -58,11 +57,15 @@ h1, h2, h3 {
 }
 
 a {
-  color: #9a9;
+  color: #599CAB;
 }
 
 .article {
   margin: 0 auto 5em auto;
+}
+
+.article img {
+  max-width: 100%;
 }
 
 .heading {
