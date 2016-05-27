@@ -3,6 +3,7 @@ layout: post
 title: GPG
 description: In which I finally get around to using a public key
 permalink: /2016/05/gpg/index.html
+gpg: /gpg/2016-05-26-everything-osx.txt
 categories:
 - security
 - osx
@@ -78,4 +79,3 @@ utilities like easily encrypting and verifying data with other users, and to
 generate messages to verify my signature on Twitter, GitHub, this blog, and the
 like.
 
-[gpg signature](gpg/2016-05-26-everything-osx.txt)

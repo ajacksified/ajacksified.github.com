@@ -70,18 +70,25 @@ a:active {
   color: #85B9CC;
 }
 
-.article {
-  margin: auto;
-  padding-bottom: 5em;
-  border-bottom: solid 5px #ff8b80;
-}
-
 .post {
   margin-bottom: 5em;;
 }
 
 .post:last-child {
   margin-bottom: 2.5em;
+}
+
+.article {
+  margin: auto;
+  padding-bottom: 2.5em;
+  border-bottom: solid 5px #ff8b80;
+}
+
+.article-footer {
+  margin-top: 2.5em;
+  color: #ff8b80;
+  font-style: italic;
+  font-size: 80%;
 }
 
 .article-title, .article-title h1 {
@@ -102,10 +109,6 @@ a:active {
 
 .article p, .addthis_toolbox {
   margin: 0 auto 1em auto;
-}
-
-.article p:last-of-type {
-  margin-bottom: 0;
 }
 
 code {
@@ -159,6 +162,7 @@ blockquote {
   color: #ff8b80;
 }
 
+.article-footer a, .article-footer a:active,
 .site-footer a, .site-footer a:active {
   color: #ff8b80;
 }

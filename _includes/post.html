@@ -5,13 +5,18 @@
         <h1 class='article-title'>
           <a href='{{ include.post.url }}' class='heading'>
             {{ include.post.title }}
-            --
-            <time datetime='{{ include.post.date | date_to_xmlschema }}' pubdate>{{ include.post.date | date_to_string }}</time>
           </a>
         </h1>
       </header>
 
       {{ include.content | include.post.content }}
+
+      <footer class='article-footer'>
+        Posted <time datetime='{{ include.post.date | date_to_xmlschema }}' pubdate>{{ include.post.date | date_to_string }}</time>.
+        {% if include.post.gpg %}
+          <a href='{{ include.post.gpg }}'>View the GPG signature.</a>
+        {% endif %}
+      </footer>
     </article>
   </div>
 </div>
