@@ -45,10 +45,6 @@ pre .function {
 
 /* thejacklawson.com blog styles | MIT License | github.com/ajacksified/ajacksified.github.com */
 
-menu, ol, ul{
-  padding: 0;
-}
-
 body {
   background: #fff;
   color: #222;
@@ -56,6 +52,14 @@ body {
   line-height: 1.4em;
   font-size: 1em;
   text-rendering: optimizeLegibility;
+}
+
+menu, ol, ul{
+  padding: 0;
+}
+
+li {
+  margin-bottom: .5em;
 }
 
 h1, h2, h3 {
@@ -107,8 +111,9 @@ a:active {
   margin-left: 2.5em;
 }
 
-.article p, .addthis_toolbox {
+.article p {
   margin: 0 auto 1em auto;
+  text-align: justify;
 }
 
 code {
@@ -116,6 +121,7 @@ code {
   padding: .15em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
+  line-height: 1.4em;
 }
 
 pre {
