@@ -2,11 +2,13 @@
 
 /* rainbow.js theme based on All Hallows Eve */
 pre {
-  background: #C0FFEE;
+  outline: solid 3px #C0FFEE;
+  color: #C0FFEE;
   word-wrap: break-word;
   margin: 0px;
   padding: 10px;
   margin-bottom: 20px;
+  background: #001015;
 }
 
 pre .comment {
@@ -26,7 +28,7 @@ pre .string {
 }
 
 pre .keyword, pre .selector {
-  color: #d26937;
+  color: #ff8b80;
 }
 
 pre .inherited-class {
@@ -35,6 +37,10 @@ pre .inherited-class {
 
 pre .support, pre .keyword.operator {
   color: #599cab;
+}
+
+pre .function {
+  color: #367E99;
 }
 
 /* thejacklawson.com blog styles | MIT License | github.com/ajacksified/ajacksified.github.com */
