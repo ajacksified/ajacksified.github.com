@@ -1,8 +1,180 @@
-/*! normalize.css v2.1.2 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+/* normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+  display: block
+}
 
-/* rainbow.js theme based on All Hallows Eve */
+audio,canvas,video {
+  display: inline-block
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden] {
+  display: none
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+a:focus {
+  outline: thin dotted
+}
+
+a:active,a:hover {
+  outline: 0
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b,strong {
+  font-weight: bold
+}
+
+dfn {
+  font-style: italic
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+code,kbd,pre,samp {
+  font-family: monospace,serif;
+  font-size: 1em
+}
+
 pre {
-  outline: solid 3px #C0FFEE;
+  white-space: pre-wrap
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+  font-size: 80%
+}
+
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -0.5em
+}
+
+sub {
+  bottom: -0.25em
+}
+
+img {
+  border: 0
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 0
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  border: 0;
+  padding: 0
+}
+
+button,input,select,textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0
+}
+
+button,input {
+  line-height: normal
+}
+
+button,select {
+  text-transform: none
+}
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+  cursor: default
+}
+
+input[type="checkbox"],input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+/* code coloring via rainbow */
+
+pre {
+  outline: solid 2px #304B4B;
   color: #C0FFEE;
   word-wrap: break-word;
   margin: 0px;
@@ -27,7 +199,7 @@ pre .string {
   color: #99d1ce;
 }
 
-pre .keyword, pre .selector {
+pre .keyword,pre .selector {
   color: #ff8b80;
 }
 
@@ -35,7 +207,7 @@ pre .inherited-class {
   font-style: italic;
 }
 
-pre .support, pre .keyword.operator {
+pre .support,pre .keyword.operator {
   color: #599cab;
 }
 
@@ -43,18 +215,18 @@ pre .function {
   color: #367E99;
 }
 
-/* thejacklawson.com blog styles | MIT License | github.com/ajacksified/ajacksified.github.com */
+/* styles */
 
 body {
-  background: #fff;
-  color: #222;
-  font-family: 'Helvetica Neue', Helvetica, Arial;
+  background: #001015;
+  color: #ddd;
+  font-family: 'Helvetica Neue',Helvetica,Arial;
   line-height: 1.4em;
   font-size: 1em;
   text-rendering: optimizeLegibility;
 }
 
-menu, ol, ul{
+menu,ol,ul {
   padding: 0;
 }
 
@@ -62,7 +234,7 @@ li {
   margin-bottom: .5em;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   line-height: 1.1em;
 }
 
@@ -75,8 +247,8 @@ a:active {
 }
 
 .post {
-  margin-bottom: 2.5em;;
-}
+  margin-bottom: 2.5em;
+;}
 
 .post:last-child {
   margin-bottom: 2.5em;
@@ -85,17 +257,17 @@ a:active {
 .article {
   margin: auto;
   padding-bottom: 2.5em;
-  border-bottom: solid 5px #ff8b80;
+  border-bottom: solid 5px #C0FFEE;
 }
 
 .article-footer {
   margin-top: 2.5em;
-  color: #ff8b80;
+  color: #C0FFEE;
   font-style: italic;
   font-size: 80%;
 }
 
-.article-title, .article-title h1 {
+.article-title,.article-title h1 {
   margin-top: 0;
 }
 
@@ -107,7 +279,7 @@ a:active {
   text-decoration: none;
 }
 
-.article ol, .article ul {
+.article ol,.article ul {
   margin-left: 2.5em;
 }
 
@@ -117,9 +289,9 @@ a:active {
 }
 
 code {
-  background: #efefef;
+  background: #19272C;
   padding: .15em;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
   font-size: 14px;
   line-height: 1.4em;
 }
@@ -140,7 +312,7 @@ blockquote {
   background: #efefef;
   margin: 1em;
   padding: .5em 1em;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 .row {
@@ -163,14 +335,13 @@ blockquote {
 }
 
 .site-footer {
-  padding-bottom: 1em;;
+  padding-bottom: 1em;
   margin-top: 2em;
-  color: #ff8b80;
+  color: #c0ffee;
 }
 
-.article-footer a, .article-footer a:active,
-.site-footer a, .site-footer a:active {
-  color: #ff8b80;
+.article-footer a,.article-footer a:active,.site-footer a,.site-footer a:active {
+  color: #C0FFEE;
 }
 
 .pull-right {
@@ -181,9 +352,9 @@ blockquote {
   margin-bottom: 4em;
 }
 
-.nav-bar .row:before, .nav-bar .row:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+.nav-bar .row:before,.nav-bar .row:after {
+  content: " ";
+  display: table;
 }
 
 .nav-bar :after {
@@ -232,15 +403,14 @@ blockquote {
   text-align: left;
 }
 
-.archive h2,
-.archive h3 {
+.archive h2,.archive h3 {
   margin: 0;
   line-height: 1.25em;
 }
 
 @media handheld, only screen and (max-width: 500px) {
   .nav-bar nav {
-    float: none;
+    float:none;
   }
 
   .nav-bar a {
