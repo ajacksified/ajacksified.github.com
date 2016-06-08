@@ -174,7 +174,8 @@ table {
 /* code coloring via rainbow */
 
 pre {
-  outline: solid 2px #304B4B;
+  outline: solid 5px #13272B;
+  border: solid 1px #000;
   color: #C0FFEE;
   word-wrap: break-word;
   margin: 0px;
@@ -257,7 +258,7 @@ a:active {
 .article {
   margin: auto;
   padding-bottom: 2.5em;
-  border-bottom: solid 5px #C0FFEE;
+  border-bottom: solid 5px #13272B;
 }
 
 .article-footer {
