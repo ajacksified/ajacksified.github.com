@@ -3,6 +3,7 @@ layout: post
 title: A Modern Reddit Frontend
 description: In which I discuss the new Reddit frontend stack
 permalink: /2016/09/reddit-frontend/index.html
+gpg: /gpg/2016-09-12-a-modern-reddit-frontend.txt
 categories:
 - javascript
 ---
