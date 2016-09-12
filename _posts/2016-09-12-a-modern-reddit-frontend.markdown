@@ -55,12 +55,12 @@ came to a conclusion that made a lot of sense: picking a collection of
 libraries and building the glue around them as a framework makes more sense
 than picking a framework and building your application around it. This lets you
 choose the best library for your application and team's needs; languages,
-linters, build tools, interface with the rest of your stack, the team's expertise
+linters, build tools, interface with the rest of your stack, and the team's expertise
 rarely fits with a large framework that makes the decisions _for_ you. In the
 case of Reddit, I determined the priorities for our frontend web stack to be:
 
 1. Accessibility. An advantage of Reddit is that it's easy to read from anywhere; it's
-  just plain HTML. The stack also needs provide server rendering for SEO (a huge
+  just plain HTML. The stack also needs to provide server rendering for SEO (a huge
   portion of our traffic) and for old and busted devices. And, while the mobile
   site might be able to get away without a super hardcore accessibility
   implementation, the libraries I chose should make it easy - because, with an
@@ -71,7 +71,7 @@ case of Reddit, I determined the priorities for our frontend web stack to be:
   data transfer is slow, ping times are terrible, and CPU and RAM can be in
   short supply. We also need to balance that with building out rich
   interactivity; new tools, inline video embeds, and the like. I wanted to
-  build the reddit that I wanted to browse, and give designers room to
+  build the Reddit that I wanted to browse, and give designers room to
   experiment with different display formats and flows.
 3. Developer productivity. Assuming #1 is an unchanging requirement, a small
   team should be able to rapidly move. So, while Reddit _is_ accessible,
@@ -149,12 +149,10 @@ link click > middleware >^
 
 I also built an API library, [snoode](https://github.com/reddit/snoode)[3] to make
 dealing with Reddit's _[unique api design](https://reddit.com/dev/api)_ easy,
-[feet](https://github.com/feet)[4] for feature flags (turn X on if you're an
+[feet](https://github.com/reddit/feet)[4] for feature flags (turn X on if you're an
 employee, or turn Y on if there's a querystring flag), and
 [restcache](https://github.com/reddit/restcache)[5] to handle the caching of
-REST-like API responses. (For example, load /r/funny, and the data objects
-are cached so you can load any link returned by /r/funny immediately instead of
-calling /byid/linkid.)
+REST-like API responses.
 
 With this done, building new pages that rendered server-side and client side
 looked like:
@@ -172,19 +170,23 @@ looked like:
 This worked for quite some time, and it was very straightforward to add pages.
 However, as the team and app grew, we noticed a few areas where things got a
 little messy. It was never clear how best to handle interactions, and especially
-interactions that took place across components; you could use one of several
-methods:
+interactions that took place across components. You could use one of a couple
+methods, two of which we used heavily:
 
 * Create a handler function in the parent element, and pass it into the child
   element. For example, you might have
   `<CommentSubmissionForm onSubmit={ this.postComment } />`, where `postComment`
   is owned by the element which contains `CommentSubmisisonForm`. The trouble
-  is, you'd have to replicate this comment submission function for any element
+  is, you'd have to duplicate this comment submission function for any element
   that contains `CommentSubmissionForm` - for example, you can post a comment
   from either the `Post` itself, or as a reply to another `Comment`. You could
   subclass both `Post` and `Comment` from a superClass like `CommentReplyable`,
-  but because multiple inheritence doesn't exist, and is messy anyway, things
-  get complicated quickly.
+  but multiple inheritence doesn't exist in Javascript. You could write mixins
+  for classes that append methods to the prototype, but then you still have to
+  pass the code from some level of parent through to some level of child; and
+  all elements in between the component with API access and the submit button
+  itself have to be aware of the heirarchy. It isn't clear exactly _who_ should
+  be making the API call. This lead to a lot of inconsistency.
 * Create an event. Fire off `app.emit('newComment', commentData })`, and have a
   listener that watches for that event, submits an API change, then emits a
   `success` or `error` function. Again, problem is - you have to write code in
@@ -192,11 +194,12 @@ methods:
   your element is discarded because you moved on to another page.
 
 In either of these cases, you're required to pass in API information, such as
-your current token, from the top-level all the way through to components. This
-all gets even more complicated when you have to start pausing API requests when
-refreshing your OAuth token. Eventually, things got to where we couldn't answer
-the question of handling intra-component interactivity without taking a second
-look at how our framework was designed.
+your current token, from the top-level all the way through to whichever
+component actually makes the API call. This gets even more complicated when
+you have to start pausing API requests when refreshing your OAuth token.
+Eventually, things got to where we couldn't answer the question of handling
+intra-component interactivity without taking a second look at how our framework
+was designed.
 
 Stand by for Part II, whereupon I discuss our use of Redux to solve these
 issues.
